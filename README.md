@@ -45,5 +45,82 @@
 Finder > 環境設定 > 詳細
 - すべてのファイル名拡張子を表示
 
+## Application Install
 
+### AppCleaner
 
+- [SITE URL](http://freemacsoft.net/appcleaner/)
+
+### Homebrew
+
+#### Install
+
+```
+$ sudo xcodebuild -license accept
+$ xcode-select --install
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew doctor
+$ brew update
+```
+
+#### brew tap
+
+Homebrew sub-command for **unofficial formula**
+
+```
+$ brew tap <userName>/<repository>
+```
+
+This refers github repository 'https://github.com/<userName>/homebrew-<repository>'
+tap is saved at **/usr/local/Library/Taps**
+
+following commant shows list installed by 'brew tap':
+
+```bash
+$ brew tap
+```
+
+#### Application Install Directory via Homebrew
+
+Mac does not load `.bashrc`. So add the following configuration.
+
+```
+$ cat << EOF >> ~/.bash_profile
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
+EOF
+$ cat << EOF >> ~/.bashrc
+export HOMEBREW_CASK_OPTS='--appdir=/Applications'
+EOF
+```
+
+### brew cask
+
+[brew cask](https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md)
+
+```
+$ brew tap caskroom/cask
+```
+
+#### brew cask install list
+
+- brew-cask-install.sh
+
+```
+$ cat brew-cask-install.sh
+#!/bin/bash
+
+brew cask install atom
+brew cask install iterm2
+```
+
+### Atom
+
+#### Atom Packages Synchronization with apm stars
+
+```
+$ apm login
+$ apm stars --installed
+$ apm start --install
+```
