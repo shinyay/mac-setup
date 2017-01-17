@@ -7,6 +7,7 @@ apps=(
   boostnote
   alfred
   java
+  docker
 )
 
 brew cask install ${apps[@]}

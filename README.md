@@ -110,6 +110,7 @@ $ brew tap caskroom/cask
 - boostnote
 - alfred
 - java
+- docker
 
 `brew tap caskroom/versions`
 - google-chrome-canary
@@ -186,4 +187,82 @@ Done installing!
 
 
 Setting gradle 3.3 as default.
+```
+
+### Docker for Mac
+Docker for Mac is installed by **homebrew-cask**
+
+```
+$ brew cask info docker
+docker: 1.12.6.14937
+https://www.docker.com/products/docker
+Not installed
+From: https://github.com/caskroom/homebrew-cask/blob/master/Casks/docker.rb
+==> Name
+Docker for Mac
+==> Artifacts
+Docker.app (app)
+
+$ brew cask install docker
+==> Downloading https://download.docker.com/mac/stable/1.12.6.14937/Docker.dmg
+######################################################################## 100.0%
+==> Verifying checksum for Cask docker
+==> Moving App 'Docker.app' to '/Applications/Docker.app'
+🍺  docker was successfully installed!
+```
+
+#### Docker Document
+- [Docker Engine](http://docs.docker.jp/engine/index.html)
+- [Docker Compose](http://docs.docker.jp/compose/overview.html)
+- [Docker Machine](http://docs.docker.jp/machine/overview.html)
+
+#### Docker for Mac Sample
+##### pull & run image
+```
+$ docker run -d -p 80:80 --name webserver nginx
+Unable to find image 'nginx:latest' locally
+latest: Pulling from library/nginx
+75a822cd7888: Pull complete
+0aefb9dc4a57: Pull complete
+046e44ee6057: Pull complete
+Digest: sha256:fab482910aae9630c93bd24fc6fcecb9f9f792c24a8974f5e46d8ad625ac2357
+Status: Downloaded newer image for nginx:latest
+5346be803a0f4d5f185e273226f3d57dbca340a518421625f011b691c367277e
+```
+
+##### process
+```
+$ docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS              PORTS                         NAMES
+5346be803a0f        nginx               "nginx -g 'daemon off"   About a minute ago   Up About a minute   0.0.0.0:80->80/tcp, 443/tcp   webserver
+```
+
+##### Confirmation
+```
+$ curl -X GET http://localhost/
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
 ```
