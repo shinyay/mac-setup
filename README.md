@@ -266,3 +266,48 @@ Commercial support is available at
 </body>
 </html>
 ```
+
+### Python3
+Install pyenv by **homebrew**
+
+```
+$ brew install pyenv
+```
+
+Edit .bash_profile
+
+```
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+```
+
+```
+$ pyenv install --list
+$ pyenv install 3.6.0
+```
+
+
+バージョン切り替え
+```
+$ pyenv global 3.6.0
+$ pyenv rehash
+```
+
+確認
+```
+$ python --version
+```
+
+pipインストール
+```
+$ easy_install pip
+$ pip list
+```
+
+パッケージインストール
+```
+$ pip freeze
+$ pip freeze > pip_packages.txt
+$ pip install -r pip_packages.txt
+```
