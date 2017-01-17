@@ -6,6 +6,7 @@ apps=(
   iterm2
   boostnote
   alfred
+  java
 )
 
 brew cask install ${apps[@]}

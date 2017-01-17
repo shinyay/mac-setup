@@ -109,6 +109,7 @@ $ brew tap caskroom/cask
 - iterm2
 - boostnote
 - alfred
+- java
 
 `brew tap caskroom/versions`
 - google-chrome-canary
