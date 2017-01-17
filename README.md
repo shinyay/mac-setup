@@ -123,3 +123,67 @@ $ apm login
 $ apm stars --installed
 $ apm start --install
 ```
+
+### SDKMAN!
+
+#### Insrallation
+
+```
+$ curl -s "https://get.sdkman.io" |
+$ source ${HOME}/.sdkman/bin/sdkman-init.sh
+```
+
+#### Confirmation
+
+```
+$ sdk version
+==== BROADCAST =================================================================
+* 14/01/17: Groovy 2.4.8 released on SDKMAN! #groovylang
+* 06/01/17: Springboot 1.5.0.RC1 released on SDKMAN! #springboot
+* 03/01/17: Gradle 3.3 released on SDKMAN! #gradle
+================================================================================
+
+SDKMAN 5.1.18+191
+```
+#### Beta Channel
+
+```
+$ sed -i.bak '/sdkman_beta/s/false/true/g' ${HOME}/.sdkman/etc/config
+$ sdk selfupdate force
+```
+
+#### Maven
+
+```
+$ sdk install maven
+
+Downloading: maven 3.3.9
+
+In progress...
+
+######################################################################## 100.0%
+
+Installing: maven 3.3.9
+Done installing!
+
+
+Setting maven 3.3.9 as default.
+```
+
+#### Gradle
+
+```
+$ sdk install gradle
+
+Downloading: gradle 3.3
+
+In progress...
+
+######################################################################## 100.0%
+
+Installing: gradle 3.3
+Done installing!
+
+
+Setting gradle 3.3 as default.
+```
