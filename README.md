@@ -105,15 +105,13 @@ $ brew tap caskroom/cask
 
 #### brew cask install list
 
-- brew-cask-install.sh
+- atom
+- iterm2
+- boostnote
+- alfred
 
-```
-$ cat brew-cask-install.sh
-#!/bin/bash
-
-brew cask install atom
-brew cask install iterm2
-```
+`brew tap caskroom/versions`
+- google-chrome-canary
 
 ### Atom
 
