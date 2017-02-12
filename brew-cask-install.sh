@@ -8,6 +8,7 @@ apps=(
   alfred
   java
   docker
+  jdownloader
 )
 
 brew cask install ${apps[@]}

@@ -111,6 +111,7 @@ $ brew tap caskroom/cask
 - alfred
 - java
 - docker
+- jdownloader
 
 `brew tap caskroom/versions`
 - google-chrome-canary
@@ -310,4 +311,9 @@ $ pip list
 $ pip freeze
 $ pip freeze > pip_packages.txt
 $ pip install -r pip_packages.txt
+```
+
+### Pandoc
+```
+$ brew install pandoc
 ```
