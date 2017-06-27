@@ -1,5 +1,13 @@
 # Macbook 2016 setup
 ---
+- Desktop Configuration
+- Application Install
+  - AppCleaner
+  - Homebrew
+  - brewcask
+  - Atom
+  - SDKMAN
+---
 ## Desktop Configuration
 
 ### Dock Size
