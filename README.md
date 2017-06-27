@@ -7,6 +7,10 @@
   - brewcask
   - Atom
   - SDKMAN
+  - Docker for Mac
+  - Python3
+  - Pandoc
+  - Wercker CLI
 ---
 ## Desktop Configuration
 
@@ -324,4 +328,10 @@ $ pip install -r pip_packages.txt
 ### Pandoc
 ```
 $ brew install pandoc
+```
+
+### Wercker CLI
+```
+$ brew tap wercker/wercker
+$ brew install wercker-cli
 ```
