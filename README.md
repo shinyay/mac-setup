@@ -2,8 +2,8 @@
 ---
 - Desktop Configuration
 - Application Install
-  - AppCleaner
-  - Homebrew
+  - Google 日本語入力
+  - Homebrew
   - brewcask
   - Atom
   - SDKMAN
@@ -174,7 +174,8 @@ Java の切り替え
 $ brew install jenv
 ```
 
-.bash_profile に追加
+##### .bash_profile に追加
+
 ```
 if which jenv > /dev/null; then
   export PATH="$HOME/.jenv/bin:$PATH"
@@ -182,7 +183,8 @@ if which jenv > /dev/null; then
 fi
 ```
 
-JDKを登録
+##### JDKを登録
+
 ```
 $ jenv add $(/usr/libexec/java_home -v 1.8) 
 oracle64-1.8.0.152 added
@@ -194,7 +196,7 @@ oracle64-9.0.1 added
 9.0 added
 ```
 
-JDKを表示
+##### JDKを表示
 ```
 $ jenv versions
 * system (set by /Users/shinyay/.jenv/version)
@@ -206,12 +208,12 @@ $ jenv versions
   oracle64-9.0.1
 ```
 
-グローバル環境の切り替え
+##### グローバル環境の切り替え
 ```
 $ jenv global oracle64-9.0.1
 ```
 
-JAVA_HOME exportプラグインを追加
+##### JAVA_HOME exportプラグインを追加
 ```
 $ jenv enable-plugin export
 ```
