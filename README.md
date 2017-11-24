@@ -123,6 +123,7 @@ $ brew tap caskroom/cask
 
 #### brew cask install list
 
+- appcleaner
 - atom
 - iterm2
 - boostnote
