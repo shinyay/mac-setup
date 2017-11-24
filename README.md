@@ -150,11 +150,13 @@ $ apm start --install
 
 ### Java
 Java 9
+
 ````
 $ brew cask install java
 ```
 
 Java 8
+
 ````
 $ brew cask install java8
 ```
@@ -167,6 +169,7 @@ Matching Java Virtual Machines (2):
 
 /Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
 ```
+
 #### jenv
 Java の切り替え
 
@@ -197,6 +200,7 @@ oracle64-9.0.1 added
 ```
 
 ##### JDKを表示
+
 ```
 $ jenv versions
 * system (set by /Users/shinyay/.jenv/version)
@@ -209,11 +213,13 @@ $ jenv versions
 ```
 
 ##### グローバル環境の切り替え
+
 ```
 $ jenv global oracle64-9.0.1
 ```
 
 ##### JAVA_HOME exportプラグインを追加
+
 ```
 $ jenv enable-plugin export
 ```
