@@ -59,11 +59,18 @@ Finder > 環境設定 > 詳細
 
 ## Application Install
 
+### Google 日本語入力
+https://www.google.co.jp/ime/
+
+「ctrl」+「スペース」
+
 ### AppCleaner
 
 - [SITE URL](http://freemacsoft.net/appcleaner/)
 
 ### Homebrew
+- macOS 用パッケージマネージャー
+- https://brew.sh/index_ja.html
 
 #### Install
 
