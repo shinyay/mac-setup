@@ -149,18 +149,20 @@ $ apm start --install
 ```
 
 ### Java
-Java 9
 
-````
+#### Java 9
+
+```
 $ brew cask install java
 ```
 
-Java 8
+#### Java 8
 
 ````
 $ brew cask install java8
 ```
 
+##### Java Version 確認
 ```
 $ /usr/libexec/java_home -V
 Matching Java Virtual Machines (2):
@@ -171,6 +173,7 @@ Matching Java Virtual Machines (2):
 ```
 
 #### jenv
+
 Java の切り替え
 
 ```
