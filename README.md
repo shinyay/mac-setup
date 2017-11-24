@@ -158,7 +158,7 @@ $ brew cask install java
 
 #### Java 8
 
-````
+```
 $ brew cask install java8
 ```
 
