@@ -83,8 +83,7 @@ $ brew update
 ```
 
 #### brew tap
-
-Homebrew sub-command for **unofficial formula**
+公式以外の formula を追加することのできる Homebrew のサブコマンド
 
 ```
 $ brew tap <userName>/<repository>
