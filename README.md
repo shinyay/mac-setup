@@ -1,4 +1,4 @@
-# Macbook 2016 setup
+# Macbook 2017 setup
 ---
 - Desktop Configuration
 - Application Install
@@ -124,16 +124,19 @@ $ brew tap caskroom/cask
 #### brew cask install list
 
 - appcleaner
+- intellij-idea
+- java
+- java8
 - atom
 - iterm2
 - boostnote
 - alfred
-- java
 - docker
 - jdownloader
 
 `brew tap caskroom/versions`
 - google-chrome-canary
+
 
 ### Atom
 
@@ -143,6 +146,74 @@ $ brew tap caskroom/cask
 $ apm login
 $ apm stars --installed
 $ apm start --install
+```
+
+### Java
+Java 9
+````
+$ brew cask install java
+```
+
+Java 8
+````
+$ brew cask install java8
+```
+
+```
+$ /usr/libexec/java_home -V
+Matching Java Virtual Machines (2):
+    9.0.1, x86_64:	"Java SE 9.0.1"	/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
+    1.8.0_152, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
+
+/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
+```
+#### jenv
+Java の切り替え
+
+```
+$ brew install jenv
+```
+
+.bash_profile に追加
+```
+if which jenv > /dev/null; then
+  export PATH="$HOME/.jenv/bin:$PATH"
+  eval "$(jenv init -)"
+fi
+```
+
+JDKを登録
+```
+$ jenv add $(/usr/libexec/java_home -v 1.8) 
+oracle64-1.8.0.152 added
+1.8.0.152 added
+1.8 added
+$ jenv add $(/usr/libexec/java_home -v 9) 
+oracle64-9.0.1 added
+9.0.1 added
+9.0 added
+```
+
+JDKを表示
+```
+$ jenv versions
+* system (set by /Users/shinyay/.jenv/version)
+  1.8
+  1.8.0.152
+  9.0
+  9.0.1
+  oracle64-1.8.0.152
+  oracle64-9.0.1
+```
+
+グローバル環境の切り替え
+```
+$ jenv global oracle64-9.0.1
+```
+
+JAVA_HOME exportプラグインを追加
+```
+$ jenv enable-plugin export
 ```
 
 ### SDKMAN!
