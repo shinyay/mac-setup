@@ -1,10 +1,18 @@
 # Macbook 2017 setup
 ---
 - Desktop Configuration
-- Application Install
-  - Google 日本語入力
+- Application Install(2017)
   - Homebrew
-  - brewcask
+  - Homebrew Cask
+  - ReadKit
+- brew
+  - git
+- bres cask
+  - AppCleaner
+  - Google 日本語入力
+  - Visual Studio Code
+  
+- Application Install(2016)
   - Atom
   - SDKMAN
   - Docker for Mac
@@ -12,6 +20,7 @@
   - Pandoc
   - Wercker CLI
 ---
+
 ## Desktop Configuration
 
 ### Dock Size
@@ -63,10 +72,6 @@ Finder > 環境設定 > 詳細
 https://www.google.co.jp/ime/
 
 「ctrl」+「スペース」
-
-### AppCleaner
-
-- [SITE URL](http://freemacsoft.net/appcleaner/)
 
 ### Homebrew
 - macOS 用パッケージマネージャー
@@ -127,6 +132,8 @@ $ brew tap caskroom/cask
 - intellij-idea
 - java
 - java8
+- git
+- visual-studio-code
 - atom
 - iterm2
 - boostnote
@@ -137,16 +144,6 @@ $ brew tap caskroom/cask
 `brew tap caskroom/versions`
 - google-chrome-canary
 
-
-### Atom
-
-#### Atom Packages Synchronization with apm stars
-
-```
-$ apm login
-$ apm stars --installed
-$ apm start --install
-```
 
 ### Java
 
@@ -225,6 +222,16 @@ $ jenv global oracle64-9.0.1
 
 ```
 $ jenv enable-plugin export
+```
+
+### Atom
+
+#### Atom Packages Synchronization with apm stars
+
+```
+$ apm login
+$ apm stars --installed
+$ apm start --install
 ```
 
 ### SDKMAN!
