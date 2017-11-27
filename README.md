@@ -2,15 +2,18 @@
 ---
 - Desktop Configuration
 - Application Install(2017)
-  - Homebrew
+  - Homebrew
   - Homebrew Cask
   - ReadKit
 - brew
-  - git
+  - Git
 - bres cask
   - AppCleaner
   - Google 日本語入力
   - Visual Studio Code
+  - iTerm2
+  - Java9
+  - Java8
   
 - Application Install(2016)
   - Atom
@@ -128,18 +131,7 @@ $ brew tap caskroom/cask
 
 #### brew cask install list
 
-- appcleaner
-- intellij-idea
-- java
-- java8
-- git
-- visual-studio-code
-- atom
-- iterm2
-- boostnote
-- alfred
-- docker
-- jdownloader
+- [brew-cask-insall.sh](brew-cask-insall.sh)
 
 `brew tap caskroom/versions`
 - google-chrome-canary
@@ -169,7 +161,7 @@ Matching Java Virtual Machines (2):
 /Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
 ```
 
-#### jenv
+#### jEnv
 
 Java の切り替え
 

@@ -2,14 +2,17 @@
 
 ## Applications
 apps=(
-  atom
+  appcleaner
+  intellij-idea
+  visual-studio-code
+  google-japanese-ime
   iterm2
-  boostnote
-  alfred
-  java
-  docker
-  jdownloader
 )
+#  atom
+#  boostnote
+#  alfred
+#  docker
+#  jdownloader
 
 brew cask install ${apps[@]}
 
