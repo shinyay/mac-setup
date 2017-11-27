@@ -272,6 +272,24 @@ Done installing!
 Setting gradle 4.3.1 as default.
 ```
 
+#### Kotlin
+
+```
+$ sdk install kotlin
+
+Downloading: kotlin 1.1.61
+
+In progress...
+
+######################################################################## 100.0%
+
+Installing: kotlin 1.1.61
+Done installing!
+
+
+Setting kotlin 1.1.61 as default.
+```
+
 #### Maven
 
 ```
