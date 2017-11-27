@@ -254,6 +254,24 @@ $ sed -i.bak '/sdkman_beta/s/false/true/g' ${HOME}/.sdkman/etc/config
 $ sdk selfupdate force
 ```
 
+#### Gradle
+
+```
+$ $ sdk install gradle
+
+Downloading: gradle 4.3.1
+
+In progress...
+
+######################################################################## 100.0%
+
+Installing: gradle 4.3.1
+Done installing!
+
+
+Setting gradle 4.3.1 as default.
+```
+
 #### Maven
 
 ```
@@ -270,24 +288,6 @@ Done installing!
 
 
 Setting maven 3.3.9 as default.
-```
-
-#### Gradle
-
-```
-$ sdk install gradle
-
-Downloading: gradle 3.3
-
-In progress...
-
-######################################################################## 100.0%
-
-Installing: gradle 3.3
-Done installing!
-
-
-Setting gradle 3.3 as default.
 ```
 
 ### Docker for Mac
