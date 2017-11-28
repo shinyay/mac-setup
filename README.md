@@ -59,7 +59,6 @@
 - コンピュータ名
 
 ### Finder
-
 システム環境設定 > 一般
 - サイドバーのアイコンサイズ: 小
 
@@ -309,6 +308,21 @@ Done installing!
 
 Setting maven 3.3.9 as default.
 ```
+
+### IntelliJ IDEA
+#### 改行コード
+Preferences > Editor > Code Style > Line separator
+- Unix and OS X(\n)
+
+#### ファイル・エンコーディング
+Android Studio > Preferences > Editor > File Encodings
+- IDE Encoding: UTF-8
+- Project Encoding: UTF-8
+- Default encoding for properties files: UTF-8
+
+#### 行番号の表示、スペースの表示
+File > Settings > Editor > General > Apperance
+- Show line numbers, Show whitespaces
 
 ### Docker for Mac
 Docker for Mac is installed by **homebrew-cask**
