@@ -5,9 +5,10 @@
   - Homebrew
   - Homebrew Cask
   - ReadKit
-- brew
+  - Monosnap
+- Homebrew
   - Git
-- bres cask
+- Homebrew Cask
   - AppCleaner
   - Google 日本語入力
   - Visual Studio Code
