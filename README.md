@@ -15,6 +15,7 @@
   - iTerm2
   - Java9
   - Java8
+  - Firefox Developr Edition
   
 - Application Install(2016)
   - Atom

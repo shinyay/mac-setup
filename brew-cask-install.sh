@@ -7,6 +7,9 @@ apps=(
   visual-studio-code
   google-japanese-ime
   iterm2
+  java
+  java8
+  firefoxdeveloperedition
 )
 #  atom
 #  boostnote
