@@ -8,6 +8,7 @@
   - Monosnap
 - Homebrew
   - Git
+  - Axure CLI
 - Homebrew Cask
   - AppCleaner
   - Google 日本語入力
@@ -325,6 +326,13 @@ Android Studio > Preferences > Editor > File Encodings
 #### 行番号の表示、スペースの表示
 File > Settings > Editor > General > Apperance
 - Show line numbers, Show whitespaces
+
+### Azure CLI
+
+```
+$ brew update
+$ brew install azure-cli
+```
 
 ### Docker for Mac
 Docker for Mac is installed by **homebrew-cask**
