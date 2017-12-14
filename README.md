@@ -8,7 +8,7 @@
   - Monosnap
 - Homebrew
   - Git
-  - Axure CLI
+  - Azure CLI
 - Homebrew Cask
   - AppCleaner
   - Google 日本語入力
@@ -326,6 +326,36 @@ Android Studio > Preferences > Editor > File Encodings
 #### 行番号の表示、スペースの表示
 File > Settings > Editor > General > Apperance
 - Show line numbers, Show whitespaces
+
+### Git
+#### Git 初期設定
+
+|項目|コマンド|
+|---|-------|
+|ユーザ名|git config --global user.name "{ユーザー名}"|
+|メールアドレス|git config --global user.email "{メールアドレス}"|
+|日本語文字化け|git config --global core.quotepath false|
+|改行コード混在時変換なし|git config --global core.safecrlf true|
+|改行コード変換なし|git config --global core.autocrlf false|
+|Vimエディタ|git config --global core.editor 'vim -c "set fenc=utf-8"'|
+|Diffに色付け|git config --global color.diff auto<br>git config --global color.status auto<br>git config --global color.branch auto|
+
+
+```
+git config --global user.name "shinyay"
+git config --global user.email "shinya.com@gmail.com"
+git config --global core.quotepath false
+git config --global core.safecrlf true
+git config --global core.autocrlf false
+git config --global core.editor 'vim -c "set fenc=utf-8"'
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+```
+#### エイリアス
+##### git log
+`plog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso`
+`glog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=format:'%c' --all --graph`
 
 ### Azure CLI
 
