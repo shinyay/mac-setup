@@ -359,10 +359,35 @@ git config --global color.branch auto
 `glog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=format:'%c' --all --graph`
 
 ### Azure CLI
+#### Mac - Homebrew
 
 ```
 $ brew update
 $ brew install azure-cli
+```
+
+#### Docker - Python Container
+
+```
+$ docker run -it python bash
+```
+
+##### Stable Build
+
+```
+$ pip install azure-cli
+```
+
+##### Edge Build
+
+インストール
+```
+$ pip install --pre azure-cli --extra-index-url https://azurecliprod.blob.core.windows.net/edge
+```
+
+更新
+```
+$ pip install --upgrade --pre azure-cli --extra-index-url https://azurecliprod.blob.core.windows.net/edge --no-cache-dir
 ```
 
 ### Docker for Mac
