@@ -39,6 +39,11 @@ $ vim $HOME/.config/fish/config.fish
 set -x HOMEBREW_CASK_OPTS='--appdir=/Applications'
 ```
 
+#### Plugin
+- [z](https://github.com/fisherman/z)
+- [fzf](https://github.com/fisherman/fzf)
+  - Prerequisite: `brew install fzf`
+- [gitignore](https://github.com/fisherman/gitignore)
 
 # Macbook 2017 setup
 ---
