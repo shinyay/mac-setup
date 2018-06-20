@@ -20,25 +20,24 @@ $ brew cask
   - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
   - `chsh -s /usr/local/bin/fish`
 
-#### fisherman
+### fisherman
 The fish-shell plugin manager. 
 [fisherman](https://github.com/fisherman/fisherman)
 
-##### Install
+#### Install
 ```
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
 ```
-#### fish
-##### config
+
+### fish
+#### config
 ```
 $ vim $HOME/.config/fish/config.fish
 ```
 
 ```
-export HOMEBREW_CASK_OPTS='--appdir=/Applications'
+set -x HOMEBREW_CASK_OPTS='--appdir=/Applications'
 ```
-
-
 
 
 # Macbook 2017 setup
