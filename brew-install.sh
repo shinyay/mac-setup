@@ -2,8 +2,11 @@
 
 ## Applications
 apps=(
-  pyenv
-  pandoc
+  git
+  fish
 )
 
 brew install ${apps[@]}
+
+#  pyenv
+#  pandoc
