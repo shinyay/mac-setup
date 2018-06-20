@@ -1,3 +1,46 @@
+# MacBook Pro 2017 setup
+---
+## Terminal
+### Homebrew
+```
+$ xcode-select --install
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ brew doctor
+$ brew update
+```
+
+### Homebrew Cask
+```
+$ brew cask
+```
+
+### Homebrew
+- git
+- fish
+  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
+  - `chsh -s /usr/local/bin/fish`
+
+#### fisherman
+The fish-shell plugin manager. 
+[fisherman](https://github.com/fisherman/fisherman)
+
+##### Install
+```
+curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+```
+#### fish
+##### config
+```
+$ vim $HOME/.config/fish/config.fish
+```
+
+```
+export HOMEBREW_CASK_OPTS='--appdir=/Applications'
+```
+
+
+
+
 # Macbook 2017 setup
 ---
 - Desktop Configuration
