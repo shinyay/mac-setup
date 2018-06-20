@@ -4,6 +4,7 @@
 apps=(
   git
   fish
+  wget
 )
 
 brew install ${apps[@]}
