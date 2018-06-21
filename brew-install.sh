@@ -6,6 +6,7 @@ apps=(
   fish
   wget
   fzf
+  terraform
 )
 
 brew install ${apps[@]}
