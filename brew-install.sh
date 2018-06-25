@@ -7,6 +7,7 @@ apps=(
   wget
   fzf
   terraform
+  jenv
 )
 
 brew install ${apps[@]}
