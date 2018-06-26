@@ -7,10 +7,11 @@ apps=(
   visual-studio-code
   google-japanese-ime
   iterm2
-  java
   java8
+  insomniax
 )
 
+#  java
 #  firefoxdeveloperedition
 #  atom
 #  boostnote
