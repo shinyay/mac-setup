@@ -41,9 +41,30 @@ set -x HOMEBREW_CASK_OPTS='--appdir=/Applications'
 
 #### Plugin
 - [z](https://github.com/fisherman/z)
+  - `fisher install z`
 - [fzf](https://github.com/fisherman/fzf)
   - Prerequisite: `brew install fzf`
 - [gitignore](https://github.com/fisherman/gitignore)
+- [fish-bd](https://github.com/0rax/fish-bd)
+
+#### Theme
+- [bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
+  - `fisher install omf/theme-bobthefish`
+##### Font
+- [powerline font](https://github.com/powerline/fonts)
+```
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+```
+
+---
+---
 
 # Macbook 2017 setup
 ---
@@ -156,6 +177,7 @@ following commant shows list installed by 'brew tap':
 
 ```bash
 $ brew tap
+$ brew tap cloudfoundry/tap
 ```
 
 #### Application Install Directory via Homebrew
