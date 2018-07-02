@@ -46,6 +46,12 @@ set -x HOMEBREW_CASK_OPTS='--appdir=/Applications'
   - Prerequisite: `brew install fzf`
 - [gitignore](https://github.com/fisherman/gitignore)
 - [fish-bd](https://github.com/0rax/fish-bd)
+  - `fisher install 0rax/fish-bd`
+- [peco](https://github.com/oh-my-fish/plugin-peco)
+  - `brew install peco`
+  - `fisher oh-my-fish/plugin-peco`
+    - Edit .config/fish/functions/fish_user_key_bindings.fish
+      - `bind \cr 'peco_select_history (commandline -b)'`
 
 #### Theme
 - [bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
@@ -62,6 +68,10 @@ cd fonts
 cd ..
 rm -rf fonts
 ```
+
+- iTerm
+  - Text＞Font＞ChangeFont
+    - Meslo LG M for Powerline
 
 ---
 ---
