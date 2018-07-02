@@ -84,6 +84,24 @@ $ brew install jenv
 set -U JAVA_HOME ( jenv javahome )
 ```
 
+### SDKMAN!
+#### Install
+```
+$ bash
+$ curl -s "https://get.sdkman.io" | bash
+```
+
+#### Edit config.fish for no-response-problem
+```
+$ vim ~/.config/fish/config.fish
+
+sdk help > /dev/null
+```
+
+```
+$ vim ~/.sdkman/etc/config
+sdkman_auto_selfupdate=true
+```
 
 ---
 ---
