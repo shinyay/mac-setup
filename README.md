@@ -110,6 +110,10 @@ $ sed -i.bak '/sdkman_beta/s/false/true/g' ${HOME}/.sdkman/etc/config
 $ sdk selfupdate force
 ```
 
+#### Candidates
+- Gradle
+  - Gradle 4.8.1 (as of July-2-2018)
+
 ---
 ---
 
