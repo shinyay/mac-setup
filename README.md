@@ -19,6 +19,7 @@ $ brew cask
 - fish
   - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
   - `chsh -s /usr/local/bin/fish`
+- jenv
 
 ### fisherman
 The fish-shell plugin manager. 
@@ -72,6 +73,17 @@ rm -rf fonts
 - iTerm
   - Text＞Font＞ChangeFont
     - Meslo LG M for Powerline
+
+### jEnv
+```
+$ brew install jenv
+```
+
+#### config.fish
+```
+set -U JAVA_HOME ( jenv javahome )
+```
+
 
 ---
 ---
