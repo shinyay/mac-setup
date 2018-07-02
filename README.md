@@ -103,6 +103,13 @@ $ vim ~/.sdkman/etc/config
 sdkman_auto_selfupdate=true
 ```
 
+#### Beta Channel
+
+```
+$ sed -i.bak '/sdkman_beta/s/false/true/g' ${HOME}/.sdkman/etc/config
+$ sdk selfupdate force
+```
+
 ---
 ---
 
