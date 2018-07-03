@@ -8,16 +8,26 @@ $ brew doctor
 $ brew update
 ```
 
-### Homebrew Cask
-```
-$ brew cask
-```
-
 ### Homebrew Formulae
 - git
 - jenv
 - cf-cli
 - wget
+
+### Homebrew Cask
+```
+$ brew cask
+```
+- appcleaner
+- iterm2
+- java8
+- google-japanese-ime
+- insomniax
+- google-chrome-canary
+- intellij-idea
+- visual-studio-code
+- google-cloud-sdk
+- mysql-shell
 
 #### Fish
 - fish
