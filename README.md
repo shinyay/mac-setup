@@ -1,7 +1,6 @@
 # MacBook Pro 2017 setup
 ---
-## Terminal
-### Homebrew
+## Homebrew
 ```
 $ xcode-select --install
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -14,33 +13,40 @@ $ brew update
 $ brew cask
 ```
 
-### Homebrew
+### Homebrew Formulae
 - git
+- jenv
+- cf-cli
+- wget
+
+#### Fish
 - fish
   - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
   - `chsh -s /usr/local/bin/fish`
-- jenv
+- peco
+- fzf
 
-### fisherman
+#### Plarform Acceleration Lab
+- 
+
+## Fisherman
 The fish-shell plugin manager. 
 [fisherman](https://github.com/fisherman/fisherman)
 
-#### Install
+### Install
 ```
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
 ```
 
-### fish
-#### config
+## Fish
+### Configuration
 ```
 $ vim $HOME/.config/fish/config.fish
-```
 
-```
 set -x HOMEBREW_CASK_OPTS='--appdir=/Applications'
 ```
 
-#### Plugin
+### Fish Plugin
 - [z](https://github.com/fisherman/z)
   - `fisher install z`
 - [fzf](https://github.com/fisherman/fzf)
@@ -54,10 +60,10 @@ set -x HOMEBREW_CASK_OPTS='--appdir=/Applications'
     - Edit .config/fish/functions/fish_user_key_bindings.fish
       - `bind \cr 'peco_select_history (commandline -b)'`
 
-#### Theme
+### Fish Theme
 - [bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
   - `fisher install omf/theme-bobthefish`
-##### Font
+#### Fish Font
 - [powerline font](https://github.com/powerline/fonts)
 ```
 # clone
@@ -74,24 +80,68 @@ rm -rf fonts
   - Text＞Font＞ChangeFont
     - Meslo LG M for Powerline
 
-### jEnv
+## jEnv
 ```
 $ brew install jenv
 ```
 
-#### config.fish
+### JAVA_HONE with jEnv
+Configure in config.fish
+
 ```
 set -U JAVA_HOME ( jenv javahome )
 ```
 
-### SDKMAN!
-#### Install
+## SDKMAN!
+### Install
 ```
 $ bash
 $ curl -s "https://get.sdkman.io" | bash
 ```
+### ~/.config/fish/functions/sdk.fish
+```
+function sdk --description 'Software Development Kit Manager'
+  set after_env (mktemp -t env)
+  set path_env (mktemp -t env)
 
-#### Edit config.fish for no-response-problem
+    bash -c "source ~/.sdkman/bin/sdkman-init.sh && sdk $argv && printenv > $after_env"
+
+    # remove any pre-existing .sdkman paths
+    for elem in $PATH
+      switch $elem
+        case '*/.sdkman/*'
+          # ignore
+        case '*'
+          echo "$elem" >> $path_env
+      end
+    end
+
+    for env in (cat $after_env)
+      set env_name (echo $env | sed s/=.\*//)
+      set env_value (echo $env | sed s/.\*=//)
+      switch $env_name
+        case 'PATH'
+          for elem in (echo $env_value | tr ':' '\n')
+            switch $elem
+              case '*/.sdkman/*'
+                echo "$elem" >> $path_env
+            end
+          end
+        case '*'
+          switch $env_value
+            case '*/.sdkman/*'
+              eval set -g $env_name $env_value > /dev/null
+          end
+      end
+    end
+    set -gx PATH (cat $path_env) ^ /dev/null
+
+    rm -f $after_env
+    rm -f $path_env
+end
+```
+
+### Edit config.fish for no-response-problem
 ```
 $ vim ~/.config/fish/config.fish
 
@@ -103,17 +153,20 @@ $ vim ~/.sdkman/etc/config
 sdkman_auto_selfupdate=true
 ```
 
-#### Beta Channel
+### Beta Channel
 
 ```
 $ sed -i.bak '/sdkman_beta/s/false/true/g' ${HOME}/.sdkman/etc/config
 $ sdk selfupdate force
 ```
 
-#### Candidates
+### Candidates
 - Gradle
   - Gradle 4.8.1 (as of July-2-2018)
 
+## Docker
+- [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+  - 18.03.1-ce (as of July-3-2018)
 ---
 ---
 
