@@ -177,6 +177,28 @@ $ sdk selfupdate force
 ## Docker
 - [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
   - 18.03.1-ce (as of July-3-2018)
+
+## IntelliJ IDEA
+### Appearance & Behavior
+#### System Settings
+- Reopen last project on startup : OFF
+- Open project in new window : ON
+
+### Editor
+#### General
+- Ensure line feed at file end on Save : ON
+#### General - Appearance
+- Show method separators : ON
+- Show whitespaces : ON
+#### General - Code Completion
+- Case sensitive completion : None
+#### Code Style
+- Line separator (for new files) : Unix and OS X (\n)
+#### File Encodings
+- Project Encoding: UTF-8
+- Default encoding for properties files: UTF-8
+- Transparent native-to-ascii conversion : ON
+
 ---
 ---
 
