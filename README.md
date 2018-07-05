@@ -173,6 +173,8 @@ $ sdk selfupdate force
 ### Candidates
 - Gradle
   - Gradle 4.8.1 (as of July-2-2018)
+- Kotlin
+  - Kotlin version 1.2.51-release-125 (JRE 1.8.0_172-b11) (as of July-5-2018)
 
 ## Docker
 - [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
@@ -198,7 +200,9 @@ $ sdk selfupdate force
 - Project Encoding: UTF-8
 - Default encoding for properties files: UTF-8
 - Transparent native-to-ascii conversion : ON
-
+### Build, Execution, Deployment
+#### Compiler - Kotlin Compiler
+- Target JVM version : 1.8
 ---
 ---
 
