@@ -7,6 +7,17 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 $ brew doctor
 $ brew update
 ```
+```
+$ brew tap
+homebrew/cask
+homebrew/core
+
+$ brew tap caskroom/versions
+$ brew tap
+homebrew/cask
+homebrew/cask-versions
+homebrew/core
+```
 
 ### Homebrew Formulae
 - git
