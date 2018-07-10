@@ -209,31 +209,24 @@ $ sdk selfupdate force
 # Macbook 2017 setup
 ---
 - Desktop Configuration
-- Application Install(2017)
+- Application Install
   - Homebrew
   - Homebrew Cask
+  - SDKMAN
   - ReadKit
   - Monosnap
-  - SDKMAN
 - Homebrew
   - Git
-  - Azure CLI
+  - jEnv
+  - Cloud Foundry CLI
 - Homebrew Cask
   - AppCleaner
-  - Google 日本語入力
+  - Google IME
   - Visual Studio Code
   - iTerm2
-  - Java9
   - Java8
-  - Firefox Developr Edition
   - Docker for Mac
-  
-- Application Install(2016)
-  - Atom
-  - SDKMAN
-  - Python3
-  - Pandoc
-  - Wercker CLI
+
 ---
 
 ## Desktop Configuration
@@ -248,13 +241,6 @@ $ sdk selfupdate force
 
 システム環境設定 > トラックパッド
 - ポイントとクリック > タップでクリック
-
-### Keyboard
-
-システム環境設定 > キーボード > 修飾キー
-- caps lock: control
-システム環境設定 > キーボード > ショートカット > 入力ソース
-- 前の入力ソースを選択: ⌘ + スペース
 
 ### Drag
 
@@ -283,11 +269,6 @@ Finder > 環境設定 > 詳細
 - すべてのファイル名拡張子を表示
 
 ## Application Install
-
-### Google 日本語入力
-https://www.google.co.jp/ime/
-
-「ctrl」+「スペース」
 
 ### Homebrew
 - macOS 用パッケージマネージャー
@@ -352,12 +333,6 @@ $ brew tap caskroom/cask
 
 
 ### Java
-
-#### Java 9
-
-```
-$ brew cask install java
-```
 
 #### Java 8
 
