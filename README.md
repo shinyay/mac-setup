@@ -25,6 +25,13 @@ homebrew/core
 - cf-cli
 - wget
 
+#### Fish
+- fish
+  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
+  - `chsh -s /usr/local/bin/fish`
+- peco
+- fzf
+
 ### Homebrew Cask
 ```
 $ brew cask
@@ -40,15 +47,9 @@ $ brew cask
 - google-cloud-sdk
 - mysql-shell
 
-#### Fish
-- fish
-  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
-  - `chsh -s /usr/local/bin/fish`
-- peco
-- fzf
-
-#### Plarform Acceleration Lab
-- 
+```
+$ brew cask cleanup
+```
 
 ## Fisherman
 The fish-shell plugin manager. 
@@ -98,7 +99,7 @@ rm -rf fonts
 ```
 
 - iTerm
-  - Text＞Font＞ChangeFont
+  - Profiles>Text＞Font＞ChangeFont
     - Meslo LG M for Powerline
 
 ## jEnv
@@ -177,7 +178,7 @@ sdkman_auto_selfupdate=true
 ### Beta Channel
 
 ```
-$ sed -i.bak '/sdkman_beta/s/false/true/g' ${HOME}/.sdkman/etc/config
+$ sed -i.bak '/sdkman_beta/s/false/true/g' $HOME/.sdkman/etc/config
 $ sdk selfupdate force
 ```
 
