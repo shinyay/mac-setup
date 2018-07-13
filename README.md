@@ -29,6 +29,22 @@ $ brew cask
 - google-cloud-sdk
 - mysql-shell
 
+### Cloud Foundry Repository
+
+```
+$ brew tap cloudfoundry/tap
+```
+
+- `brew install <cf-cli | bosh-init | bosh-cli | credhub-cli | bbl>`
+
+|Package|Description|
+|-------|-----------|
+|cf-cli|The official Cloud Foundry CLI|
+|bosh-init|The official CLI to create and update the BOSH Director VM|
+|bosh-cli|The official new BOSH CLI|
+|credhub-cli|The official CredHub CLI|
+|bbl|The official bosh-bootloader CLI|
+
 #### Fish
 - fish
   - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
