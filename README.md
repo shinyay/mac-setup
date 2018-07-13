@@ -7,12 +7,30 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 $ brew doctor
 $ brew update
 ```
+```
+$ brew tap
+homebrew/cask
+homebrew/core
+
+$ brew tap caskroom/versions
+$ brew tap
+homebrew/cask
+homebrew/cask-versions
+homebrew/core
+```
 
 ### Homebrew Formulae
 - git
 - jenv
 - cf-cli
 - wget
+
+#### Fish
+- fish
+  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
+  - `chsh -s /usr/local/bin/fish`
+- peco
+- fzf
 
 ### Homebrew Cask
 ```
@@ -29,6 +47,7 @@ $ brew cask
 - google-cloud-sdk
 - mysql-shell
 
+<<<<<<< HEAD
 ### Cloud Foundry Repository
 
 ```
@@ -54,6 +73,11 @@ $ brew tap cloudfoundry/tap
 
 #### Plarform Acceleration Lab
 - 
+=======
+```
+$ brew cask cleanup
+```
+>>>>>>> 61a2598b88b911d1827ad2a0ba8184296d3902c6
 
 ## Fisherman
 The fish-shell plugin manager. 
@@ -103,7 +127,7 @@ rm -rf fonts
 ```
 
 - iTerm
-  - Text＞Font＞ChangeFont
+  - Profiles>Text＞Font＞ChangeFont
     - Meslo LG M for Powerline
 
 ## jEnv
@@ -182,7 +206,7 @@ sdkman_auto_selfupdate=true
 ### Beta Channel
 
 ```
-$ sed -i.bak '/sdkman_beta/s/false/true/g' ${HOME}/.sdkman/etc/config
+$ sed -i.bak '/sdkman_beta/s/false/true/g' $HOME/.sdkman/etc/config
 $ sdk selfupdate force
 ```
 
@@ -225,31 +249,24 @@ $ sdk selfupdate force
 # Macbook 2017 setup
 ---
 - Desktop Configuration
-- Application Install(2017)
+- Application Install
   - Homebrew
   - Homebrew Cask
+  - SDKMAN
   - ReadKit
   - Monosnap
-  - SDKMAN
 - Homebrew
   - Git
-  - Azure CLI
+  - jEnv
+  - Cloud Foundry CLI
 - Homebrew Cask
   - AppCleaner
-  - Google 日本語入力
+  - Google IME
   - Visual Studio Code
   - iTerm2
-  - Java9
   - Java8
-  - Firefox Developr Edition
   - Docker for Mac
-  
-- Application Install(2016)
-  - Atom
-  - SDKMAN
-  - Python3
-  - Pandoc
-  - Wercker CLI
+
 ---
 
 ## Desktop Configuration
@@ -264,13 +281,6 @@ $ sdk selfupdate force
 
 システム環境設定 > トラックパッド
 - ポイントとクリック > タップでクリック
-
-### Keyboard
-
-システム環境設定 > キーボード > 修飾キー
-- caps lock: control
-システム環境設定 > キーボード > ショートカット > 入力ソース
-- 前の入力ソースを選択: ⌘ + スペース
 
 ### Drag
 
@@ -299,11 +309,6 @@ Finder > 環境設定 > 詳細
 - すべてのファイル名拡張子を表示
 
 ## Application Install
-
-### Google 日本語入力
-https://www.google.co.jp/ime/
-
-「ctrl」+「スペース」
 
 ### Homebrew
 - macOS 用パッケージマネージャー
@@ -368,12 +373,6 @@ $ brew tap caskroom/cask
 
 
 ### Java
-
-#### Java 9
-
-```
-$ brew cask install java
-```
 
 #### Java 8
 
