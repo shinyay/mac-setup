@@ -48,9 +48,37 @@ $ brew cask
 - mysql-shell
 - docker-edge
 
+<<<<<<< HEAD
+### Cloud Foundry Repository
+
+```
+$ brew tap cloudfoundry/tap
+```
+
+- `brew install <cf-cli | bosh-init | bosh-cli | credhub-cli | bbl>`
+
+|Package|Description|
+|-------|-----------|
+|cf-cli|The official Cloud Foundry CLI|
+|bosh-init|The official CLI to create and update the BOSH Director VM|
+|bosh-cli|The official new BOSH CLI|
+|credhub-cli|The official CredHub CLI|
+|bbl|The official bosh-bootloader CLI|
+
+#### Fish
+- fish
+  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
+  - `chsh -s /usr/local/bin/fish`
+- peco
+- fzf
+
+#### Plarform Acceleration Lab
+- 
+=======
 ```
 $ brew cask cleanup
 ```
+>>>>>>> 61a2598b88b911d1827ad2a0ba8184296d3902c6
 
 ## Fisherman
 The fish-shell plugin manager. 
