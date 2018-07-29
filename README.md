@@ -48,6 +48,7 @@ $ brew cask
 - mysql-shell
 - docker-edge
 - google-cloud-sdk
+- minikube
 
 ```
 $ brew cask cleanup
@@ -225,6 +226,19 @@ $ sdk selfupdate force
   - `$ brew cask install google-cloud-sdk`
 ### SDK Initialize
 - `$ gcloud init`
+
+## Minikube
+### Minikube and Hyperkit as the vm driver
+
+```
+curl -LO https://storage.googleapis.com/minikube/releases/latest/docker-machine-driver-hyperkit \
+     ; and chmod +x docker-machine-driver-hyperkit \
+     ; and sudo mv docker-machine-driver-hyperkit /usr/local/bin/ \
+     ; and sudo chown root:wheel /usr/local/bin/docker-machine-driver-hyperkit \
+     ; and sudo chmod u+s /usr/local/bin/docker-machine-driver-hyperkit
+```
+### Minikube Install
+`$ brew cask install minikube`
 
 ## IntelliJ IDEA
 ### Appearance & Behavior
