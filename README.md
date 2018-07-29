@@ -47,6 +47,7 @@ $ brew cask
 - google-cloud-sdk
 - mysql-shell
 - docker-edge
+- google-cloud-sdk
 
 ```
 $ brew cask cleanup
@@ -219,6 +220,10 @@ $ sdk selfupdate force
 - [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
   - `$ brew cask install docker-edge`
 
+## Google Cloud SDK
+- [macOS 用のクイックスタート](https://cloud.google.com/sdk/docs/quickstart-macos)
+  - `$ brew cask install google-cloud-sdk`
+
 ## IntelliJ IDEA
 ### Appearance & Behavior
 #### System Settings
@@ -242,8 +247,12 @@ $ sdk selfupdate force
 ### Build, Execution, Deployment
 #### Compiler - Kotlin Compiler
 - Target JVM version : 1.8
+
 ---
 ---
+
+
+
 
 # Macbook 2017 setup
 ---
