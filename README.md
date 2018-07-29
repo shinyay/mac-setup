@@ -228,17 +228,32 @@ $ sdk selfupdate force
 - `$ gcloud init`
 
 ## Minikube
-### Minikube and Hyperkit as the vm driver
+- Minikube and Hyperkit as the vm driver
 
+### Install Hyperkit as the vm driver
 ```
-curl -LO https://storage.googleapis.com/minikube/releases/latest/docker-machine-driver-hyperkit \
-     ; and chmod +x docker-machine-driver-hyperkit \
-     ; and sudo mv docker-machine-driver-hyperkit /usr/local/bin/ \
-     ; and sudo chown root:wheel /usr/local/bin/docker-machine-driver-hyperkit \
-     ; and sudo chmod u+s /usr/local/bin/docker-machine-driver-hyperkit
+$ curl -LO https://storage.googleapis.com/minikube/releases/latest/docker-machine-driver-hyperkit \
+; and chmod +x docker-machine-driver-hyperkit \
+; and sudo mv docker-machine-driver-hyperkit /usr/local/bin/ \
+; and sudo chown root:wheel /usr/local/bin/docker-machine-driver-hyperkit \
+; and sudo chmod u+s /usr/local/bin/docker-machine-driver-hyperkit
 ```
-### Minikube Install
+### Install Minikube
 `$ brew cask install minikube`
+
+### Create a Minikube cluster
+```
+$ minikube start --memory=8192 --cpus=4 \
+--kubernetes-version=v1.10.5 \
+--vm-driver=hyperkit \
+--bootstrapper=kubeadm \
+--extra-config=controller-manager.cluster-signing-cert-file="/var/lib/localkube/certs/ca.crt" \
+--extra-config=controller-manager.cluster-signing-key-file="/var/lib/localkube/certs/ca.key" \
+--extra-config=apiserver.admission-control="LimitRanger,NamespaceExists,NamespaceLifecycle,ResourceQuota,ServiceAccount,DefaultStorageClass,MutatingAdmissionWebhook"
+```
+
+### Confirm kubectl context
+`$ kubectl config current-context`
 
 ## IntelliJ IDEA
 ### Appearance & Behavior
