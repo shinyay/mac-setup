@@ -223,6 +223,8 @@ $ sdk selfupdate force
 ## Google Cloud SDK
 - [macOS 用のクイックスタート](https://cloud.google.com/sdk/docs/quickstart-macos)
   - `$ brew cask install google-cloud-sdk`
+### SDK Initialize
+- `$ gcloud init`
 
 ## IntelliJ IDEA
 ### Appearance & Behavior
