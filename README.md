@@ -48,6 +48,10 @@ $ brew cask
 - mysql-shell
 - docker-edge
 
+```
+$ brew cask cleanup
+```
+
 ### Cloud Foundry Repository
 
 ```
