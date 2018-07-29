@@ -46,6 +46,7 @@ $ brew cask
 - visual-studio-code
 - google-cloud-sdk
 - mysql-shell
+- docker-edge
 
 ```
 $ brew cask cleanup
@@ -190,7 +191,7 @@ $ sdk selfupdate force
 
 ## Docker
 - [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
-  - 18.03.1-ce (as of July-3-2018)
+  - `$ brew cask install docker-edge`
 
 ## IntelliJ IDEA
 ### Appearance & Behavior
