@@ -227,6 +227,9 @@ $ sdk selfupdate force
 ### SDK Initialize
 - `$ gcloud init`
 
+## Install Kubectl
+- `gcloud components install kubectl`
+
 ## Knative using riff on Minikube
 - https://projectriff.io/docs/getting-started-with-knative-riff-on-minikube/
 ### Minikube
