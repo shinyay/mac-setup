@@ -227,10 +227,12 @@ $ sdk selfupdate force
 ### SDK Initialize
 - `$ gcloud init`
 
-## Minikube
+## Knative using riff on Minikube
+- https://projectriff.io/docs/getting-started-with-knative-riff-on-minikube/
+### Minikube
 - Minikube and Hyperkit as the vm driver
 
-### Install Hyperkit as the vm driver
+#### Install Hyperkit as the vm driver
 ```
 $ curl -LO https://storage.googleapis.com/minikube/releases/latest/docker-machine-driver-hyperkit \
 ; and chmod +x docker-machine-driver-hyperkit \
@@ -238,10 +240,10 @@ $ curl -LO https://storage.googleapis.com/minikube/releases/latest/docker-machin
 ; and sudo chown root:wheel /usr/local/bin/docker-machine-driver-hyperkit \
 ; and sudo chmod u+s /usr/local/bin/docker-machine-driver-hyperkit
 ```
-### Install Minikube
+#### Install Minikube
 `$ brew cask install minikube`
 
-### Create a Minikube cluster
+#### Create a Minikube cluster
 ```
 $ minikube start --memory=8192 --cpus=4 \
 --kubernetes-version=v1.10.5 \
@@ -252,8 +254,29 @@ $ minikube start --memory=8192 --cpus=4 \
 --extra-config=apiserver.admission-control="LimitRanger,NamespaceExists,NamespaceLifecycle,ResourceQuota,ServiceAccount,DefaultStorageClass,MutatingAdmissionWebhook"
 ```
 
-### Confirm kubectl context
+#### Confirm kubectl context
 `$ kubectl config current-context`
+
+#### Monitor Minikube cluster
+`$ watch -n 1 kubectl get pod --all-namespaces`
+
+### Install riff CLI
+- v0.1.0 as of 29-July-2018
+```
+$ curl -LO https://github.com/projectriff/riff/releases/download/v0.1.0/riff-darwin-amd64.tgz \
+; and tar xvzf riff-darwin-amd64.tgz \
+; and sudo mv riff /usr/local/bin/
+```
+
+```
+$ riff version
+Version
+  riff cli: 0.1.0
+```
+
+### Install Knative
+
+`$ riff system install --node-port`
 
 ## IntelliJ IDEA
 ### Appearance & Behavior
