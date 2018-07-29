@@ -48,7 +48,6 @@ $ brew cask
 - mysql-shell
 - docker-edge
 
-<<<<<<< HEAD
 ### Cloud Foundry Repository
 
 ```
@@ -74,11 +73,6 @@ $ brew tap cloudfoundry/tap
 
 #### Plarform Acceleration Lab
 - 
-=======
-```
-$ brew cask cleanup
-```
->>>>>>> 61a2598b88b911d1827ad2a0ba8184296d3902c6
 
 ## Fisherman
 The fish-shell plugin manager. 
