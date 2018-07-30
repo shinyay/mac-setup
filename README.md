@@ -258,10 +258,11 @@ $ minikube start --memory=8192 --cpus=4 \
 ```
 
 #### Confirm kubectl context
-`$ kubectl config current-context`
+- `$ kubectl config current-context`
 
 #### Monitor Minikube cluster
-`$ watch -n 1 kubectl get pod --all-namespaces`
+- `$ brew install watch`
+- `$ watch -n 1 kubectl get pod --all-namespaces`
 
 ### Install riff CLI
 - v0.1.0 as of 29-July-2018
