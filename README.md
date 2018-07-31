@@ -282,6 +282,40 @@ Version
 
 `$ riff system install --node-port`
 
+### Configure Kubernetes Secret
+
+`echo -n 'DOCKERHUB-USERNAME/PWD' | base64`
+
+`$ vim dockerhub-push-credentials.yaml`
+
+```
+apiVersion: v1
+kind: Secret
+metadata:
+  name: push-credentials
+  annotations:
+    build.knative.dev/docker-0: https://index.docker.io/v1/
+type: kubernetes.io/basic-auth
+data:
+  username: BASE64-USERNAME
+  password: BASE64-PASSWORD
+```
+
+`$ kubectl apply -f dockerhub-push-credentials.yaml`
+`$ riff namespace init default --secret push-credentials`
+
+### Create Function
+```
+$ riff function create node square \
+  --git-repo https://github.com/shinyay/node-func-square.git \
+  --artifact square.js \
+  --image shinyay/node-func-square
+```
+
+### Function/Minikube Cluser Cleanup
+- Function: `$ riff service delete square`
+- Minikube: `$ minikube delete`
+
 ## IntelliJ IDEA
 ### Appearance & Behavior
 #### System Settings
