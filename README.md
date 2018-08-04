@@ -23,6 +23,7 @@ homebrew/core
 - git
 - jenv
 - cf-cli
+- cf-uaac
 - wget
 
 #### Fish
@@ -60,7 +61,7 @@ $ brew cask cleanup
 $ brew tap cloudfoundry/tap
 ```
 
-- `brew install <cf-cli | bosh-init | bosh-cli | credhub-cli | bbl>`
+- `brew install <cf-cli | cf-uaac | bosh-init | bosh-cli | credhub-cli | bbl>`
 
 |Package|Description|
 |-------|-----------|
