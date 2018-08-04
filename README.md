@@ -10,13 +10,9 @@ $ brew update
 ```
 $ brew tap
 homebrew/cask
-homebrew/core
-
-$ brew tap caskroom/versions
-$ brew tap
-homebrew/cask
 homebrew/cask-versions
 homebrew/core
+cloudfoundry/tap
 ```
 
 ### Homebrew Formulae
