@@ -47,6 +47,7 @@ $ brew cask
 - google-cloud-sdk
 - minikube
 - android-file-transfer
+- vlc
 
 ```
 $ brew cask cleanup
