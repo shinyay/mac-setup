@@ -21,6 +21,7 @@ cloudfoundry/tap
 - cf-cli
 - cf-uaac
 - wget
+- kubernetes-helm
 
 #### Fish
 - fish
