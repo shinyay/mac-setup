@@ -12,6 +12,7 @@ $ brew tap
 homebrew/cask
 homebrew/cask-versions
 homebrew/core
+pivotal/tap
 cloudfoundry/tap
 ```
 
@@ -69,6 +70,12 @@ $ brew tap cloudfoundry/tap
 |bosh-cli|The official new BOSH CLI|
 |credhub-cli|The official CredHub CLI|
 |bbl|The official bosh-bootloader CLI|
+
+
+```
+$ brew tap pivotal/tap
+```
+- `brew install pivotal/tap/pivnet-cli`
 
 #### Fish
 - fish
