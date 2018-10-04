@@ -22,6 +22,7 @@ cloudfoundry/tap
 - cf-uaac
 - wget
 - kubernetes-helm
+- mysql --client-only
 
 #### Fish
 - fish
