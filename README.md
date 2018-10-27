@@ -24,7 +24,8 @@ cloudfoundry/tap
 - wget
 - kubernetes-helm
 - mysql --client-only
--flyway
+- flyway
+- graphviz
 
 #### Fish
 - fish
