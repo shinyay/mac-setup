@@ -20,6 +20,7 @@ cloudfoundry/tap
 - git
 - jenv
 - cf-cli
+- pivnet-cli
 - cf-uaac
 - wget
 - kubernetes-helm
