@@ -54,6 +54,7 @@ $ brew cask
 - minikube
 - android-file-transfer
 - vlc
+- franz
 
 ```
 $ brew cask cleanup
