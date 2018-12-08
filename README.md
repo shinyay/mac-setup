@@ -55,6 +55,7 @@ $ brew cask
 - android-file-transfer
 - vlc
 - franz
+- the-unarchiver
 
 ```
 $ brew cask cleanup
