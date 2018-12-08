@@ -56,6 +56,7 @@ $ brew cask
 - vlc
 - franz
 - the-unarchiver
+- polar-bookshelf
 
 ```
 $ brew cask cleanup
