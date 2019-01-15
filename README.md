@@ -20,6 +20,7 @@ cloudfoundry/tap
 - git
 - jenv
 - cf-cli
+- pivnet-cli
 - cf-uaac
 - wget
 - kubernetes-helm
@@ -53,6 +54,9 @@ $ brew cask
 - minikube
 - android-file-transfer
 - vlc
+- franz
+- the-unarchiver
+- polar-bookshelf
 - postman
 
 ```
@@ -351,6 +355,8 @@ $ riff function create node square \
 #### Compiler - Kotlin Compiler
 - Target JVM version : 1.8
 
+## Monosnap
+- https://www.monosnap.com
 ---
 ---
 
