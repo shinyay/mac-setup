@@ -53,6 +53,7 @@ $ brew cask
 - minikube
 - android-file-transfer
 - vlc
+- postman
 
 ```
 $ brew cask cleanup
