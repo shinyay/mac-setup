@@ -60,7 +60,7 @@ $ brew cask
 - the-unarchiver
 - polar-bookshelf
 - postman
--
+- duet
 
 ```
 $ brew cask cleanup
