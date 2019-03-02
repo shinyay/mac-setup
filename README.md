@@ -27,8 +27,10 @@ cloudfoundry/tap
 - mysql --client-only
 - flyway
 - graphviz
+- kubernetes-cli
 - azure-cli
   - `brew uninstall --ignore-dependencies python`
+- awscli
 
 #### Fish
 - fish
