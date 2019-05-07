@@ -8,12 +8,19 @@ $ brew doctor
 $ brew update
 ```
 
+### Homebrew Initial Install
+```
+$ brew cask install appcleaner
+$ brew cask install google-japanese-ime
+$ brew cask install iterm2
+```
+
 ### Homebrew Taps (third-party repositories)
 ```
 $ brew tap
 homebrew/cask
-homebrew/cask-versions
 homebrew/core
+homebrew/cask-versions
 pivotal/tap
 cloudfoundry/tap
 ```
