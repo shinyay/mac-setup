@@ -52,8 +52,64 @@ $ fisher -v
 fisher version 3.2.9 ~/.config/fish/functions/fisher.fish
 ```
 
-- peco
-- fzf
+#### Usecase
+```
+$ fisher 公式プラグイン名
+$ fisher omf/oh-my-fishのプラグイン名
+$ fisher GitHubユーザー名/リポジトリ名
+$ fisher GistのURL
+$ fisher ローカルのディレクトリ
+```
+
+#### peco
+
+```
+$ brew install peco 
+$ fisher add oh-my-fish/plugin-peco 
+$ vim ~/.config/fish/config.fish 
+```
+
+```
+function fish_user_key_bindings
+  bind \cr 'peco_select_history (commandline -b)'
+end
+```
+
+> [fzf](https://github.com/junegunn/fzf)
+
+#### bass
+Bash Wrapper
+```
+$ fisher add edc/bass
+```
+
+#### Fish Theme
+```
+$ fisher add omf/theme-agnoster
+```
+```
+$ fisher add oh-my-fish/theme-bobthefish
+```
+
+#### Powerline fonts
+```
+$ git clone https://github.com/powerline/fonts.git
+$ cd fonts/
+$ ./install.sh
+$ cd ..
+$ rm -rf fonts
+```
+
+##### Iterm2 Preferences
+- Profiles -> Text -> Font
+  -  Source Code Pro for Powerline
+
+#### Tips
+
+```
+$ dirh
+$ prevd
+```
 
 ### Fish Completion
 
