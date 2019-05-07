@@ -7,6 +7,8 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 $ brew doctor
 $ brew update
 ```
+
+### Homebrew Taps (third-party repositories)
 ```
 $ brew tap
 homebrew/cask
