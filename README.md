@@ -19,6 +19,28 @@ $ brew cask install iterm2
 $ bin/brew-initial-install.sh
 ```
 
+### Fish
+- fish
+  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
+  - `chsh -s /usr/local/bin/fish`
+
+```
+$ fish -v
+fish, version 3.0.2
+```
+
+- fisherman
+  - `curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish`
+
+```
+$ fisher -v
+fisher version 3.2.9 ~/.config/fish/functions/fisher.fish
+```
+
+- peco
+- fzf
+
+
 ### Homebrew Taps (third-party repositories)
 ```
 $ brew tap
@@ -45,25 +67,21 @@ cloudfoundry/tap
   - `brew uninstall --ignore-dependencies python`
 - awscli
 
-#### Fish
-- fish
-  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
-  - `chsh -s /usr/local/bin/fish`
-- peco
-- fzf
 
 ### Homebrew Cask
 ```
 $ brew cask
 ```
+
 - appcleaner
-- iterm2
-- java8
 - google-japanese-ime
+- iterm2
+
+- visual-studio-code
+- java8
 - insomniax
 - google-chrome-canary
 - intellij-idea
-- visual-studio-code
 - google-cloud-sdk
 - mysql-shell
 - docker-edge
