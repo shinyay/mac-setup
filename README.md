@@ -15,6 +15,10 @@ $ brew cask install google-japanese-ime
 $ brew cask install iterm2
 ```
 
+```
+$ bin/brew-initial-install.sh
+```
+
 ### Homebrew Taps (third-party repositories)
 ```
 $ brew tap
