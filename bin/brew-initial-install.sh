@@ -7,4 +7,9 @@ cask-apps=(
   iterm2
 )
 
-brew cask install ${apps[@]}
+apps=(
+  git
+)
+
+brew cask install ${cask-apps[@]}
+brew install ${apps[@]}

@@ -24,6 +24,21 @@ $ bin/brew-initial-install.sh
   - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
   - `chsh -s /usr/local/bin/fish`
 
+### Git from Apple Git
+```
+$ brew install git
+$ curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/completions/git.fish -o ~/.config/fish/completions/git.fish
+```
+
+> - [Fish補完 https://github.com/fish-shell/fish-shell/tree/master/share/completions](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
+
+### Curl from Apple Curl
+```
+$ brew install git
+$ echo 'set -g fish_user_paths "/usr/local/opt/curl/bin" $fish_user_paths' >> ~/.config/fish/config.fish
+```
+
+### Fisherman
 ```
 $ fish -v
 fish, version 3.0.2
@@ -39,6 +54,13 @@ fisher version 3.2.9 ~/.config/fish/functions/fisher.fish
 
 - peco
 - fzf
+
+### Fish Completion
+
+```
+$ curl https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/fish/docker.fish -o ~/.config/fish/completions/docker.fish
+$ curl https://raw.githubusercontent.com/docker/compose/master/contrib/completion/fish/docker-compose.fish -o ~/.config/fish/completions/docker-compose.fish
+```
 
 
 ### Homebrew Taps (third-party repositories)
