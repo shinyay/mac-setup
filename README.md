@@ -19,11 +19,6 @@ $ brew cask install iterm2
 $ bin/brew-initial-install.sh
 ```
 
-### Fish
-- fish
-  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
-  - `chsh -s /usr/local/bin/fish`
-
 ### Git from Apple Git
 ```
 $ brew install git
@@ -37,6 +32,11 @@ $ curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/comp
 $ brew install git
 $ echo 'set -g fish_user_paths "/usr/local/opt/curl/bin" $fish_user_paths' >> ~/.config/fish/config.fish
 ```
+
+### Fish
+- fish
+  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
+  - `chsh -s /usr/local/bin/fish`
 
 ### Fisherman
 ```
@@ -61,7 +61,8 @@ $ fisher GistのURL
 $ fisher ローカルのディレクトリ
 ```
 
-#### peco
+#### Fish Plugin
+##### peco
 
 ```
 $ brew install peco 
@@ -77,7 +78,7 @@ end
 
 > [fzf](https://github.com/junegunn/fzf)
 
-#### bass
+##### bass
 Bash Wrapper
 ```
 $ fisher add edc/bass
@@ -100,13 +101,33 @@ $ cd ..
 $ rm -rf fonts
 ```
 
-##### Iterm2 Preferences
-- Profiles -> Text -> Font
+#### Iterm2 Preferences
+- iTerm2 -> Preferences -> Profiles -> Text -> Font
   -  Source Code Pro for Powerline
 
-#### Tips
+- iTerm2 -> Preferences -> Profiles -> Window
+  - Style: **Fullscreen**
+  - Screen: **Screen with Cursor**
+  - Space: **All spaces**
+
+- iTerm2 -> Preferences -> Keys -> Hotkey
+  - **Show/hide all windows with a system-wide hotkey**
+
+- iTerm2 -> Preferences -> Profiles -> Colors
+  - Color Presets -> Import
+
+> - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+>   - Solarized Dark - Patched
+>   - [Dracula](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Dracula.itermcolors)
+
+- iTerm2 -> Preferences -> Appearance -> Tabs
+  - **Show tab bar even when there is only one tab**
+
+#### Fish Tips
 
 ```
+$ fish_config
+$ fish_update_completions
 $ dirh
 $ prevd
 ```
@@ -156,6 +177,8 @@ $ brew cask
 - iterm2
 
 - visual-studio-code
+- zoomus
+
 - java8
 - insomniax
 - google-chrome-canary
