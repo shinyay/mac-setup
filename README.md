@@ -139,6 +139,16 @@ $ curl https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/
 $ curl https://raw.githubusercontent.com/docker/compose/master/contrib/completion/fish/docker-compose.fish -o ~/.config/fish/completions/docker-compose.fish
 ```
 
+## Mac システム環境設定
+### スピーチ
+- アクセシビリティ -> スピーチ
+  - システムの声: Samantha
+  - キーを押したときに選択しているテキストを読み上げる
+
+
+---
+---
+---
 
 ### Homebrew Taps (third-party repositories)
 ```
@@ -182,7 +192,6 @@ $ brew cask
 - java8
 - insomniax
 - google-chrome-canary
-- intellij-idea
 - google-cloud-sdk
 - mysql-shell
 - docker-edge
