@@ -174,6 +174,72 @@ $ curl https://raw.githubusercontent.com/docker/compose/master/contrib/completio
   - システムの声: Samantha
   - キーを押したときに選択しているテキストを読み上げる
 
+## SDKMAN
+### Install
+```
+$ curl -s "https://get.sdkman.io" | bash
+```
+
+### Fish Configuration
+```
+$ fisher add reitzig/sdkman-for-fish
+```
+
+### Java
+```
+$ sdk list java
+
+================================================================================
+Available Java Versions
+================================================================================
+     13.ea.20-open       10.0.2-zulu         1.0.0-rc-15-grl
+     12.0.1-sapmchn      10.0.2-open         1.0.0-rc-14-grl
+     12.0.1-zulu         9.0.7-zulu
+     12.0.1-open         9.0.4-open
+     12.0.1.j9-adpt      8.0.212-zulu
+     12.0.1.hs-adpt      8.0.212-amzn
+     12.0.1-librca       8.0.212.j9-adpt
+     11.0.3-sapmchn      8.0.212.hs-adpt
+     11.0.3-zulu         8.0.212-librca
+     11.0.3-amzn         8.0.202-zulu
+     11.0.3.j9-adpt      8.0.202-amzn
+     11.0.3.hs-adpt      8.0.202-zulufx
+     11.0.3-librca       7.0.222-zulu
+     11.0.2-open         7.0.181-zulu
+     11.0.2-zulufx       1.0.0-rc-16-grl
+
+================================================================================
++ - local version
+* - installed
+> - currently in use
+================================================================================
+```
+
+```
+$ sdk install java
+
+Repackaging Java 11.0.3-zulu...
+
+Done repackaging...
+
+Installing: java 11.0.3-zulu
+Done installing!
+
+
+Setting java 11.0.3-zulu as default.
+
+$ java --version
+
+openjdk 11.0.3 2019-04-16 LTS
+OpenJDK Runtime Environment Zulu11.31+11-CA (build 11.0.3+7-LTS)
+OpenJDK 64-Bit Server VM Zulu11.31+11-CA (build 11.0.3+7-LTS, mixed mode)
+```
+
+### Gradle
+```
+$ sdk install gradle
+```
+
 
 ---
 ---
