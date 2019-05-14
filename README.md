@@ -52,6 +52,10 @@ git config --global color.status auto
 git config --global color.branch auto
 ```
 #### エイリアス
+##### git status
+```
+$ git config --global alias.st status
+```
 ##### git log
 `plog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso`
 `glog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=format:'%c' --all --graph`
