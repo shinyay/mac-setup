@@ -18,6 +18,20 @@ $ brew cask install iterm2
 ```
 $ bin/brew-initial-install.sh
 ```
+### Homebrew Taps (third-party repositories)
+```
+$ brew tap
+homebrew/cask
+homebrew/core
+homebrew/cask-versions
+pivotal/tap
+cloudfoundry/tap
+starkandwayne/cf
+```
+
+- [pivotal/tap](https://github.com/pivotal-legacy/homebrew-tap)
+- [cloudfoundry/tap](https://github.com/cloudfoundry/homebrew-tap)
+- [starkandwayne/cf](https://github.com/starkandwayne/homebrew-cf)
 
 ## Git from Apple Git
 ```
@@ -176,7 +190,8 @@ $ dirh
 $ prevd
 ```
 
-### Fish Completion
+#### Fish Completion
+> - [Fish補完 https://github.com/fish-shell/fish-shell/tree/master/share/completions](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
 
 ```
 $ curl https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/fish/docker.fish -o ~/.config/fish/completions/docker.fish
@@ -260,15 +275,7 @@ $ sdk install gradle
 ---
 ---
 
-### Homebrew Taps (third-party repositories)
-```
-$ brew tap
-homebrew/cask
-homebrew/core
-homebrew/cask-versions
-pivotal/tap
-cloudfoundry/tap
-```
+
 
 ### Homebrew Formulae
 - git
