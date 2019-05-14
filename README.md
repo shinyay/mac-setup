@@ -117,9 +117,9 @@ $ fisher ローカルのディレクトリ
 #### peco
 
 ```
-$ brew install peco 
-$ fisher add oh-my-fish/plugin-peco 
-$ vim ~/.config/fish/config.fish 
+$ brew install peco
+$ fisher add oh-my-fish/plugin-peco
+$ vim ~/.config/fish/config.fish
 
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
@@ -270,6 +270,9 @@ OpenJDK 64-Bit Server VM Zulu11.31+11-CA (build 11.0.3+7-LTS, mixed mode)
 $ sdk install gradle
 ```
 
+## Docker
+- [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+  - `$ brew cask install docker-edge`
 
 ---
 ---
@@ -356,10 +359,10 @@ $ brew tap pivotal/tap
 - fzf
 
 #### Plarform Acceleration Lab
-- 
+-
 
 ## Fisherman
-The fish-shell plugin manager. 
+The fish-shell plugin manager.
 [fisherman](https://github.com/fisherman/fisherman)
 
 ### Install
@@ -495,9 +498,7 @@ $ sdk selfupdate force
 - Kotlin
   - Kotlin version 1.2.51-release-125 (JRE 1.8.0_172-b11) (as of July-5-2018)
 
-## Docker
-- [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
-  - `$ brew cask install docker-edge`
+
 
 ## Google Cloud SDK
 - [macOS 用のクイックスタート](https://cloud.google.com/sdk/docs/quickstart-macos)
@@ -790,11 +791,11 @@ fi
 ##### JDKを登録
 
 ```
-$ jenv add $(/usr/libexec/java_home -v 1.8) 
+$ jenv add $(/usr/libexec/java_home -v 1.8)
 oracle64-1.8.0.152 added
 1.8.0.152 added
 1.8 added
-$ jenv add $(/usr/libexec/java_home -v 9) 
+$ jenv add $(/usr/libexec/java_home -v 9)
 oracle64-9.0.1 added
 9.0.1 added
 9.0 added
