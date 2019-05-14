@@ -19,7 +19,7 @@ $ brew cask install iterm2
 $ bin/brew-initial-install.sh
 ```
 
-### Git from Apple Git
+## Git from Apple Git
 ```
 $ brew install git
 $ curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/completions/git.fish -o ~/.config/fish/completions/git.fish
@@ -27,7 +27,7 @@ $ curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/comp
 
 > - [Fish補完 https://github.com/fish-shell/fish-shell/tree/master/share/completions](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
 
-#### Git 初期設定
+### Git 初期設定
 
 |項目|コマンド|
 |---|-------|
@@ -51,12 +51,12 @@ git config --global color.diff auto
 git config --global color.status auto
 git config --global color.branch auto
 ```
-#### エイリアス
-##### git status
+### エイリアス
+#### git status
 ```
 $ git config --global alias.st status
 ```
-##### git log
+#### git log
 ```
 $ vim ~/.gitconfig
 
@@ -64,32 +64,33 @@ plog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(c
 glog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=format:'%c' --all --graph
 ```
 
-### Curl from Apple Curl
+## Curl
+- Curl from Apple Curl
+
 ```
 $ brew install curl
 $ echo 'set -g fish_user_paths "/usr/local/opt/curl/bin" $fish_user_paths' >> ~/.config/fish/config.fish
 ```
 
-### Fish
-- fish
-  - `sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"`
-  - `chsh -s /usr/local/bin/fish`
-
-### Fisherman
+## Fish
 ```
+$ brew install fish
+$ sudo fish -c "echo '/usr/local/bin/fish' >> /etc/shells"
+$ chsh -s /usr/local/bin/fish
 $ fish -v
+
 fish, version 3.0.2
 ```
 
-- fisherman
-  - `curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish`
-
+## Fisherman
 ```
+$ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 $ fisher -v
+
 fisher version 3.2.9 ~/.config/fish/functions/fisher.fish
 ```
 
-#### Usecase
+### 使用方法
 ```
 $ fisher 公式プラグイン名
 $ fisher omf/oh-my-fishのプラグイン名
@@ -98,16 +99,14 @@ $ fisher GistのURL
 $ fisher ローカルのディレクトリ
 ```
 
-#### Fish Plugin
-##### peco
+### Fish Plugin
+#### peco
 
 ```
 $ brew install peco 
 $ fisher add oh-my-fish/plugin-peco 
 $ vim ~/.config/fish/config.fish 
-```
 
-```
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
 end
@@ -115,10 +114,18 @@ end
 
 > [fzf](https://github.com/junegunn/fzf)
 
-##### bass
+#### bass
 Bash Wrapper
 ```
 $ fisher add edc/bass
+```
+#### gitignore
+```
+$ fisher add sijad/gitignore
+```
+
+```
+$ gitignore java intellij
 ```
 
 #### Fish Theme
