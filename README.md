@@ -35,6 +35,7 @@ starkandwayne/cf
 
 ### Cask list
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
+- [Slack Beata](https://slack.com/intl/ja-jp/beta/mac?geocode=ja-jp)
 
 ## Git from Apple Git
 ```
