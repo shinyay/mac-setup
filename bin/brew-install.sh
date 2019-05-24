@@ -4,11 +4,9 @@
 apps=(
   git
   fish
-  wget
-  fzf
-  terraform
-  jenv
-  cf-cli
+  peco
+  curl
+  cloudfoundry/tap/cf-cli
 )
 
 brew install ${apps[@]}
@@ -17,5 +15,9 @@ brew install ${apps[@]}
 # cf-cli
 # $ brew tap cloudfoundry/tap
 
+#  wget
 #  pyenv
 #  pandoc
+#  jenv
+#  fzf
+#  terraform
