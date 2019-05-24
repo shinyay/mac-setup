@@ -37,6 +37,7 @@ starkandwayne/cf
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [Slack Beata](https://slack.com/intl/ja-jp/beta/mac?geocode=ja-jp)
 - [Google Cloud SDK](https://cloud.google.com/sdk)
+  - [クイックスタート](https://cloud.google.com/sdk/docs/quickstart-macos)
 
 ## Git from Apple Git
 ```
@@ -320,7 +321,6 @@ $ brew cask
 - google-cloud-sdk
 - mysql-shell
 - docker-edge
-- google-cloud-sdk
 - minikube
 - android-file-transfer
 - vlc
