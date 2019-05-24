@@ -36,6 +36,7 @@ starkandwayne/cf
 ### Cask list
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [Slack Beata](https://slack.com/intl/ja-jp/beta/mac?geocode=ja-jp)
+- [Google Cloud SDK](https://cloud.google.com/sdk)
 
 ## Git from Apple Git
 ```
