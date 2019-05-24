@@ -40,6 +40,7 @@ starkandwayne/cf
   - [クイックスタート](https://cloud.google.com/sdk/docs/quickstart-macos)
 
 ### Brew List
+- [cf-cli](https://github.com/cloudfoundry/cli#installing-using-a-package-manager)
 
 ## Git from Apple Git
 ```
