@@ -12,14 +12,14 @@ $ brew cask install google-japanese-ime
 ```
 
 <details><summary>Keyboard - Input Source</summary><div>
-<img width="780" alt="input-source" src="https://user-images.githubusercontent.com/3072734/91958684-a203bd80-ed42-11ea-9b19-1137e496e298.png">
+<img width="" alt="input-source" src="https://user-images.githubusercontent.com/3072734/91958684-a203bd80-ed42-11ea-9b19-1137e496e298.png">
 </div></details>
 
 ## Computer Name (Hostname)
 System Preference - Sharing
 
 <details><summary>Computer Name</summary><div>
-![computer-name](https://user-images.githubusercontent.com/3072734/91960809-50a8fd80-ed45-11ea-9838-cdbc78137565.png)
+<img width="" alt="input-source" src="https://user-images.githubusercontent.com/3072734/91960809-50a8fd80-ed45-11ea-9838-cdbc78137565.png">
 </div></details>
 
 
