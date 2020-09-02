@@ -1,4 +1,4 @@
-# MacBook
+# MacBook Pro (16-inch 2019)
 ---
 # Fish shell
 ## Install
