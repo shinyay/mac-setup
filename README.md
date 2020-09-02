@@ -11,6 +11,9 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 $ brew cask install google-japanese-ime
 ```
 
+![input-source](https://user-images.githubusercontent.com/3072734/91958684-a203bd80-ed42-11ea-9b19-1137e496e298.png)
+
+
 # Fish shell
 ## Install
 ```
