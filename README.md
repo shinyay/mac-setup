@@ -1,5 +1,11 @@
 # MacBook Pro (16-inch 2019)
 ---
+# 1. Initial Setup
+## Homebrew
+```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
 # Fish shell
 ## Install
 ```
