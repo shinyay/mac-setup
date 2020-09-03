@@ -241,3 +241,6 @@ $ sdk flush archives
 $ sdk flush temp
 ```
 
+## Docker
+- Download Docker installation image
+  - [Docker Desktop](https://www.docker.com/get-started)
