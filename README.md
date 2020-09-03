@@ -192,3 +192,6 @@ $ cat ~/.ssh/id_rsa.pub
   - Rows 25
   - Screen: Screen with Cursor
   - Space: All spaces
+
+- iTerm2 > Preferences > General > Window
+  - Native full screen windows: OFF
