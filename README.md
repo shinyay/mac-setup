@@ -195,3 +195,10 @@ $ cat ~/.ssh/id_rsa.pub
 
 - iTerm2 > Preferences > General > Window
   - Native full screen windows: OFF
+
+- iTerm2 -> Preferences -> Profiles -> Colors
+  - Color Presets -> Import
+    - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+      - Solarized Dark - Patched
+      - Dracula
+    - [iterm2-material-design](https://www.martinseeler.com/iterm2-material-design)
