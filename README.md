@@ -204,6 +204,12 @@ $ cat ~/.ssh/id_rsa.pub
     - [iterm2-material-design](https://www.martinseeler.com/iterm2-material-design)
       - `curl -O https://cdn.jsdelivr.net/gh/MartinSeeler/iterm2-material-design/material-design-colors.itermcolors`
 
+## MacOS System Preferences
+### Accessibility - Speech
+- System Preferences > Speech
+  - System Voice: Samantha
+  - Speak selected text when the key is pressed: ON
+
 # 2. Tools
 ## SDKMAN!
 ### Enable Beta Channel
