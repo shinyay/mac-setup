@@ -99,7 +99,7 @@ set -g theme_newline_prompt '$ '
 
 #### ITerm 2 Font configuration
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
-  - Source Code Pro for Powerline
+  - Meslo LG L DZ for Powerline
 
 ## Fish Plugin
 ### Peco
