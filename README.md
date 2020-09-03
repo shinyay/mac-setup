@@ -101,7 +101,8 @@ set -g theme_newline_prompt '$ '
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
   - Source Code Pro for Powerline
 
-### Fish Plugin - Peco
+## Fish Plugin
+### Peco
 By pushing ctrl + r, you can search shell history
 
 ```
@@ -112,6 +113,13 @@ $ vim ~/.config/fish/config.fish
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
 end
+```
+
+### z
+By z, it tracks the directory you have visited
+
+```
+$ fisher add jethrokuan/z
 ```
 
 ### SDKMAN! for fish
