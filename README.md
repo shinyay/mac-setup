@@ -202,3 +202,4 @@ $ cat ~/.ssh/id_rsa.pub
       - Solarized Dark - Patched
       - Dracula
     - [iterm2-material-design](https://www.martinseeler.com/iterm2-material-design)
+      - `curl -O https://cdn.jsdelivr.net/gh/MartinSeeler/iterm2-material-design/material-design-colors.itermcolors`
