@@ -97,6 +97,10 @@ set -g theme_newline_cursor yes
 set -g theme_newline_prompt '$ '
 ```
 
+#### ITerm 2 Font configuration
+- iTerm2 -> Preferences -> Profiles -> Text -> Font
+  - Source Code Pro for Powerline
+
 ### SDKMAN! for fish
 ```
 $ fisher add reitzig/sdkman-for-fish
