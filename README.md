@@ -244,3 +244,9 @@ $ sdk flush temp
 ## Docker
 - Download Docker installation image
   - [Docker Desktop](https://www.docker.com/get-started)
+
+
+## pack - Buildpack CLI
+```
+$ brew install buildpacks/tap/pack
+```
