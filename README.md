@@ -233,3 +233,11 @@ $ sdk install java 14.0.2.hs-adpt
 ```
 $ sdk install gradle 6.6.1
 ```
+
+### Flush
+```
+$ sdk flush broadcast
+$ sdk flush archives
+$ sdk flush temp
+```
+
