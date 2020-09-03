@@ -181,3 +181,14 @@ $ cat ~/.ssh/id_rsa.pub
 ```
 
 - [GitHub SSH Keys](https://github.com/settings/keys)
+
+## ITerm2
+### Iterm2 Preferences
+- iTerm2 -> Preferences -> Profiles -> Text -> Font
+  - Source Code Pro for Powerline
+
+- iTerm2 -> Preferences -> Profiles -> Window
+  - Columns: 120
+  - Rows 25
+  - Screen: Screen with Cursor
+  - Space: All spaces
