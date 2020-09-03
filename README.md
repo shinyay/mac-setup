@@ -40,6 +40,15 @@ $ fisher -v
 fisher version 3.3.2 ~/.config/fish/functions/fisher.fish
 ```
 
+### Fish Theme - bobthefish
+```
+$ fisher add oh-my-fish/theme-bobthefish
+
+$ git clone https://github.com/powerline/fonts.git
+$ ./fonts/install.sh
+$ rm -rf ./fonts
+```
+
 ### SDKMAN! for fish
 ```
 $ fisher add reitzig/sdkman-for-fish
