@@ -178,7 +178,7 @@ $ git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd
 ```
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 $ cat ~/.ssh/id_rsa.pub
-```- 
+```
 
 - [GitHub SSH Keys](https://github.com/settings/keys)
 
