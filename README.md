@@ -203,3 +203,10 @@ $ cat ~/.ssh/id_rsa.pub
       - Dracula
     - [iterm2-material-design](https://www.martinseeler.com/iterm2-material-design)
       - `curl -O https://cdn.jsdelivr.net/gh/MartinSeeler/iterm2-material-design/material-design-colors.itermcolors`
+
+# 2. Tools
+## SDKMAN!
+### Enable Beta Channel
+```
+$ sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc/config
+```
