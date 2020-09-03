@@ -162,3 +162,8 @@ $ git config --global color.status auto
 $ git config --global color.branch auto
 ```
 
+### Git Alias
+#### git status
+```
+$ git config --global alias.st status
+```
