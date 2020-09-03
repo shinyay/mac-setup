@@ -23,16 +23,15 @@ System Preference - Sharing
 </div></details>
 
 
-# Fish shell
-## Install
+## Fish shell
+### Fisher Install
 ```
-$ curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+$ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 ```
 
 ```
-$ fishr -v
-
-fisher version 3.2.10 ~/.config/fish/functions/fisher.fish
+$ fisher -v
+fisher version 3.3.2 ~/.config/fish/functions/fisher.fish
 ```
 
 ### SDKMAN! for fish
