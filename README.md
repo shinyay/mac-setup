@@ -178,7 +178,7 @@ $ git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd
 ```
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 $ cat ~/.ssh/id_rsa.pub
-```
+```- 
 
 - [GitHub SSH Keys](https://github.com/settings/keys)
 
@@ -209,4 +209,14 @@ $ cat ~/.ssh/id_rsa.pub
 ### Enable Beta Channel
 ```
 $ sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc/config
+```
+
+### Java
+- AdoptOpenJDK
+  - 11.0.8.hs
+  - 14.0.2.hs
+
+```
+$ sdk install java 11.0.8.hs-adpt
+$ sdk install java 14.0.2.hs-adpt
 ```
