@@ -148,5 +148,17 @@ You don't seem to have SDKMAN! installed. Install now? [y/N] y
 $ curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/completions/git.fish > ~/.config/fish/completions/git.fish
 ```
 
-
+## Git
+### Git Global Configuration
+```
+$ git config --global user.name "shinyay"
+$ git config --global user.email ""
+$ git config --global core.quotepath false
+$ git config --global core.safecrlf true
+$ git config --global core.autocrlf false
+$ git config --global core.editor 'vim -c "set fenc=utf-8"'
+$ git config --global color.diff auto
+$ git config --global color.status auto
+$ git config --global color.branch auto
+```
 
