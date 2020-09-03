@@ -220,3 +220,10 @@ $ sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc
 $ sdk install java 11.0.8.hs-adpt
 $ sdk install java 14.0.2.hs-adpt
 ```
+
+### Gradle
+- 6.6.1
+
+```
+$ sdk install gradle 6.6.1
+```
