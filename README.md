@@ -138,3 +138,15 @@ $ fisher add reitzig/sdkman-for-fish@v1.4.0
 $ sdk
 You don't seem to have SDKMAN! installed. Install now? [y/N] y
 ```
+
+## Fish Completion
+- [completion list](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
+  - Git
+
+```
+# Git
+$ curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/completions/git.fish > ~/.config/fish/completions/git.fish
+```
+
+
+
