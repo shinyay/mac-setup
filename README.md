@@ -101,6 +101,19 @@ set -g theme_newline_prompt '$ '
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
   - Source Code Pro for Powerline
 
+### Fish Plugin - Peco
+By pushing ctrl + r, you can search shell history
+
+```
+$ brew install peco
+$ fisher add oh-my-fish/plugin-peco
+$ vim ~/.config/fish/config.fish
+
+function fish_user_key_bindings
+  bind \cr 'peco_select_history (commandline -b)'
+end
+```
+
 ### SDKMAN! for fish
 ```
 $ fisher add reitzig/sdkman-for-fish
