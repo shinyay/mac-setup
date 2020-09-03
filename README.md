@@ -131,5 +131,8 @@ $ fisher add 0rax/fish-bd
 
 ### SDKMAN! for fish
 ```
-$ fisher add reitzig/sdkman-for-fish
+$ fisher add reitzig/sdkman-for-fish@v1.4.0
+
+$ sdk
+You don't seem to have SDKMAN! installed. Install now? [y/N] y
 ```
