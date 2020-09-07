@@ -257,9 +257,15 @@ A tool for exploring a docker image, layer contents, and discovering ways to shr
 - For Mac
 ```
 $ brew install dive
+
+$ dive <CONTAINER_IMAGE:TAG>
 ```
 
 - For Docker
 ```
 $ docker pull wagoodman/dive
+
+$ docker run --rm -it \
+      -v /var/run/docker.sock:/var/run/docker.sock \
+      wagoodman/dive:latest <CONTAINER_IMAGE:TAG>
 ```
