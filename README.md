@@ -250,3 +250,16 @@ $ sdk flush temp
 ```
 $ brew install buildpacks/tap/pack
 ```
+
+## Dive
+A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.
+
+- For Mac
+```
+$ brew install dive
+```
+
+- For Docker
+```
+$ docker pull wagoodman/dive
+```
