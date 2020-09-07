@@ -269,3 +269,10 @@ $ docker run --rm -it \
       -v /var/run/docker.sock:/var/run/docker.sock \
       wagoodman/dive:latest <CONTAINER_IMAGE:TAG>
 ```
+
+## emc - Enhanced JVM Meomry Calculator
+
+```
+$ curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0.2_darwin_amd64 -o /usr/local/bin/emc
+$ chmod +x /usr/local/bin/emc
+```
