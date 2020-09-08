@@ -203,6 +203,12 @@ $ cat ~/.ssh/id_rsa.pub
       - Dracula
     - [iterm2-material-design](https://www.martinseeler.com/iterm2-material-design)
       - `curl -O https://cdn.jsdelivr.net/gh/MartinSeeler/iterm2-material-design/material-design-colors.itermcolors`
+### Shell Integration
+- [Shell Integration](https://iterm2.com/documentation-shell-integration.html)
+```
+$ curl -L https://iterm2.com/shell_integration/fish -o ~/.iterm2_shell_integration.fish
+$ source ~/.iterm2_shell_integration.(basename $SHELL)
+```
 
 ## MacOS System Preferences
 ### Accessibility - Speech
