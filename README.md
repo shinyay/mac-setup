@@ -217,6 +217,15 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
   - Speak selected text when the key is pressed: ON
 
 # 2. Tools
+## VS Code
+### Shell Integration
+- `Command + Shift + P`
+  - `Shell`
+
+<details><summary>Shell Command: Install</summary><div>
+<img width="" alt="vscode" src="https://user-images.githubusercontent.com/3072734/92596916-86b82580-f2e1-11ea-95d4-1f7f089246aa.png">
+</div></details>
+
 ## SDKMAN!
 ### Enable Beta Channel
 ```
