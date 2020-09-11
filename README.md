@@ -220,6 +220,11 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Swipe between full-screen apps: `4 fingers`
 - Mission Control: `4 fingers`
 
+### Dock
+- Size: `Small`
+- Magnification: `ON`
+- Show recent application in Dock
+
 ### Accessibility - Speech
 - System Preferences > Speech
   - System Voice: Samantha
