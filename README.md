@@ -233,6 +233,11 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
   - System Voice: Samantha
   - Speak selected text when the key is pressed: `ON`
 
+## Finder
+### View
+- Show Path Bar
+- Show Status Bar
+
 # 2. Tools
 ## VS Code
 ### Shell Integration
