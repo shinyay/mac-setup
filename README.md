@@ -211,6 +211,9 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 ```
 
 ## MacOS System Preferences
+### General
+- Sidebar icon size: `Small`
+
 ### Trackpad
 #### Point & Click
 - Tap to click: `ON`
