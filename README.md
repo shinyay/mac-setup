@@ -211,10 +211,15 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 ```
 
 ## MacOS System Preferences
+### Trackpad
+#### Point & Click
+- Tap to click: `ON`
+- Tracking speed: `Fast`
+
 ### Accessibility - Speech
 - System Preferences > Speech
   - System Voice: Samantha
-  - Speak selected text when the key is pressed: ON
+  - Speak selected text when the key is pressed: `ON`
 
 # 2. Tools
 ## VS Code
