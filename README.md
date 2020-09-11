@@ -216,6 +216,10 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Tap to click: `ON`
 - Tracking speed: `Fast`
 
+#### More Gestuers
+- Swipe between full-screen apps: `4 fingers`
+- Mission Control: `4 fingers`
+
 ### Accessibility - Speech
 - System Preferences > Speech
   - System Voice: Samantha
