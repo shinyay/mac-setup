@@ -322,6 +322,7 @@ $ chmod +x /usr/local/bin/emc
 ## MySQL Client
 ```shell script
 $ brew install mysql-client
+$ echo 'set -g fish_user_paths "/usr/local/opt/mysql-client/bin" $fish_user_paths' >> ~/.config/fish/config.fish
 ```
 
 ### Google Cloud SQL Proxy
