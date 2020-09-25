@@ -372,6 +372,11 @@ To update your SDK installation to the latest version [311.0.0], run:
   $ gcloud components update
 ```
 
+### Google Cloud SQL Proxy
+```shell script
+$ sudo gcloud components install cloud_sql_proxy
+```
+
 ## MySQL Client
 ```shell script
 $ brew install mysql-client
@@ -380,9 +385,4 @@ $ echo 'set -gx LDFLAGS "-L/usr/local/opt/mysql-client/lib"' >> ~/.config/fish/c
 $ echo 'set -gx CPPFLAGS "-I/usr/local/opt/mysql-client/include"' >> ~/.config/fish/config.fish
 ```
 
-### Google Cloud SQL Proxy
-```shell script
-$ curl -o cloud_sql_proxy https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.amd64
-$ chmod +x cloud_sql_proxy
-$ sudo mv cloud_sql_proxy /usr/local/bin
-```
+
