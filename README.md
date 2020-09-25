@@ -323,3 +323,10 @@ $ chmod +x /usr/local/bin/emc
 ```shell script
 $ brew install mysql-client
 ```
+
+### Google Cloud SQL Proxy
+```shell script
+$ curl -o cloud_sql_proxy https://dl.google.com/cloudsql/cloud_sql_proxy.darwin.amd64
+$ chmod +x cloud_sql_proxy
+$ sudo mv cloud_sql_proxy /usr/local/bin
+```
