@@ -318,3 +318,8 @@ $ docker run --rm -it \
 $ curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0.2_darwin_amd64 -o /usr/local/bin/emc
 $ chmod +x /usr/local/bin/emc
 ```
+
+## MySQL Client
+```shell script
+$ brew install mysql-client
+```
