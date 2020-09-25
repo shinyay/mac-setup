@@ -323,9 +323,12 @@ $ chmod +x /usr/local/bin/emc
 ```shell script
 $ brew cask install google-cloud-sdk
 ```
+```
+$ gcloud components list
 
-<details><summary>$ gcloud components list</summary><div>
-<code>
+Your current Cloud SDK version is: 308.0.0
+The latest available version is: 311.0.0
+
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │                                                   Components                                                  │
 ├──────────────────┬──────────────────────────────────────────────────────┬──────────────────────────┬──────────┤
@@ -367,10 +370,6 @@ To install or remove components at your current SDK version [308.0.0], run:
 
 To update your SDK installation to the latest version [311.0.0], run:
   $ gcloud components update
-</code>
-</div></details>
-```
-$ gcloud components list
 ```
 
 ## MySQL Client
