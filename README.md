@@ -324,7 +324,7 @@ $ chmod +x /usr/local/bin/emc
 $ brew cask install google-cloud-sdk
 ```
 
-<details><summary>$ gcloud components list/summary><div>
+<details><summary>$ gcloud components list</summary><div>
 <code>
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │                                                   Components                                                  │
