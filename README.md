@@ -323,6 +323,8 @@ $ chmod +x /usr/local/bin/emc
 ```shell script
 $ brew install mysql-client
 $ echo 'set -g fish_user_paths "/usr/local/opt/mysql-client/bin" $fish_user_paths' >> ~/.config/fish/config.fish
+$ echo 'set -gx LDFLAGS "-L/usr/local/opt/mysql-client/lib"' >> ~/.config/fish/config.fish
+$ echo 'set -gx CPPFLAGS "-I/usr/local/opt/mysql-client/include"' >> ~/.config/fish/config.fish
 ```
 
 ### Google Cloud SQL Proxy
