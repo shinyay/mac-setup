@@ -385,4 +385,9 @@ $ echo 'set -gx LDFLAGS "-L/usr/local/opt/mysql-client/lib"' >> ~/.config/fish/c
 $ echo 'set -gx CPPFLAGS "-I/usr/local/opt/mysql-client/include"' >> ~/.config/fish/config.fish
 ```
 
+## watch command
+```shell script
+$ brew install watch
+```
+
 
