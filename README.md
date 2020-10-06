@@ -287,6 +287,11 @@ $ sdk flush temp
 - Download Docker installation image
   - [Docker Desktop](https://www.docker.com/get-started)
 
+### Resources configuration
+- Memmory
+  - Default: 2GB to 12 GB (at least 6 GB)
+  - Default size causes out-of-memory error to build GrateVM Native image with Spring Build Native Image (Buildpacks)
+
 <details><summary>Memory Allocation</summary><div>
 <img width="" alt="memory-12g" src="https://user-images.githubusercontent.com/3072734/95179863-2d69e600-07fc-11eb-8892-46b5d4ce7ab5.png">
 </div></details>
