@@ -287,6 +287,10 @@ $ sdk flush temp
 - Download Docker installation image
   - [Docker Desktop](https://www.docker.com/get-started)
 
+<details><summary>Memory Allocation</summary><div>
+<img width="" alt="memory-12g" src="https://user-images.githubusercontent.com/3072734/95179863-2d69e600-07fc-11eb-8892-46b5d4ce7ab5.png">
+</div></details>
+
 
 ## pack - Buildpack CLI
 ```
