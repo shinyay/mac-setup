@@ -276,6 +276,12 @@ $ sdk install java 14.0.2.hs-adpt
 $ sdk install gradle 6.6.1
 ```
 
+### Maven
+
+```
+$ sdk install maven 3.6.3
+```
+
 ### Flush
 ```
 $ sdk flush broadcast
