@@ -411,3 +411,9 @@ $ echo 'set -g fish_user_paths "/usr/local/opt/ncurses/bin" $fish_user_paths' >>
 $ echo 'set -gx LDFLAGS "-L/usr/local/opt/ncurses/lib"' >> ~/.config/fish/config.fish
 $ echo 'set -gx CPPFLAGS "-I/usr/local/opt/ncurses/include"' >> ~/.config/fish/config.fish
 ```
+
+## asciinema
+### Installation
+```
+$ brew install asciinema
+```
