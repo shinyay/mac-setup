@@ -430,3 +430,7 @@ $ asciinema play demo.cast
 
 ### asciicast2gif
 This cli converts asciinema movie to GIF animation
+
+```
+$ docker run --rm -v $PWD:/data asciinema/asciicast2gif demo.cast demo.gif
+```
