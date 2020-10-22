@@ -417,3 +417,8 @@ $ echo 'set -gx CPPFLAGS "-I/usr/local/opt/ncurses/include"' >> ~/.config/fish/c
 ```
 $ brew install asciinema
 ```
+
+### Recording
+```
+$ asciinema rec demo.cast
+```
