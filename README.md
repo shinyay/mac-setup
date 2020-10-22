@@ -427,3 +427,6 @@ $ asciinema rec demo.cast
 ```
 $ asciinema play demo.cast
 ```
+
+### asciicast2gif
+This cli converts asciinema movie to GIF animation
