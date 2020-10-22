@@ -434,3 +434,12 @@ This cli converts asciinema movie to GIF animation
 ```
 $ docker run --rm -v $PWD:/data asciinema/asciicast2gif demo.cast demo.gif
 ```
+
+#### asciicast2gif options
+```
+-t <theme>        color theme, one of: asciinema, tango, solarized-dark, solarized-light, monokai (default: asciinema)
+-s <speed>        animation speed (default: 1)
+-S <scale>        image scale / pixel density (default: 2)
+-w <columns>      clip terminal to specified number of columns (width)
+-h <rows>         clip terminal to specified number of rows (height)
+```
