@@ -422,3 +422,8 @@ $ brew install asciinema
 ```
 $ asciinema rec demo.cast
 ```
+
+### Playing
+```
+$ asciinema play demo.cast
+```
