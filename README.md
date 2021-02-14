@@ -329,6 +329,16 @@ $ sdk flush archives
 $ sdk flush temp
 ```
 
+## npm
+### Vue
+```
+$ npm install vue@next
+
+$ npm ls
+mac-setup@ /Users/shinyay/works/tools/mac-setup
+└── vue@3.0.5
+```
+
 ## Docker
 - Download Docker installation image
   - [Docker Desktop](https://www.docker.com/get-started)
