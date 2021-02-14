@@ -124,7 +124,7 @@ end
 By z, it tracks the directory you have visited
 
 ```
-$ fisher add jethrokuan/z
+$ fisher install jethrokuan/z
 ```
 
 ### fish-bd
