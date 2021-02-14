@@ -174,6 +174,11 @@ $ nvm install latest
 $ nvm current
 ```
 
+#### Upgrade npm
+```
+$ npm install -g npm@7.5.4
+```
+
 ## Fish Completion
 - [completion list](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
   - Git
