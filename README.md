@@ -131,7 +131,7 @@ $ fisher install jethrokuan/z
 By bd, you can quickly go back to a parent directory in your current working directory tree
 
 ```
-$ fisher add 0rax/fish-bd
+$ fisher install 0rax/fish-bd
 ```
 
 ### SDKMAN! for fish
