@@ -153,6 +153,11 @@ Designed for Fish, this tool helps you manage multiple active versions of Node o
 $ fisher install jorgebucaran/nvm.fish
 ```
 
+```
+$ nvm -v
+nvm, version 2.0.1
+```
+
 ## Fish Completion
 - [completion list](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
   - Git
