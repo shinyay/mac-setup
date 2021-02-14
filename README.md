@@ -127,6 +127,8 @@ end
 ### z
 By z, it tracks the directory you have visited
 
+- [jethrokuan/z](https://github.com/jethrokuan/z)
+
 ```
 $ fisher install jethrokuan/z
 ```
