@@ -112,7 +112,7 @@ By pushing ctrl + r, you can search shell history
 
 ```
 $ brew install peco
-$ fisher add oh-my-fish/plugin-peco
+$ fisher install oh-my-fish/plugin-peco
 $ vim ~/.config/fish/config.fish
 
 function fish_user_key_bindings
