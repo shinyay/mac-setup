@@ -46,6 +46,8 @@ fisher version 3.3.2 ~/.config/fish/functions/fisher.fish
 ```
 
 ### Fish Theme - bobthefish
+- [oh-my-fish/theme-bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
+
 ```
 $ fisher install oh-my-fish/theme-bobthefish
 
