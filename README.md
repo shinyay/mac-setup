@@ -112,6 +112,8 @@ set -g theme_newline_prompt '$ '
 ### Peco
 By pushing ctrl + r, you can search shell history
 
+- [oh-my-fish/plugin-peco](https://github.com/oh-my-fish/plugin-peco)
+
 ```
 $ brew install peco
 $ fisher install oh-my-fish/plugin-peco
