@@ -144,6 +144,15 @@ $ sdk
 You don't seem to have SDKMAN! installed. Install now? [y/N] y
 ```
 
+### nvm.fish
+Designed for Fish, this tool helps you manage multiple active versions of Node on a single local environment.
+
+- [jorgebucaran/nvm.fish](https://github.com/jorgebucaran/nvm.fish)
+
+```
+$ fisher install jorgebucaran/nvm.fish
+```
+
 ## Fish Completion
 - [completion list](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
   - Git
