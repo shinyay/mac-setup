@@ -47,7 +47,7 @@ fisher version 3.3.2 ~/.config/fish/functions/fisher.fish
 
 ### Fish Theme - bobthefish
 ```
-fisher install oh-my-fish/theme-bobthefish
+$ fisher install oh-my-fish/theme-bobthefish
 
 $ git clone https://github.com/powerline/fonts.git
 $ ./fonts/install.sh
