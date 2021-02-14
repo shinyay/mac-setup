@@ -168,6 +168,12 @@ $ nvm -v
 nvm, version 2.0.1
 ```
 
+#### Install Node
+```
+$ nvm install latest
+$ nvm current
+```
+
 ## Fish Completion
 - [completion list](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
   - Git
