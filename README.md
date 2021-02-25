@@ -299,7 +299,9 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Auto Close Tag
 - Bracket Pair Colorizer 2
 - Indent Rainbow
-- Beautify
+- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+
 
 
 ## SDKMAN!
