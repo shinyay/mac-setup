@@ -293,6 +293,9 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 <img width="" alt="vscode" src="https://user-images.githubusercontent.com/3072734/92596916-86b82580-f2e1-11ea-95d4-1f7f089246aa.png">
 </div></details>
 
+### Extensions
+- Material Icon Theme
+
 ## SDKMAN!
 ### Enable Beta Channel
 ```
