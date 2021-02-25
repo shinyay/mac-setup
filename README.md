@@ -295,6 +295,8 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ### Extensions
 - Material Icon Theme
+- Auto Rename Tag
+- Auto Close Tag
 
 ## SDKMAN!
 ### Enable Beta Channel
