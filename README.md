@@ -350,6 +350,11 @@ mac-setup@ /Users/shinyay/works/tools/mac-setup
 └── vue@3.0.5
 ```
 
+Vue CLI
+```
+$ npm install -g @vue/cli
+```
+
 #### Vue Devtools
 - [vuejs/vue-devtools](https://github.com/vuejs/vue-devtools)
 
