@@ -341,6 +341,9 @@ $ sdk flush temp
 ```
 
 ## npm
+- [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
+  - `npm install -g npm-check-updates`
+
 ### Vue
 ```
 $ npm install vue@next
