@@ -484,6 +484,14 @@ $ echo 'set -gx LDFLAGS "-L/usr/local/opt/ncurses/lib"' >> ~/.config/fish/config
 $ echo 'set -gx CPPFLAGS "-I/usr/local/opt/ncurses/include"' >> ~/.config/fish/config.fish
 ```
 
+## envsubst command
+```
+$ brew install gettext
+
+$ which envsubst
+/usr/local/bin/envsubst
+```
+
 ## asciinema
 ### Installation
 ```
