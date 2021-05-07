@@ -464,6 +464,19 @@ To update your SDK installation to the latest version [311.0.0], run:
 $ sudo gcloud components install cloud_sql_proxy
 ```
 
+### KPT
+-[GoogleContainerTools/kpt](https://github.com/GoogleContainerTools/kpt)
+
+```
+$ gcloud components install kpt
+```
+or
+```
+$ brew tap GoogleContainerTools/kpt https://github.com/GoogleContainerTools/kpt.git
+$ brew install kpt
+```
+
+
 ## MySQL Client
 ```shell script
 $ brew install mysql-client
