@@ -181,11 +181,16 @@ $ npm install -g npm@7.5.4
 
 ## Fish Completion
 - [completion list](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
-  - Git
+  - git
+
+- [kubectl](https://github.com/evanlucas/fish-kubectl-completions)
 
 ```
-# Git
+# git
 $ curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/completions/git.fish > ~/.config/fish/completions/git.fish
+
+# kubectl
+$ curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/master/completions/kubectl.fish > ~/.config/fish/completions/kubectl.fish
 ```
 
 ## Git
