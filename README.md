@@ -322,8 +322,7 @@ $ sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc
   - 11.0.8.hs
 
 ```
-$ sdk install java 11.0.8.hs-adpt
-$ sdk install java 14.0.2.hs-adpt
+$ sdk install java
 ```
 
 ### Gradle
@@ -549,4 +548,9 @@ $ docker run --rm -v $PWD:/data asciinema/asciicast2gif demo.cast demo.gif
 -S <scale>        image scale / pixel density (default: 2)
 -w <columns>      clip terminal to specified number of columns (width)
 -h <rows>         clip terminal to specified number of rows (height)
+```
+
+## ki - Kotlin Language Interactive Shell
+```
+$ brew install ki
 ```
