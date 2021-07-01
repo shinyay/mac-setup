@@ -317,8 +317,9 @@ $ sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc
 
 ### Java
 - AdoptOpenJDK
-  - 11.0.8.hs
+  - 16.0.1.hs
   - 14.0.2.hs
+  - 11.0.8.hs
 
 ```
 $ sdk install java 11.0.8.hs-adpt
@@ -326,16 +327,19 @@ $ sdk install java 14.0.2.hs-adpt
 ```
 
 ### Gradle
+- 7.1
 - 6.6.1
 
 ```
-$ sdk install gradle 6.6.1
+$ sdk install gradle
 ```
 
 ### Maven
+- 3.8.1
+- 3.6.3
 
 ```
-$ sdk install maven 3.6.3
+$ sdk install maven
 ```
 
 ### Flush
