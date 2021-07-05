@@ -564,3 +564,9 @@ The following was installed at /usr/local/share/dotnet
 	•	.NET Runtime 5.0.7
 	•	ASP.NET Core Runtime 5.0.7
 ```
+
+```
+$ which dotnet
+
+/usr/local/share/dotnet/dotnet
+```
