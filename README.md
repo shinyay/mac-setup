@@ -554,3 +554,13 @@ $ docker run --rm -v $PWD:/data asciinema/asciicast2gif demo.cast demo.gif
 ```
 $ brew install ki
 ```
+
+## .NET 5
+- [Download .NET](https://dotnet.microsoft.com/download/dotnet)
+  - .NET 5.0 SDK (v5.0.301) - macOS x64 Installer
+```
+The following was installed at /usr/local/share/dotnet 
+	•	.NET SDK 5.0.301
+	•	.NET Runtime 5.0.7
+	•	ASP.NET Core Runtime 5.0.7
+```
