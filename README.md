@@ -570,3 +570,8 @@ $ which dotnet
 
 /usr/local/share/dotnet/dotnet
 ```
+
+## Zoom
+```
+$ brew install zoom
+```
