@@ -13,7 +13,7 @@ $ sudo chmod -R g+w /usr/local/*
 
 ## Google IME
 ```
-$ brew cask install google-japanese-ime
+$ brew install google-japanese-ime --cask
 ```
 
 <details><summary>Keyboard - Input Source</summary><div>
