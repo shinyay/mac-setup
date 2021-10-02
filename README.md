@@ -11,9 +11,15 @@ $ sudo chown -R $(whoami):admin /usr/local/*
 $ sudo chmod -R g+w /usr/local/*
 ```
 
+## SSH Key for GitHub
+### ssh-keygen
+```
+$ ssh-keygen -t ed25519 -C 'mail address for github'
+```
+
 ## Google IME
 ```
-$ brew cask install google-japanese-ime
+$ brew install google-japanese-ime --cask
 ```
 
 <details><summary>Keyboard - Input Source</summary><div>
