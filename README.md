@@ -22,7 +22,10 @@ Add a public key on the following site:
 
 - [https://github.com/settings/keys](https://github.com/settings/keys)
 
-
+## iTerm2
+```
+$ brew install iterm2 --cask
+```
 
 ## Google IME
 ```
