@@ -17,6 +17,13 @@ $ sudo chmod -R g+w /usr/local/*
 $ ssh-keygen -t ed25519 -C 'mail address for github'
 ```
 
+### SSH Keys on GitHub
+Add a public key on the following site:
+
+- [https://github.com/settings/keys](https://github.com/settings/keys)
+
+
+
 ## Google IME
 ```
 $ brew install google-japanese-ime --cask
