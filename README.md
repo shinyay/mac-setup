@@ -294,6 +294,7 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 #### More Gestuers
 - Swipe between full-screen apps: `4 fingers`
 - Mission Control: `4 fingers`
+- App Expose: `4 fingers`
 
 ### Dock
 - Size: `Small`
