@@ -22,14 +22,20 @@ Add a public key on the following site:
 
 - [https://github.com/settings/keys](https://github.com/settings/keys)
 
-## iTerm2
+## Initial App by Homebrew
+### iTerm2
 ```
 $ brew install iterm2 --cask
 ```
 
-## Google IME
+### Google IME
 ```
 $ brew install google-japanese-ime --cask
+```
+
+### VS Code
+```
+$ brew install visual-studio-code --cask
 ```
 
 <details><summary>Keyboard - Input Source</summary><div>
