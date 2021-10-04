@@ -298,6 +298,7 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ### Mouse
 - Secondary Click: `Click in right`
+- Smart zoom: `ON`
 
 ### Dock
 - Size: `Small`
