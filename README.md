@@ -297,8 +297,12 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 - App Expose: `4 fingers`
 
 ### Mouse
+#### Point & Click
 - Secondary Click: `Click in right`
 - Smart zoom: `ON`
+
+#### More Gestuers
+- Swipe between pages: `1 finger`
 
 ### Dock
 - Size: `Small`
