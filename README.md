@@ -296,6 +296,9 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Mission Control: `4 fingers`
 - App Expose: `4 fingers`
 
+### Mouse
+- Secondary Click: `Click in right`
+
 ### Dock
 - Size: `Small`
 - Magnification: `ON`
