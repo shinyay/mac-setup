@@ -57,6 +57,15 @@ $ brew install fish
 $ echo /usr/local/bin/fish | sudo tee -a /etc/shells
 $ chsh -s /usr/local/bin/fish
 ```
+
+Restart terminal
+
+Confirm Shell
+```
+> echo $SHELL
+/usr/local/bin/fish
+```
+
 ### Fisherman Install
 ```
 $ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
