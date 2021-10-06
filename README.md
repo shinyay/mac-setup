@@ -2,7 +2,7 @@
 ---
 # 1. Initial Setup
 ## Homebrew
-- [x] Installatopm
+- [x] Installation
 
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -30,21 +30,21 @@ $ ssh-keygen -t ed25519 -C 'mail address for github'
 
 ## Initial App by Homebrew
 ### iTerm2
-- [x] Installatopm
+- [x] Installation
 
 ```
 $ brew install iterm2 --cask
 ```
 
 ### Google IME
-- [x] Installatopm
+- [x] Installation
 
 ```
 $ brew install google-japanese-ime --cask
 ```
 
 ### VS Code
-- [x] Installatopm
+- [x] Installation
 
 ```
 $ brew install visual-studio-code --cask
@@ -64,7 +64,7 @@ System Preference - Sharing
 
 ## Fish shell
 ### Fish Install
-- [x] Installatopm
+- [x] Installation
 
 ```
 $ brew install fish
@@ -81,13 +81,18 @@ Confirm Shell
 ```
 
 ### Fisherman Install
+- [x] Installation
+
 ```
-$ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+$ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+
+Installing jorgebucaran/fisher
+           ~/.config/fish/functions/fisher.fish
 ```
 
 ```
 $ fisher -v
-fisher version 3.3.2 ~/.config/fish/functions/fisher.fish
+fisher, version 4.3.0
 ```
 
 ### Fish Theme - bobthefish
