@@ -2,7 +2,7 @@
 ---
 # 1. Initial Setup
 ## Homebrew
-- [x] Install Homebrew
+- [x] Installatopm
 
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -17,27 +17,35 @@ $ sudo chmod -R g+w /usr/local/*
 
 ## SSH Key for GitHub
 ### ssh-keygen
+- [x] Generate SSH Key pair
+
 ```
 $ ssh-keygen -t ed25519 -C 'mail address for github'
 ```
 
 ### SSH Keys on GitHub
-Add a public key on the following site:
+- [x] Add a public key on the following site:
 
 - [https://github.com/settings/keys](https://github.com/settings/keys)
 
 ## Initial App by Homebrew
 ### iTerm2
+- [x] Installatopm
+
 ```
 $ brew install iterm2 --cask
 ```
 
 ### Google IME
+- [x] Installatopm
+
 ```
 $ brew install google-japanese-ime --cask
 ```
 
 ### VS Code
+- [x] Installatopm
+
 ```
 $ brew install visual-studio-code --cask
 ```
@@ -56,6 +64,8 @@ System Preference - Sharing
 
 ## Fish shell
 ### Fish Install
+- [x] Installatopm
+
 ```
 $ brew install fish
 $ echo /usr/local/bin/fish | sudo tee -a /etc/shells
