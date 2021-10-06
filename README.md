@@ -62,7 +62,7 @@ System Preference - Sharing
 </div></details>
 
 
-## Fish shell
+## Fish
 ### Fish Install
 - [x] Installation
 
@@ -80,7 +80,9 @@ Confirm Shell
 /usr/local/bin/fish
 ```
 
-### Fisherman Install
+### Fisher
+A plugin manager for Fish (https://nicedoc.io/jorgebucaran/fisher)
+
 - [x] Installation
 
 ```
