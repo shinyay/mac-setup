@@ -2,13 +2,14 @@
 ---
 # 1. Initial Setup
 ## Homebrew
-<input type="checkbox" disabled checked />
+- [x]
+
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 ### Authority for Homebrew
 
-- [ ] If you need it
+- [ ] (If you need it)
 ```
 $ sudo chown -R $(whoami):admin /usr/local/*
 $ sudo chmod -R g+w /usr/local/*
