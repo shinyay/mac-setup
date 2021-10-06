@@ -98,6 +98,8 @@ fisher, version 4.3.0
 ```
 
 ### Fish Theme - bobthefish
+- [x] Installation
+
 - [oh-my-fish/theme-bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
 
 ```
@@ -109,6 +111,8 @@ $ rm -rf ./fonts
 ```
 
 #### bobthefish Configuration
+- [x] Configuration
+
 ```
 $ vim ~/.config/fish/config.fish
 
@@ -157,6 +161,8 @@ set -g theme_newline_prompt '$ '
 ```
 
 #### ITerm 2 Font configuration
+- [x] Configuration
+
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
   - Meslo LG L DZ for Powerline
 
