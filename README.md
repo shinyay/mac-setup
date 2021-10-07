@@ -211,7 +211,7 @@ $ brew install bat
 
 - [x] Installation fd
 - [fd](https://github.com/sharkdp/fd)
-
+find entries in your filesystem
 
 ```
 $ brew install fd
