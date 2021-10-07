@@ -194,8 +194,15 @@ Interactice command search
 
 - [fzf.fish](https://github.com/PatrickF1/fzf.fish)
 
+- [x] Installation fzf
+
+```
+$ brew install fzf
+```
+
+
 - [x] Installation bat
--  [bat](https://github.com/sharkdp/bat)
+- [bat](https://github.com/sharkdp/bat)
 cat clone with syntax highlight and Git integration
 
 ```
