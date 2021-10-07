@@ -194,6 +194,14 @@ Interactice command search
 
 - [fzf.fish](https://github.com/PatrickF1/fzf.fish)
 
+- [x] Installation bat
+-  [bat](https://github.com/sharkdp/bat)
+cat clone with syntax highlight and Git integration
+
+```
+$ brew install bat
+```
+
 ### z
 By z, it tracks the directory you have visited
 
