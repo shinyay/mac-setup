@@ -225,6 +225,12 @@ interactive find
 $ fisher install PatrickF1/fzf.fish
 ```
 
+|Key bind|Description|
+|--------|-----------|
+|`Ctrl`+`r`|Command history|
+|||
+|||
+
 ### z
 By z, it tracks the directory you have visited
 
