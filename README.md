@@ -217,6 +217,14 @@ find entries in your filesystem
 $ brew install fd
 ```
 
+- [x] Installation fzf
+- [fzf](https://github.com/PatrickF1/fzf.fish)
+interactive find 
+
+```
+$ fisher install PatrickF1/fzf.fish
+```
+
 ### z
 By z, it tracks the directory you have visited
 
