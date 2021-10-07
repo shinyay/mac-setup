@@ -188,6 +188,12 @@ function fish_user_key_bindings
 end
 ```
 
+### fzf
+
+Interactice command search
+
+- [fzf.fish](https://github.com/PatrickF1/fzf.fish)
+
 ### z
 By z, it tracks the directory you have visited
 
