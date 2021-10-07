@@ -250,6 +250,8 @@ $ fisher install jethrokuan/z
 ```
 
 ### fish-bd
+- [x] Installation
+
 By bd, you can quickly go back to a parent directory in your current working directory tree
 
 - [0rax/fish-bd](https://github.com/0rax/fish-bd)
