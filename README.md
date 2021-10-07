@@ -223,6 +223,10 @@ interactive find
 
 ```
 $ fisher install PatrickF1/fzf.fish
+$ $ vim ~/.config/fish/config.fish
+
+### fzf.fish
+fzf_configure_bindings --directory=\cf --git_log=\cl --git_status=\cs
 ```
 
 |Key bind|Description|
