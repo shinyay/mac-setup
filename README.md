@@ -168,6 +168,8 @@ set -g theme_newline_prompt '$ '
 
 ## Fish Plugin
 ### Peco
+- [x] Installation
+
 By pushing ctrl + r, you can search shell history
 
 - [oh-my-fish/plugin-peco](https://github.com/oh-my-fish/plugin-peco)
@@ -175,6 +177,10 @@ By pushing ctrl + r, you can search shell history
 ```
 $ brew install peco
 $ fisher install oh-my-fish/plugin-peco
+$ abbr -a history peco_select_history
+```
+or
+```
 $ vim ~/.config/fish/config.fish
 
 function fish_user_key_bindings
