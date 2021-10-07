@@ -233,6 +233,10 @@ fzf_configure_bindings --directory=\cf --git_log=\cl --git_status=\cs
 |--------|-----------|
 |`Ctrl`+`r`|Command history|
 |`Ctrl`+`v`|Environment variables|
+|`Ctrl`+`Alt`+`f`|Recursive listing|
+|`Ctrl`+`Alt`+`s`|`git status`|
+|`Ctrl`+`Alt`+`l`|`git log`|
+
 
 ### z
 By z, it tracks the directory you have visited
