@@ -239,6 +239,8 @@ $ echo "" | tee -a ~/.config/fish/config.fish
 
 
 ### z
+- [x] Installation
+
 By z, it tracks the directory you have visited
 
 - [jethrokuan/z](https://github.com/jethrokuan/z)
