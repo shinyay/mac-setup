@@ -209,6 +209,14 @@ cat clone with syntax highlight and Git integration
 $ brew install bat
 ```
 
+- [x] Installation fd
+- [fd](https://github.com/sharkdp/fd)
+
+
+```
+$ brew install fd
+```
+
 ### z
 By z, it tracks the directory you have visited
 
