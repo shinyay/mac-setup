@@ -228,8 +228,7 @@ $ fisher install PatrickF1/fzf.fish
 |Key bind|Description|
 |--------|-----------|
 |`Ctrl`+`r`|Command history|
-|||
-|||
+|`Ctrl`+`v`|Environment variables|
 
 ### z
 By z, it tracks the directory you have visited
