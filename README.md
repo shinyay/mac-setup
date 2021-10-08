@@ -261,6 +261,8 @@ $ fisher install 0rax/fish-bd
 ```
 
 ### SDKMAN! for fish
+- [x] Installation
+
 Makes command sdk from SDKMAN! usable from fish, including auto-completion. Also adds binaries from installed SDKs to the PATH.
 
 - [reitzig/sdkman-for-fish](https://github.com/reitzig/sdkman-for-fish)
