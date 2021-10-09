@@ -373,6 +373,8 @@ $ git config --global fetch.prune true
 
   - Source Code Pro for Powerline
 
+- [x] Configuration
+
 - iTerm2 -> Preferences -> Profiles -> Window
   - Columns: 120
   - Rows 25
