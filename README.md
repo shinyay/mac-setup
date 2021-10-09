@@ -16,6 +16,21 @@ $ sudo chmod -R g+w /usr/local/*
 ```
 
 ## SSH Key for GitHub
+### Git Global Configuration
+- [x] Configuration
+
+```
+$ git config --global user.name "shinyay" && \
+git config --global user.email "" && \
+git config --global core.quotepath false && \
+git config --global core.safecrlf true && \
+git config --global core.autocrlf false && \
+git config --global core.editor 'vim -c "set fenc=utf-8"' && \
+git config --global color.diff auto && \
+git config --global color.status auto && \
+git config --global color.branch auto
+```
+
 ### ssh-keygen
 - [x] Generate SSH Key pair
 
@@ -314,21 +329,6 @@ $ curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/mast
 ```
 
 ## Git
-### Git Global Configuration
-- [x] Configuration
-
-```
-$ git config --global user.name "shinyay" && \
-git config --global user.email "" && \
-git config --global core.quotepath false && \
-git config --global core.safecrlf true && \
-git config --global core.autocrlf false && \
-git config --global core.editor 'vim -c "set fenc=utf-8"' && \
-git config --global color.diff auto && \
-git config --global color.status auto && \
-git config --global color.branch auto
-```
-
 ### Git Alias
 #### git status
 - [x] Configuration
@@ -352,13 +352,6 @@ $ git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd
 $ git config --global alias.count 'shortlog -e -s -n'
 ```
 
-### GitHub SSH Key
-```
-$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-$ cat ~/.ssh/id_rsa.pub
-```
-
-- [GitHub SSH Keys](https://github.com/settings/keys)
 
 ## ITerm2
 ### Iterm2 Preferences
