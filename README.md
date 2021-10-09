@@ -408,6 +408,9 @@ $ curl -L https://iterm2.com/shell_integration/fish -o ~/.iterm2_shell_integrati
 $ source ~/.iterm2_shell_integration.(basename $SHELL)
 ```
 
+- `cmd`+`shift`+`c`: Copy Mode
+  - vim like copy : `v` select `y` yank
+
 ## MacOS System Preferences
 ### General
 - Sidebar icon size: `Small`
