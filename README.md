@@ -393,6 +393,7 @@ $ git config --global fetch.prune true
 
 - iTerm2 -> Preferences -> Profiles -> Colors
   - Color Presets -> Import
+    - [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy)
     - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
       - Solarized Dark - Patched
       - Dracula
