@@ -346,6 +346,8 @@ $ git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd
 ```
 
 #### commit count
+- [x] Configuration
+
 ```
 $ git config --global alias.count 'shortlog -e -s -n'
 ```
