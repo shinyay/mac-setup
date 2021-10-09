@@ -386,6 +386,11 @@ $ git config --global fetch.prune true
 - iTerm2 > Preferences > General > Window
   - Native full screen windows: OFF
 
+- [x] Configuration
+
+- iTerm2 > Preferences > General > Appearance
+  - Tab bar location: Bottom
+
 - iTerm2 -> Preferences -> Profiles -> Colors
   - Color Presets -> Import
     - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
