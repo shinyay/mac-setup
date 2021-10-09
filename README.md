@@ -381,6 +381,8 @@ $ git config --global fetch.prune true
   - Screen: Screen with Cursor
   - Space: All spaces
 
+- [x] Configuration
+
 - iTerm2 > Preferences > General > Window
   - Native full screen windows: OFF
 
