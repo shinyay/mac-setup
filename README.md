@@ -364,7 +364,11 @@ $ git config --global fetch.prune true
 
 ## ITerm2
 ### Iterm2 Preferences
+- [x] Configuration
+
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
+  - Meslo LG L DZ for Powerline / Regurlar / 12
+  or
   - Source Code Pro for Powerline
 
 - iTerm2 -> Preferences -> Profiles -> Window
