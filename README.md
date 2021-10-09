@@ -329,7 +329,7 @@ $ curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/mast
 ```
 
 ## Git
-### Git Alias
+### Alias
 #### git status
 - [x] Configuration
 
@@ -350,6 +350,15 @@ $ git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd
 
 ```
 $ git config --global alias.count 'shortlog -e -s -n'
+```
+
+### Fetch
+- [x] Configuration
+
+Before fetching, remove any remote-tracking references that no longer exist on the remote.
+
+```
+$ git config --global fetch.prune true
 ```
 
 
