@@ -413,10 +413,14 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ## MacOS System Preferences
 ### General
+- [x] Configuration
+
 - Sidebar icon size: `Small`
 
 ### Trackpad
 #### Point & Click
+- [x] Configuration
+
 - Tap to click: `ON`
 - Tracking speed: `Fast`
 
