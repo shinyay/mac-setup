@@ -439,6 +439,8 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Smart zoom: `ON`
 
 #### More Gestuers
+- [x] Configuration
+
 - Swipe between pages: `1 finger`
 
 ### Dock
