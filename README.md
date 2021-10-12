@@ -433,6 +433,8 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ### Mouse
 #### Point & Click
+- [x] Configuration
+
 - Secondary Click: `Click in right`
 - Smart zoom: `ON`
 
