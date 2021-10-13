@@ -459,6 +459,8 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ## Finder
 ### View
+- [x] Configuration
+
 - Show Path Bar
 - Show Status Bar
 
