@@ -444,6 +444,8 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Swipe between pages: `1 finger`
 
 ### Dock
+- [x] Configuration
+
 - Size: `Small`
 - Magnification: `ON`
 - Show recent application in Dock
