@@ -502,8 +502,9 @@ $ sdk install java
 ```
 
 ### Gradle
-- 7.1
-- 6.6.1
+- [x] Installation
+
+- 7.2
 
 ```
 $ sdk install gradle
