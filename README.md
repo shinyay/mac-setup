@@ -511,8 +511,9 @@ $ sdk install gradle
 ```
 
 ### Maven
-- 3.8.1
-- 3.6.3
+- [x] Installation
+
+- 3.8.3
 
 ```
 $ sdk install maven
