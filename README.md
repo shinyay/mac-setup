@@ -492,10 +492,10 @@ $ sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc
 ```
 
 ### Java
-- AdoptOpenJDK
-  - 16.0.1.hs
-  - 14.0.2.hs
-  - 11.0.8.hs
+- [x] Installation
+
+- Liberica
+  - 17.0.0.fx-librca
 
 ```
 $ sdk install java
