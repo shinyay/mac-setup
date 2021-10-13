@@ -451,6 +451,8 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Show recent application in Dock
 
 ### Accessibility - Speech
+- [x] Configuration
+
 - System Preferences > Speech
   - System Voice: Samantha
   - Speak selected text when the key is pressed: `ON`
