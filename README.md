@@ -551,6 +551,12 @@ $ npm install -g @vue/cli
 - Download Docker installation image
   - [Docker Desktop](https://www.docker.com/get-started)
 
+or
+
+```shell
+$ brew install --cask --appdir=$HOME/Applications docker
+```
+
 ### Resources configuration
 - Memmory
   - Default: 2GB to 12 GB (at least 6 GB)
