@@ -548,6 +548,8 @@ $ npm install -g @vue/cli
 - [vuejs/vue-devtools](https://github.com/vuejs/vue-devtools)
 
 ## Docker
+- [x] Installation
+
 - Download Docker installation image
   - [Docker Desktop](https://www.docker.com/get-started)
 
