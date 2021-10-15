@@ -761,3 +761,10 @@ $ which dotnet
 ```
 $ brew install zoom
 ```
+
+## Spotify
+- [x] Installation
+
+```
+$ brew install spotify
+```
