@@ -768,3 +768,9 @@ $ brew install zoom
 ```
 $ brew install spotify
 ```
+
+## JetBrains
+### Toolbox App
+- [x] Installation
+
+https://www.jetbrains.com/toolbox-app/
