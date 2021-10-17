@@ -450,6 +450,11 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Magnification: `ON`
 - Show recent application in Dock
 
+#### Battery
+- [x] Configuration
+
+- Show Percentage
+
 ### Accessibility - Speech
 - [x] Configuration
 
