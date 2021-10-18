@@ -779,3 +779,7 @@ $ brew install spotify
 - [x] Installation
 
 https://www.jetbrains.com/toolbox-app/
+
+## App Store
+### Magnet
+- [x] Installation
