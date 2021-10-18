@@ -774,6 +774,13 @@ $ brew install zoom
 $ brew install spotify
 ```
 
+## Alfred
+- [x] Installation
+
+```
+$ brew install --cask alfred
+```
+
 ## JetBrains
 ### Toolbox App
 - [x] Installation
