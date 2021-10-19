@@ -76,6 +76,11 @@ System Preference - Sharing
 <img width="" alt="input-source" src="https://user-images.githubusercontent.com/3072734/91960809-50a8fd80-ed45-11ea-9838-cdbc78137565.png">
 </div></details>
 
+```
+$ sudo scutil --set HostName      shinyay # Common usage
+$ sudo scutil --set LocalHostName shinyay # Bonjour
+$ sudo scutil --set ComputerName  shinyay # Finder, friendly name
+```
 
 ## Fish
 ### Fish Install
