@@ -790,3 +790,6 @@ https://www.jetbrains.com/toolbox-app/
 ## App Store
 ### Magnet
 - [x] Installation
+
+### Monosnap
+- [x] Installation
