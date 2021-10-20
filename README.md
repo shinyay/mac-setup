@@ -781,11 +781,19 @@ $ brew install spotify
 $ brew install --cask alfred
 ```
 
+## Notion
+- [x] Installation
+
+```
+$ brew install --cask notion
+```
+
 ## JetBrains
 ### Toolbox App
 - [x] Installation
 
 https://www.jetbrains.com/toolbox-app/
+
 
 ## App Store
 ### Magnet
