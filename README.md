@@ -799,6 +799,13 @@ $ brew install --cask notion
 
 https://www.jetbrains.com/toolbox-app/
 
+- [x] Installation
+
+- IntelliJ IDEA Ultimate
+
+### IntelliJ IDEA Ultimate
+#### Appearance & Behavior
+
 
 ## App Store
 ### Magnet
