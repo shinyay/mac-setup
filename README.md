@@ -806,7 +806,6 @@ https://www.jetbrains.com/toolbox-app/
 ### IntelliJ IDEA Ultimate
 #### Appearance & Behavior
 
-
 ## App Store
 ### Magnet
 - [x] Installation
