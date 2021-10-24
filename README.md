@@ -814,3 +814,6 @@ https://www.jetbrains.com/toolbox-app/
 - [x] Installation
 
 ## Atem Mini Pro ISO
+### Atem Switcher Update
+- https://www.blackmagicdesign.com/jp/support/family/atem-live-production-switchers
+  - 8.6.3 (as of Oct-23)
