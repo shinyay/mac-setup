@@ -817,3 +817,6 @@ https://www.jetbrains.com/toolbox-app/
 ### Atem Switcher Update
 - https://www.blackmagicdesign.com/jp/support/family/atem-live-production-switchers
   - 8.6.3 (as of Oct-23)
+
+#### Atem Setup
+Farmware update
