@@ -343,6 +343,8 @@ $ brew install git
 
 $ /usr/local/bin/git --version
 git version 2.33.1
+
+$ git config --global init.defaultBranch main
 ```
 ### Alias
 #### git status
