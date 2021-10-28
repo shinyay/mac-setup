@@ -818,6 +818,13 @@ https://www.jetbrains.com/toolbox-app/
 ### IntelliJ IDEA Ultimate
 #### Appearance & Behavior
 
+#### Plugin
+- GitHub Copilot
+https://plugins.jetbrains.com/plugin/17718-github-copilot
+
+![login](https://user-images.githubusercontent.com/3072734/139187783-5917f666-4df4-4275-a1a3-a35ccfd886f1.png)
+
+
 ## App Store
 ### Magnet
 - [x] Installation
