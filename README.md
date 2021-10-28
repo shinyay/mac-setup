@@ -334,6 +334,16 @@ $ curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/mast
 ```
 
 ## Git
+- [x] Installation
+
+Install Git via Homebrew instead of Apple Git
+
+```
+$ brew install git
+
+$ /usr/local/bin/git --version
+git version 2.33.1
+```
 ### Alias
 #### git status
 - [x] Configuration
