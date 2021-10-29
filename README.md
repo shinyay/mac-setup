@@ -805,6 +805,12 @@ $ brew install --cask alfred
 $ brew install --cask notion
 ```
 
+## Chrome
+### Extension
+- [x] Installation
+- [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
+
+
 ## JetBrains
 ### Toolbox App
 - [x] Installation
