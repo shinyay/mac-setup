@@ -859,3 +859,7 @@ https://plugins.jetbrains.com/plugin/17718-github-copilot
 
 #### Atem Setup
 Farmware update
+
+## YAMAHA AG03
+### AG DEP Controller
+- [Download](https://jp.yamaha.com/products/contents/music_production/webcasting_mixer/software/ag_dsp.html)
