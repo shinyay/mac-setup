@@ -834,6 +834,9 @@ https://www.jetbrains.com/toolbox-app/
 ##### Editor - Code Style
 - line separator: `Unix and macOS (\n)`
 
+##### Editor - File Encodings
+- Default encoding for properties files: `UTF-8`
+
 #### Plugin
 - GitHub Copilot
 https://plugins.jetbrains.com/plugin/17718-github-copilot
