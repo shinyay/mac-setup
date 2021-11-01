@@ -823,8 +823,12 @@ https://www.jetbrains.com/toolbox-app/
 
 ### IntelliJ IDEA Ultimate
 #### Appearance & Behavior
-##### Editor
-- General > Change font size with Command+Mouse Wheel: On
+##### Editor - General
+- Mouse Control > Change font size with Command+Mouse Wheel: On
+- On Save > Ensure every saved file ends with a line break: On
+
+
+
 
 #### Plugin
 - GitHub Copilot
