@@ -836,6 +836,7 @@ https://www.jetbrains.com/toolbox-app/
 
 ##### Editor - File Encodings
 - Default encoding for properties files: `UTF-8`
+- Transparent native-to-ascii conversion: On
 
 #### Plugin
 - GitHub Copilot
