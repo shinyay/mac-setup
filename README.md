@@ -823,6 +823,8 @@ https://www.jetbrains.com/toolbox-app/
 
 ### IntelliJ IDEA Ultimate
 #### Appearance & Behavior
+##### Editor
+- General > Change font size with Command+Mouse Wheel: On
 
 #### Plugin
 - GitHub Copilot
