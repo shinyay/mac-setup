@@ -827,7 +827,9 @@ https://www.jetbrains.com/toolbox-app/
 - Mouse Control > Change font size with Command+Mouse Wheel: On
 - On Save > Ensure every saved file ends with a line break: On
 
-
+##### Editor - Appearance
+- Show method separators: On
+- Show whitespaces: On
 
 
 #### Plugin
