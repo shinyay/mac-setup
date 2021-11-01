@@ -831,6 +831,8 @@ https://www.jetbrains.com/toolbox-app/
 - Show method separators: On
 - Show whitespaces: On
 
+##### Editor - Code Style
+- line separator: `Unix and macOS (\n)`
 
 #### Plugin
 - GitHub Copilot
