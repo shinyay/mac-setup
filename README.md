@@ -393,7 +393,7 @@ $ git config --global fetch.prune true
 - [x] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Window
-  - Columns: 120
+  - Columns: 150
   - Rows 25
   - Screen: Screen with Cursor
   - Space: All spaces
@@ -867,3 +867,4 @@ Farmware update
 ## YAMAHA AG03
 ### AG DEP Controller
 - [Download](https://jp.yamaha.com/products/contents/music_production/webcasting_mixer/software/ag_dsp.html)
+  - AG DSP Controller V1.2.0 Mac macOS 11(Intel/Apple M1), 10.15-OS X 10.7 (As of 21.Nov.01)
