@@ -583,8 +583,10 @@ $ brew install --cask --appdir=$HOME/Applications docker
 ```
 
 ### Resources configuration
+- [x] Configuration
+
 - Memmory
-  - Default: 2GB to 12 GB (at least 6 GB)
+  - Default: 2GB to 16 GB (at least 6 GB)
   - Default size causes out-of-memory error to build GrateVM Native image with Spring Build Native Image (Buildpacks)
 
 <details><summary>Memory Allocation</summary><div>
