@@ -629,63 +629,10 @@ $ chmod +x /usr/local/bin/emc
 ```shell script
 $ brew cask install google-cloud-sdk
 ```
-```
-$ gcloud components list
-
-Your current Cloud SDK version is: 308.0.0
-The latest available version is: 311.0.0
-
-┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                   Components                                                  │
-├──────────────────┬──────────────────────────────────────────────────────┬──────────────────────────┬──────────┤
-│      Status      │                         Name                         │            ID            │   Size   │
-├──────────────────┼──────────────────────────────────────────────────────┼──────────────────────────┼──────────┤
-│ Update Available │ Cloud SDK Core Libraries                             │ core                     │ 15.9 MiB │
-│ Not Installed    │ App Engine Go Extensions                             │ app-engine-go            │  4.8 MiB │
-│ Not Installed    │ Appctl                                               │ appctl                   │ 18.5 MiB │
-│ Not Installed    │ Cloud Bigtable Command Line Tool                     │ cbt                      │  7.6 MiB │
-│ Not Installed    │ Cloud Bigtable Emulator                              │ bigtable                 │  6.6 MiB │
-│ Not Installed    │ Cloud Datalab Command Line Tool                      │ datalab                  │  < 1 MiB │
-│ Not Installed    │ Cloud Datastore Emulator                             │ cloud-datastore-emulator │ 18.4 MiB │
-│ Not Installed    │ Cloud Firestore Emulator                             │ cloud-firestore-emulator │ 41.0 MiB │
-│ Not Installed    │ Cloud Pub/Sub Emulator                               │ pubsub-emulator          │ 34.9 MiB │
-│ Not Installed    │ Emulator Reverse Proxy                               │ emulator-reverse-proxy   │ 14.5 MiB │
-│ Not Installed    │ Google Cloud Build Local Builder                     │ cloud-build-local        │  5.9 MiB │
-│ Not Installed    │ Google Container Registry's Docker credential helper │ docker-credential-gcr    │  1.8 MiB │
-│ Not Installed    │ Kind                                                 │ kind                     │  4.4 MiB │
-│ Not Installed    │ Kustomize                                            │ kustomize                │ 22.8 MiB │
-│ Not Installed    │ Minikube                                             │ minikube                 │ 23.9 MiB │
-│ Not Installed    │ Nomos CLI                                            │ nomos                    │ 17.6 MiB │
-│ Not Installed    │ Skaffold                                             │ skaffold                 │ 15.3 MiB │
-│ Not Installed    │ anthos-auth                                          │ anthos-auth              │ 15.9 MiB │
-│ Not Installed    │ gcloud app Java Extensions                           │ app-engine-java          │ 59.5 MiB │
-│ Not Installed    │ gcloud app PHP Extensions                            │ app-engine-php           │ 21.9 MiB │
-│ Not Installed    │ gcloud app Python Extensions                         │ app-engine-python        │  6.1 MiB │
-│ Not Installed    │ gcloud app Python Extensions (Extra Libraries)       │ app-engine-python-extras │ 27.1 MiB │
-│ Not Installed    │ kpt                                                  │ kpt                      │ 11.7 MiB │
-│ Not Installed    │ kubectl                                              │ kubectl                  │  < 1 MiB │
-│ Installed        │ BigQuery Command Line Tool                           │ bq                       │  < 1 MiB │
-│ Installed        │ Cloud SQL Proxy                                      │ cloud_sql_proxy          │  7.3 MiB │
-│ Installed        │ Cloud Storage Command Line Tool                      │ gsutil                   │  3.5 MiB │
-│ Installed        │ gcloud Alpha Commands                                │ alpha                    │  < 1 MiB │
-│ Installed        │ gcloud Beta Commands                                 │ beta                     │  < 1 MiB │
-└──────────────────┴──────────────────────────────────────────────────────┴──────────────────────────┴──────────┘
-To install or remove components at your current SDK version [308.0.0], run:
-  $ gcloud components install COMPONENT_ID
-  $ gcloud components remove COMPONENT_ID
-
-To update your SDK installation to the latest version [311.0.0], run:
-  $ gcloud components update
-```
 
 ### Google Cloud SQL Proxy
 ```shell script
 $ sudo gcloud components install cloud_sql_proxy
-```
-
-### kubectl
-```shell
-$ sudo gcloud components install kubectl
 ```
 
 ### kpt
@@ -707,6 +654,13 @@ $ brew install mysql-client
 $ echo 'set -g fish_user_paths "/usr/local/opt/mysql-client/bin" $fish_user_paths' >> ~/.config/fish/config.fish
 $ echo 'set -gx LDFLAGS "-L/usr/local/opt/mysql-client/lib"' >> ~/.config/fish/config.fish
 $ echo 'set -gx CPPFLAGS "-I/usr/local/opt/mysql-client/include"' >> ~/.config/fish/config.fish
+```
+
+## jq command
+- [x] Installation
+
+```
+$ brew install jq
 ```
 
 ## watch command
