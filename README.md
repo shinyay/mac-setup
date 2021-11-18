@@ -713,6 +713,18 @@ $ mv asciinema-edit /usr/local/bin/
 $ rm -fr temp
 ```
 
+Usage
+- delays between 300ms and 1s cut to 300ms
+- delays between 1s and 2s cut to 1s
+- any delays bigger than 2s, cut down to 2s
+```shell
+$ asciinema-edit quantize \
+       --range 0.3,1 \
+       --range 1,2 \
+       --range 2 \
+       ascii.cast > quantized.cast
+```
+
 ### asciicast2gif
 This cli converts asciinema movie to GIF animation
 
