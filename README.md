@@ -700,6 +700,19 @@ $ asciinema rec demo.cast
 $ asciinema play demo.cast
 ```
 
+### asciinema-edit
+It can edit a asciinema cast.
+
+- [asciinema-edit](https://github.com/cirocosta/asciinema-edit)
+
+```shell
+$ mkidr temp
+$ curl -sSL -o temp/asciinema.tar.gz https://github.com/cirocosta/asciinema-edit/releases/download/0.0.6/asciinema-edit_0.0.6_darwin_amd64.tar.gz
+$ cd temp && tar xzvf asciinema.tar.gz
+$ mv asciinema-edit /usr/local/bin/
+$ rm -fr temp
+```
+
 ### asciicast2gif
 This cli converts asciinema movie to GIF animation
 
