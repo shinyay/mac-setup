@@ -684,6 +684,7 @@ $ which envsubst
 ```
 
 ## asciinema
+- [x] Installation
 ### Installation
 ```
 $ brew install asciinema
