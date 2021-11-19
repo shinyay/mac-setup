@@ -701,6 +701,8 @@ $ asciinema play demo.cast
 ```
 
 ### asciinema-edit
+- [x] Installation
+
 It can edit a asciinema cast.
 
 - [asciinema-edit](https://github.com/cirocosta/asciinema-edit)
@@ -714,12 +716,12 @@ $ rm -fr temp
 ```
 
 Usage
-- delays between 300ms and 1s cut to 300ms
+- delays between 200ms and 1s cut to 300ms
 - delays between 1s and 2s cut to 1s
 - any delays bigger than 2s, cut down to 2s
 ```shell
 $ asciinema-edit quantize \
-       --range 0.3,1 \
+       --range 0.2,1 \
        --range 1,2 \
        --range 2 \
        ascii.cast > quantized.cast
@@ -729,7 +731,7 @@ $ asciinema-edit quantize \
 This cli converts asciinema movie to GIF animation
 
 ```
-$ docker run --rm -v $PWD:/data asciinema/asciicast2gif demo.cast demo.gif
+$ docker run --rm -v $PWD:/data asciinema/asciicast2gif -S 1 -t monokai demo.cast demo.gif
 ```
 
 #### asciicast2gif options
