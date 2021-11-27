@@ -542,6 +542,16 @@ $ sdk install gradle
 $ sdk install maven
 ```
 
+### Spring Boot CLI
+
+- [x] Installation
+
+- 2.6.0
+
+```shell
+$ sdk install springboot
+```
+
 ### Flush
 ```
 $ sdk flush broadcast
