@@ -778,6 +778,11 @@ $ which dotnet
 ```
 $ brew install zoom
 ```
+### Settings
+#### Video
+
+- [x] Mirror my video
+- [ ] 
 
 ## Spotify
 - [x] Installation
