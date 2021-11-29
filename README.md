@@ -781,8 +781,11 @@ $ brew install zoom
 ### Settings
 #### Video
 
-- [x] Mirror my video
+- [ ] Mirror my video
 - [ ] 
+
+#### Share Screen
+- [x] Windoww size when screen sharing: Maintain current size
 
 ## Spotify
 - [x] Installation
