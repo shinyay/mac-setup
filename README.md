@@ -635,7 +635,12 @@ $ curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0.2_da
 $ chmod +x /usr/local/bin/emc
 ```
 
-## Google Cloud SDK
+## Google Cloud
+
+<details><summary>Google Cloud</summary><div>
+
+### Google Cloud SDK
+
 ```shell script
 $ brew cask install google-cloud-sdk
 ```
@@ -657,6 +662,7 @@ $ brew tap GoogleContainerTools/kpt https://github.com/GoogleContainerTools/kpt.
 $ brew install kpt
 ```
 
+</div></details>
 
 ## MySQL Client
 ```shell script
@@ -781,8 +787,11 @@ $ brew install zoom
 ### Settings
 #### Video
 
-- [x] Mirror my video
+- [ ] Mirror my video
 - [ ] 
+
+#### Share Screen
+- [x] Windoww size when screen sharing: Maintain current size
 
 ## Spotify
 - [x] Installation
