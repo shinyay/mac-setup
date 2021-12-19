@@ -664,15 +664,8 @@ $ brew install kpt
 
 </div></details>
 
-## MySQL Client
-```shell script
-$ brew install mysql-client
-$ echo 'set -g fish_user_paths "/usr/local/opt/mysql-client/bin" $fish_user_paths' >> ~/.config/fish/config.fish
-$ echo 'set -gx LDFLAGS "-L/usr/local/opt/mysql-client/lib"' >> ~/.config/fish/config.fish
-$ echo 'set -gx CPPFLAGS "-I/usr/local/opt/mysql-client/include"' >> ~/.config/fish/config.fish
-```
-
 ## jq command
+
 - [x] Installation
 
 ```
@@ -680,6 +673,9 @@ $ brew install jq
 ```
 
 ## watch command
+
+- [x] Installation
+
 ```shell script
 $ brew install watch
 ```
