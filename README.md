@@ -1,25 +1,32 @@
 # MacBook Pro (16-inch 2019)
+
 ---
 # 1. Initial Setup
+
 ## Homebrew
+
 - [x] Installation
 
-```
+```shell
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+
 ### Authority for Homebrew
 
 - [ ] (If you need it)
-```
+
+```shell
 $ sudo chown -R $(whoami):admin /usr/local/*
 $ sudo chmod -R g+w /usr/local/*
 ```
 
 ## SSH Key for GitHub
+
 ### Git Global Configuration
+
 - [x] Configuration
 
-```
+```shell
 $ git config --global user.name "shinyay" && \
 git config --global user.email "" && \
 git config --global core.quotepath false && \
