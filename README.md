@@ -265,37 +265,39 @@ $ echo "" | tee -a ~/.config/fish/config.fish
 |`Ctrl`+`Alt`+`s`|`git status`|
 |`Ctrl`+`Alt`+`l`|`git log`|
 
-
 ### z
+
 - [x] Installation
 
 By z, it tracks the directory you have visited
 
 - [jethrokuan/z](https://github.com/jethrokuan/z)
 
-```
+```shell
 $ fisher install jethrokuan/z
 ```
 
 ### fish-bd
+
 - [x] Installation
 
 By bd, you can quickly go back to a parent directory in your current working directory tree
 
 - [0rax/fish-bd](https://github.com/0rax/fish-bd)
 
-```
+```shell
 $ fisher install 0rax/fish-bd
 ```
 
 ### SDKMAN! for fish
+
 - [x] Installation
 
 Makes command sdk from SDKMAN! usable from fish, including auto-completion. Also adds binaries from installed SDKs to the PATH.
 
 - [reitzig/sdkman-for-fish](https://github.com/reitzig/sdkman-for-fish)
 
-```
+```shell
 $ fisher install reitzig/sdkman-for-fish@v1.4.0
 
 $ sdk
@@ -303,15 +305,16 @@ You don't seem to have SDKMAN! installed. Install now? [y/N] y
 ```
 
 ### nvm.fish
+
 Designed for Fish, this tool helps you manage multiple active versions of Node on a single local environment.
 
 - [jorgebucaran/nvm.fish](https://github.com/jorgebucaran/nvm.fish)
 
-```
+```shell
 $ fisher install jorgebucaran/nvm.fish
 ```
 
-```
+```shell
 $ nvm -v
 nvm, version 2.0.1
 ```
@@ -557,6 +560,17 @@ $ sdk install maven
 
 ```shell
 $ sdk install springboot
+```
+
+### Maven Daemon
+
+- [x] Installation
+
+- https://github.com/apache/maven-mvnd
+- 0.7.1
+
+```shell
+$ sdk install mvnd
 ```
 
 ### Flush
