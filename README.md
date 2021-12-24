@@ -8,7 +8,7 @@
 - [x] Installation
 
 ```shell
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 ### Authority for Homebrew
@@ -16,8 +16,8 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 - [ ] (If you need it)
 
 ```shell
-$ sudo chown -R $(whoami):admin /usr/local/*
-$ sudo chmod -R g+w /usr/local/*
+sudo chown -R $(whoami):admin /usr/local/*
+sudo chmod -R g+w /usr/local/*
 ```
 
 ## SSH Key for GitHub
@@ -27,7 +27,7 @@ $ sudo chmod -R g+w /usr/local/*
 - [x] Configuration
 
 ```shell
-$ git config --global user.name "shinyay" && \
+git config --global user.name "shinyay" && \
 git config --global user.email "" && \
 git config --global core.quotepath false && \
 git config --global core.safecrlf true && \
@@ -43,7 +43,7 @@ git config pull.ff only
 - [x] Generate SSH Key pair
 
 ```
-$ ssh-keygen -t ed25519 -C 'mail address for github'
+ssh-keygen -t ed25519 -C 'mail address for github'
 ```
 
 ### SSH Keys on GitHub
@@ -56,21 +56,21 @@ $ ssh-keygen -t ed25519 -C 'mail address for github'
 - [x] Installation
 
 ```
-$ brew install iterm2 --cask
+brew install iterm2 --cask
 ```
 
 ### Google IME
 - [x] Installation
 
 ```
-$ brew install google-japanese-ime --cask
+brew install google-japanese-ime --cask
 ```
 
 ### VS Code
 - [x] Installation
 
 ```
-$ brew install visual-studio-code --cask
+brew install visual-studio-code --cask
 ```
 
 <details><summary>Keyboard - Input Source</summary><div>
@@ -85,9 +85,9 @@ System Preference - Sharing
 </div></details>
 
 ```
-$ sudo scutil --set HostName      shinyay # Common usage
-$ sudo scutil --set LocalHostName shinyay # Bonjour
-$ sudo scutil --set ComputerName  shinyay # Finder, friendly name
+sudo scutil --set HostName      shinyay # Common usage
+sudo scutil --set LocalHostName shinyay # Bonjour
+sudo scutil --set ComputerName  shinyay # Finder, friendly name
 ```
 
 ## Fish
@@ -95,9 +95,9 @@ $ sudo scutil --set ComputerName  shinyay # Finder, friendly name
 - [x] Installation
 
 ```
-$ brew install fish
-$ echo /usr/local/bin/fish | sudo tee -a /etc/shells
-$ chsh -s /usr/local/bin/fish
+brew install fish
+echo /usr/local/bin/fish | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
 ```
 
 Restart terminal
@@ -114,14 +114,14 @@ A plugin manager for Fish (https://nicedoc.io/jorgebucaran/fisher)
 - [x] Installation
 
 ```
-$ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
 Installing jorgebucaran/fisher
            ~/.config/fish/functions/fisher.fish
 ```
 
 ```
-$ fisher -v
+fisher -v
 fisher, version 4.3.0
 ```
 
@@ -131,18 +131,18 @@ fisher, version 4.3.0
 - [oh-my-fish/theme-bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
 
 ```
-$ fisher install oh-my-fish/theme-bobthefish
+fisher install oh-my-fish/theme-bobthefish
 
-$ git clone https://github.com/powerline/fonts.git
-$ ./fonts/install.sh
-$ rm -rf ./fonts
+git clone https://github.com/powerline/fonts.git
+./fonts/install.sh
+rm -rf ./fonts
 ```
 
 #### bobthefish Configuration
 - [x] Configuration
 
 ```
-$ vim ~/.config/fish/config.fish
+vim ~/.config/fish/config.fish
 
 set -g theme_display_git_master_branch yes
 set -g theme_display_git yes
@@ -185,7 +185,7 @@ set -g theme_color_scheme loght
 set -g fish_prompt_pwd_dir_length 0
 set -g theme_project_dir_length 1
 set -g theme_newline_cursor yes
-set -g theme_newline_prompt '$ '
+set -g theme_newline_prompt ''
 ```
 
 #### ITerm 2 Font configuration
@@ -203,13 +203,13 @@ By pushing ctrl + r, you can search shell history
 - [oh-my-fish/plugin-peco](https://github.com/oh-my-fish/plugin-peco)
 
 ```
-$ brew install peco
-$ fisher install oh-my-fish/plugin-peco
-$ abbr -a history peco_select_history
+brew install peco
+fisher install oh-my-fish/plugin-peco
+abbr -a history peco_select_history
 ```
 or
 ```
-$ vim ~/.config/fish/config.fish
+vim ~/.config/fish/config.fish
 
 function fish_user_key_bindings
   bind \cr 'peco_select_history (commandline -b)'
@@ -225,7 +225,7 @@ Interactice command search
 - [x] Installation fzf
 
 ```
-$ brew install fzf
+brew install fzf
 ```
 
 
@@ -234,7 +234,7 @@ $ brew install fzf
 cat clone with syntax highlight and Git integration
 
 ```
-$ brew install bat
+brew install bat
 ```
 
 - [x] Installation fd
@@ -242,7 +242,7 @@ $ brew install bat
 find entries in your filesystem
 
 ```
-$ brew install fd
+brew install fd
 ```
 
 - [x] Installation fzf
@@ -250,11 +250,11 @@ $ brew install fd
 interactive find 
 
 ```
-$ fisher install PatrickF1/fzf.fish
+fisher install PatrickF1/fzf.fish
 
-$ echo "### fzf.fish" | tee -a ~/.config/fish/config.fish
-$ echo "fzf_configure_bindings --directory=\cf --git_log=\cl --git_status=\cs" | tee -a ~/.config/fish/config.fish
-$ echo "" | tee -a ~/.config/fish/config.fish
+echo "### fzf.fish" | tee -a ~/.config/fish/config.fish
+echo "fzf_configure_bindings --directory=\cf --git_log=\cl --git_status=\cs" | tee -a ~/.config/fish/config.fish
+echo "" | tee -a ~/.config/fish/config.fish
 ```
 
 |Key bind|Description|
@@ -274,7 +274,7 @@ By z, it tracks the directory you have visited
 - [jethrokuan/z](https://github.com/jethrokuan/z)
 
 ```shell
-$ fisher install jethrokuan/z
+fisher install jethrokuan/z
 ```
 
 ### fish-bd
@@ -286,7 +286,7 @@ By bd, you can quickly go back to a parent directory in your current working dir
 - [0rax/fish-bd](https://github.com/0rax/fish-bd)
 
 ```shell
-$ fisher install 0rax/fish-bd
+fisher install 0rax/fish-bd
 ```
 
 ### SDKMAN! for fish
@@ -298,9 +298,9 @@ Makes command sdk from SDKMAN! usable from fish, including auto-completion. Also
 - [reitzig/sdkman-for-fish](https://github.com/reitzig/sdkman-for-fish)
 
 ```shell
-$ fisher install reitzig/sdkman-for-fish@v1.4.0
+fisher install reitzig/sdkman-for-fish@v1.4.0
 
-$ sdk
+sdk
 You don't seem to have SDKMAN! installed. Install now? [y/N] y
 ```
 
@@ -311,23 +311,23 @@ Designed for Fish, this tool helps you manage multiple active versions of Node o
 - [jorgebucaran/nvm.fish](https://github.com/jorgebucaran/nvm.fish)
 
 ```shell
-$ fisher install jorgebucaran/nvm.fish
+fisher install jorgebucaran/nvm.fish
 ```
 
 ```shell
-$ nvm -v
+nvm -v
 nvm, version 2.0.1
 ```
 
 #### Install Node
 ```
-$ nvm install latest
-$ nvm current
+nvm install latest
+nvm current
 ```
 
 #### Upgrade npm
 ```
-$ npm install -g npm@7.5.4
+npm install -g npm@7.5.4
 ```
 
 ## Fish Completion
@@ -338,10 +338,10 @@ $ npm install -g npm@7.5.4
 
 ```
 # git
-$ curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/completions/git.fish > ~/.config/fish/completions/git.fish
+curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/completions/git.fish > ~/.config/fish/completions/git.fish
 
 # kubectl
-$ curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/master/completions/kubectl.fish > ~/.config/fish/completions/kubectl.fish
+curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/master/completions/kubectl.fish > ~/.config/fish/completions/kubectl.fish
 ```
 
 ## Git
@@ -350,34 +350,34 @@ $ curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/mast
 Install Git via Homebrew instead of Apple Git
 
 ```
-$ brew install git
+brew install git
 
-$ /usr/local/bin/git --version
+/usr/local/bin/git --version
 git version 2.33.1
 
-$ git config --global init.defaultBranch main
+git config --global init.defaultBranch main
 ```
 ### Alias
 #### git status
 - [x] Configuration
 
 ```
-$ git config --global alias.st status
+git config --global alias.st status
 ```
 
 #### git log
 - [x] Configuration
 
 ```
-$ git config --global alias.plog "log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso"
-$ git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=format:'%c' --all --graph"
+git config --global alias.plog "log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso"
+git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=format:'%c' --all --graph"
 ```
 
 #### commit count
 - [x] Configuration
 
 ```
-$ git config --global alias.count 'shortlog -e -s -n'
+git config --global alias.count 'shortlog -e -s -n'
 ```
 
 ### Fetch
@@ -386,7 +386,7 @@ $ git config --global alias.count 'shortlog -e -s -n'
 Before fetching, remove any remote-tracking references that no longer exist on the remote.
 
 ```
-$ git config --global fetch.prune true
+git config --global fetch.prune true
 ```
 
 
@@ -432,8 +432,8 @@ $ git config --global fetch.prune true
 
 - [Shell Integration](https://iterm2.com/documentation-shell-integration.html)
 ```
-$ curl -L https://iterm2.com/shell_integration/fish -o ~/.iterm2_shell_integration.fish
-$ source ~/.iterm2_shell_integration.(basename $SHELL)
+curl -L https://iterm2.com/shell_integration/fish -o ~/.iterm2_shell_integration.fish
+source ~/.iterm2_shell_integration.(basename $SHELL)
 ```
 
 - `cmd`+`shift`+`c`: Copy Mode
@@ -521,7 +521,7 @@ $ source ~/.iterm2_shell_integration.(basename $SHELL)
 ## SDKMAN!
 ### Enable Beta Channel
 ```
-$ sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc/config
+sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc/config
 ```
 
 ### Java
@@ -531,7 +531,7 @@ $ sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc
   - 17.0.0.fx-librca
 
 ```
-$ sdk install java
+sdk install java
 ```
 
 ### Gradle
@@ -540,7 +540,7 @@ $ sdk install java
 - 7.2
 
 ```
-$ sdk install gradle
+sdk install gradle
 ```
 
 ### Maven
@@ -549,7 +549,7 @@ $ sdk install gradle
 - 3.8.3
 
 ```
-$ sdk install maven
+sdk install maven
 ```
 
 ### Spring Boot CLI
@@ -559,7 +559,7 @@ $ sdk install maven
 - 2.6.0
 
 ```shell
-$ sdk install springboot
+sdk install springboot
 ```
 
 ### Maven Daemon
@@ -570,14 +570,14 @@ $ sdk install springboot
 - 0.7.1
 
 ```shell
-$ sdk install mvnd
+sdk install mvnd
 ```
 
 ### Flush
 ```
-$ sdk flush broadcast
-$ sdk flush archives
-$ sdk flush temp
+sdk flush broadcast
+sdk flush archives
+sdk flush temp
 ```
 
 ## npm
@@ -586,16 +586,16 @@ $ sdk flush temp
 
 ### Vue
 ```
-$ npm install vue@next
+npm install vue@next
 
-$ npm ls
+npm ls
 mac-setup@ /Users/shinyay/works/tools/mac-setup
 └── vue@3.0.5
 ```
 
 Vue CLI
 ```
-$ npm install -g @vue/cli
+npm install -g @vue/cli
 ```
 
 #### Vue Devtools
@@ -610,7 +610,7 @@ $ npm install -g @vue/cli
 or
 
 ```shell
-$ brew install --cask --appdir=$HOME/Applications docker
+brew install --cask --appdir=$HOME/Applications docker
 ```
 
 ### Resources configuration
@@ -627,7 +627,7 @@ $ brew install --cask --appdir=$HOME/Applications docker
 
 ## pack - Buildpack CLI
 ```
-$ brew install buildpacks/tap/pack
+brew install buildpacks/tap/pack
 ```
 
 ## Dive
@@ -635,16 +635,16 @@ A tool for exploring a docker image, layer contents, and discovering ways to shr
 
 - For Mac
 ```
-$ brew install dive
+brew install dive
 
-$ dive <CONTAINER_IMAGE:TAG>
+dive <CONTAINER_IMAGE:TAG>
 ```
 
 - For Docker
 ```
-$ docker pull wagoodman/dive
+docker pull wagoodman/dive
 
-$ docker run --rm -it \
+docker run --rm -it \
       -v /var/run/docker.sock:/var/run/docker.sock \
       wagoodman/dive:latest <CONTAINER_IMAGE:TAG>
 ```
@@ -652,8 +652,8 @@ $ docker run --rm -it \
 ## emc - Enhanced JVM Meomry Calculator
 
 ```
-$ curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0.2_darwin_amd64 -o /usr/local/bin/emc
-$ chmod +x /usr/local/bin/emc
+curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0.2_darwin_amd64 -o /usr/local/bin/emc
+chmod +x /usr/local/bin/emc
 ```
 
 ## Google Cloud
@@ -663,24 +663,24 @@ $ chmod +x /usr/local/bin/emc
 ### Google Cloud SDK
 
 ```shell script
-$ brew cask install google-cloud-sdk
+brew cask install google-cloud-sdk
 ```
 
 ### Google Cloud SQL Proxy
 ```shell script
-$ sudo gcloud components install cloud_sql_proxy
+sudo gcloud components install cloud_sql_proxy
 ```
 
 ### kpt
 - [GoogleContainerTools/kpt](https://github.com/GoogleContainerTools/kpt)
 
 ```
-$ sudo gcloud components install kpt
+sudo gcloud components install kpt
 ```
 or
 ```
-$ brew tap GoogleContainerTools/kpt https://github.com/GoogleContainerTools/kpt.git
-$ brew install kpt
+brew tap GoogleContainerTools/kpt https://github.com/GoogleContainerTools/kpt.git
+brew install kpt
 ```
 
 </div></details>
@@ -690,7 +690,7 @@ $ brew install kpt
 - [x] Installation
 
 ```
-$ brew install jq
+brew install jq
 ```
 
 ## watch command
@@ -698,21 +698,21 @@ $ brew install jq
 - [x] Installation
 
 ```shell script
-$ brew install watch
+brew install watch
 ```
 
 ```shell script
-$ echo '# watch command' >> ~/.config/fish/config.fish
-$ echo 'set -g fish_user_paths "/usr/local/opt/ncurses/bin" $fish_user_paths' >> ~/.config/fish/config.fish
-$ echo 'set -gx LDFLAGS "-L/usr/local/opt/ncurses/lib"' >> ~/.config/fish/config.fish
-$ echo 'set -gx CPPFLAGS "-I/usr/local/opt/ncurses/include"' >> ~/.config/fish/config.fish
+echo '# watch command' >> ~/.config/fish/config.fish
+echo 'set -g fish_user_paths "/usr/local/opt/ncurses/bin" $fish_user_paths' >> ~/.config/fish/config.fish
+echo 'set -gx LDFLAGS "-L/usr/local/opt/ncurses/lib"' >> ~/.config/fish/config.fish
+echo 'set -gx CPPFLAGS "-I/usr/local/opt/ncurses/include"' >> ~/.config/fish/config.fish
 ```
 
 ## envsubst command
 ```
-$ brew install gettext
+brew install gettext
 
-$ which envsubst
+which envsubst
 /usr/local/bin/envsubst
 ```
 
@@ -720,17 +720,17 @@ $ which envsubst
 - [x] Installation
 ### Installation
 ```
-$ brew install asciinema
+brew install asciinema
 ```
 
 ### Recording
 ```
-$ asciinema rec demo.cast
+asciinema rec demo.cast
 ```
 
 ### Playing
 ```
-$ asciinema play demo.cast
+asciinema play demo.cast
 ```
 
 ### asciinema-edit
@@ -741,11 +741,11 @@ It can edit a asciinema cast.
 - [asciinema-edit](https://github.com/cirocosta/asciinema-edit)
 
 ```shell
-$ mkidr temp
-$ curl -sSL -o temp/asciinema.tar.gz https://github.com/cirocosta/asciinema-edit/releases/download/0.0.6/asciinema-edit_0.0.6_darwin_amd64.tar.gz
-$ cd temp && tar xzvf asciinema.tar.gz
-$ mv asciinema-edit /usr/local/bin/
-$ rm -fr temp
+mkidr temp
+curl -sSL -o temp/asciinema.tar.gz https://github.com/cirocosta/asciinema-edit/releases/download/0.0.6/asciinema-edit_0.0.6_darwin_amd64.tar.gz
+cd temp && tar xzvf asciinema.tar.gz
+mv asciinema-edit /usr/local/bin/
+rm -fr temp
 ```
 
 Usage
@@ -753,7 +753,7 @@ Usage
 - delays between 1s and 2s cut to 1s
 - any delays bigger than 2s, cut down to 2s
 ```shell
-$ asciinema-edit quantize \
+asciinema-edit quantize \
        --range 0.2,1 \
        --range 1,2 \
        --range 2 \
@@ -764,7 +764,7 @@ $ asciinema-edit quantize \
 This cli converts asciinema movie to GIF animation
 
 ```
-$ docker run --rm -v $PWD:/data asciinema/asciicast2gif -S 1 -t monokai demo.cast demo.gif
+docker run --rm -v $PWD:/data asciinema/asciicast2gif -S 1 -t monokai demo.cast demo.gif
 ```
 
 #### asciicast2gif options
@@ -778,7 +778,7 @@ $ docker run --rm -v $PWD:/data asciinema/asciicast2gif -S 1 -t monokai demo.cas
 
 ## ki - Kotlin Language Interactive Shell
 ```
-$ brew install ki
+brew install ki
 ```
 
 ## .NET 5
@@ -792,14 +792,14 @@ The following was installed at /usr/local/share/dotnet
 ```
 
 ```
-$ which dotnet
+which dotnet
 
 /usr/local/share/dotnet/dotnet
 ```
 
 ## Zoom
 ```
-$ brew install zoom
+brew install zoom
 ```
 ### Settings
 #### Video
@@ -814,21 +814,21 @@ $ brew install zoom
 - [x] Installation
 
 ```
-$ brew install spotify
+brew install spotify
 ```
 
 ## Alfred
 - [x] Installation
 
 ```
-$ brew install --cask alfred
+brew install --cask alfred
 ```
 
 ## Notion
 - [x] Installation
 
 ```
-$ brew install --cask notion
+brew install --cask notion
 ```
 
 ## Chrome
@@ -894,3 +894,25 @@ Farmware update
 ### AG DEP Controller
 - [Download](https://jp.yamaha.com/products/contents/music_production/webcasting_mixer/software/ag_dsp.html)
   - AG DSP Controller V1.2.0 Mac macOS 11(Intel/Apple M1), 10.15-OS X 10.7 (As of 21.Nov.01)
+
+## Stream Deck
+
+- [Stream Deck 5](https://www.elgato.com/en/downloads)
+
+## FFmpeg
+
+```shell
+brew install ffmpeg
+```
+
+### Movie to GIF
+
+```shell
+ffmpeg -i <input>.mov -vf scale=720:-1 -r 10 <output>.gif
+```
+
+2x speed
+
+```shell
+ffmpeg -i <input>.mov -vf scale=720:-1,setpts=PTS/2.0 -af atempo=2.0 -r 10 <output>.gif
+```
