@@ -899,6 +899,11 @@ Farmware update
 
 - [Stream Deck 5](https://www.elgato.com/en/downloads)
 
+### Hotkey
+
+- Speech to Text
+  - `Option` + `Esc`
+
 ## FFmpeg
 
 ```shell
