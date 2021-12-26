@@ -899,6 +899,25 @@ Farmware update
 
 - [Stream Deck 5](https://www.elgato.com/en/downloads)
 
+### Hotkey
+
+- Speech to Text
+  - `Option` + `Esc`
+
+### Website
+
+- GitHub
+- Twitter
+- Facebook
+- Instagram
+- Linkedin
+- Youtube
+- Gmail
+
+### Icons
+
+- [Iconfinder](https://www.iconfinder.com/)
+
 ## FFmpeg
 
 ```shell
