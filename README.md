@@ -914,9 +914,16 @@ Farmware update
 - Youtube
 - Gmail
 
+### Companion
+
+Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.
+
+- [Bitfocus Companion](https://bitfocus.io/companion/)
+
 ### Icons
 
 - [Iconfinder](https://www.iconfinder.com/)
+- [flaticon](https://www.flaticon.com/)
 
 ## FFmpeg
 
