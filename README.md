@@ -918,7 +918,14 @@ Farmware update
 
 Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a professional shotbox surface for an increasing amount of different presentation switchers, video playback software and broadcast equipment.
 
+Need to install 2 components for Mac client and Stream Deck plugin.
+
 - [Bitfocus Companion](https://bitfocus.io/companion/)
+  - 
+
+Install from Stream Deck Store
+
+![StreamDeckStore](https://user-images.githubusercontent.com/3072734/147622931-555bca0b-f4bd-4fd2-b1c5-d0767e161ea9.png)
 
 ### Icons
 
