@@ -921,7 +921,9 @@ Bitfocus Companion enables the reasonably priced Elgato Streamdeck to be a profe
 Need to install 2 components for Mac client and Stream Deck plugin.
 
 - [Bitfocus Companion](https://bitfocus.io/companion/)
-  - 
+  - ![Companion Client](https://user-images.githubusercontent.com/3072734/147797896-4cbbc6c4-4bc6-4735-9513-a75f1d7ac966.png)
+    - `Version: 2.1.3`
+    - `Updated: 2021-Apr-19`
 
 Install from Stream Deck Store
 
