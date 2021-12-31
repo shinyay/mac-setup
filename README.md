@@ -927,6 +927,10 @@ Install from Stream Deck Store
 
 ![StreamDeckStore](https://user-images.githubusercontent.com/3072734/147622931-555bca0b-f4bd-4fd2-b1c5-d0767e161ea9.png)
 
+Install from Stream Deck Store
+
+![StreamDeckStore](https://user-images.githubusercontent.com/3072734/147622931-555bca0b-f4bd-4fd2-b1c5-d0767e161ea9.png)
+
 ### Icons
 
 - [Iconfinder](https://www.iconfinder.com/)
