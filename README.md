@@ -664,8 +664,13 @@ kustomize version
 
 ## helm
 
+- [x] Installation
+
 ```shell
 brew install helm
+
+helm version
+version.BuildInfo{Version:"v3.7.2", GitCommit:"663a896f4a815053445eec4153677ddc24a0a361", GitTreeState:"clean", GoVersion:"go1.17.3"}
 ```
 
 ## skaffold
