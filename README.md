@@ -658,6 +658,12 @@ brew install kustomize
 brew install helm
 ```
 
+## skaffold
+
+```shell
+brew install skaffold
+```
+
 ## pack - Buildpack CLI
 
 ```shell
