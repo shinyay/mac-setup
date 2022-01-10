@@ -653,8 +653,13 @@ kind v0.11.1 go1.16.4 darwin/amd64
 
 ## kustomize
 
+- [x] Installation
+
 ```shell
 brew install kustomize
+
+kustomize version
+{Version:kustomize/v4.4.1 GitCommit:b2d65ddc98e09187a8e38adc27c30bab078c1dbf BuildDate:2021-11-11T23:27:14Z GoOs:darwin GoArch:amd64}
 ```
 
 ## helm
