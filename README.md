@@ -646,6 +646,12 @@ Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.1", GitCom
 brew install kind
 ```
 
+## kustomize
+
+```shell
+brew install kustomize
+```
+
 ## pack - Buildpack CLI
 
 ```shell
