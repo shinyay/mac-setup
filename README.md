@@ -675,8 +675,13 @@ version.BuildInfo{Version:"v3.7.2", GitCommit:"663a896f4a815053445eec4153677ddc2
 
 ## skaffold
 
+- [x] Installation
+
 ```shell
 brew install skaffold
+
+skaffold version
+v1.35.1
 ```
 
 ## pack - Buildpack CLI
