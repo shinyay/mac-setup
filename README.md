@@ -652,6 +652,12 @@ brew install kind
 brew install kustomize
 ```
 
+## helm
+
+```shell
+brew install helm
+```
+
 ## pack - Buildpack CLI
 
 ```shell
