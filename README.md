@@ -585,7 +585,8 @@ sdk flush temp
   - `npm install -g npm-check-updates`
 
 ### Vue
-```
+
+```shell
 npm install vue@next
 
 npm ls
@@ -594,14 +595,17 @@ mac-setup@ /Users/shinyay/works/tools/mac-setup
 ```
 
 Vue CLI
-```
+
+```shell
 npm install -g @vue/cli
 ```
 
 #### Vue Devtools
+
 - [vuejs/vue-devtools](https://github.com/vuejs/vue-devtools)
 
 ## Docker
+
 - [x] Installation
 
 - Download Docker installation image
@@ -614,6 +618,7 @@ brew install --cask --appdir=$HOME/Applications docker
 ```
 
 ### Resources configuration
+
 - [x] Configuration
 
 - Memmory
@@ -624,24 +629,38 @@ brew install --cask --appdir=$HOME/Applications docker
 <img width="" alt="memory-12g" src="https://user-images.githubusercontent.com/3072734/95179863-2d69e600-07fc-11eb-8892-46b5d4ce7ab5.png">
 </div></details>
 
+## Kubectl
+
+- [x] Installation
+
+```shell
+brew install kubectl
+
+kubectl version --client
+Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.1", GitCommit:"86ec240af8cbd1b60bcc4c03c20da9b98005b92e", GitTreeState:"clean", BuildDate:"2021-12-16T11:33:37Z", GoVersion:"go1.17.5", Compiler:"gc", Platform:"darwin/amd64"}
+```
 
 ## pack - Buildpack CLI
-```
+
+```shell
 brew install buildpacks/tap/pack
 ```
 
 ## Dive
+
 A tool for exploring a docker image, layer contents, and discovering ways to shrink the size of your Docker/OCI image.
 
 - For Mac
-```
+
+```shell
 brew install dive
 
 dive <CONTAINER_IMAGE:TAG>
 ```
 
 - For Docker
-```
+
+```shell
 docker pull wagoodman/dive
 
 docker run --rm -it \
@@ -651,7 +670,7 @@ docker run --rm -it \
 
 ## emc - Enhanced JVM Meomry Calculator
 
-```
+```shell
 curl -L https://github.com/wreulicke/emc/releases/download/v0.0.2/emc_0.0.2_darwin_amd64 -o /usr/local/bin/emc
 chmod +x /usr/local/bin/emc
 ```
