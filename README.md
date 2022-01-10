@@ -642,8 +642,13 @@ Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.1", GitCom
 
 ## kind
 
+- [x] Installation
+
 ```shell
 brew install kind
+
+kind version
+kind v0.11.1 go1.16.4 darwin/amd64
 ```
 
 ## kustomize
