@@ -1047,3 +1047,21 @@ In the directory where you want to manage the contents of Zenn, execute the foll
 npm init --yes
 npm install zenn-cli
 ```
+
+```shell
+npx zenn init
+```
+
+```shell
+  🎉  Done!
+  早速コンテンツを作成しましょう
+
+  👇  新しい記事を作成する
+  $ zenn new:article
+
+  👇  新しい本を作成する
+  $ zenn new:book
+
+  👇  投稿をプレビューする
+  $ zenn preview
+```
