@@ -306,6 +306,8 @@ You don't seem to have SDKMAN! installed. Install now? [y/N] y
 
 ### nvm.fish
 
+- [x] Installation
+
 Designed for Fish, this tool helps you manage multiple active versions of Node on a single local environment.
 
 - [jorgebucaran/nvm.fish](https://github.com/jorgebucaran/nvm.fish)
@@ -320,23 +322,26 @@ nvm, version 2.0.1
 ```
 
 #### Install Node
-```
+
+```shell
 nvm install latest
 nvm current
 ```
 
 #### Upgrade npm
-```
+
+```shell
 npm install -g npm@7.5.4
 ```
 
 ## Fish Completion
+
 - [completion list](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
   - git
 
 - [kubectl](https://github.com/evanlucas/fish-kubectl-completions)
 
-```
+```shell
 # git
 curl https://raw.githubusercontent.com/fish-shell/fish-shell/master/share/completions/git.fish > ~/.config/fish/completions/git.fish
 
@@ -345,11 +350,12 @@ curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/master
 ```
 
 ## Git
+
 - [x] Installation
 
 Install Git via Homebrew instead of Apple Git
 
-```
+```shell
 brew install git
 
 /usr/local/bin/git --version
@@ -357,35 +363,41 @@ git version 2.33.1
 
 git config --global init.defaultBranch main
 ```
+
 ### Alias
+
 #### git status
+
 - [x] Configuration
 
-```
+```shell
 git config --global alias.st status
 ```
 
 #### git log
+
 - [x] Configuration
 
-```
+```shell
 git config --global alias.plog "log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso"
 git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=format:'%c' --all --graph"
 ```
 
 #### commit count
+
 - [x] Configuration
 
-```
+```shell
 git config --global alias.count 'shortlog -e -s -n'
 ```
 
 ### Fetch
+
 - [x] Configuration
 
 Before fetching, remove any remote-tracking references that no longer exist on the remote.
 
-```
+```shell
 git config --global fetch.prune true
 ```
 
