@@ -1036,3 +1036,14 @@ ffmpeg -i <input>.mov -vf scale=720:-1 -r 10 <output>.gif
 ```shell
 ffmpeg -i <input>.mov -vf scale=720:-1,setpts=PTS/2.0 -af atempo=2.0 -r 10 <output>.gif
 ```
+
+## Zenn CLI
+
+- <https://zenn.dev/zenn/articles/install-zenn-cli>
+
+In the directory where you want to manage the contents of Zenn, execute the following command:
+
+```shell
+npm init --yes
+npm install zenn-cli
+```
