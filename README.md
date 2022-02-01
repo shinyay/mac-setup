@@ -325,9 +325,13 @@ nvm, version 2.2.6
 
 #### Install Node
 
+- [x] Installation
+
 ```shell
 nvm install latest
 nvm current
+
+v17.4.0
 ```
 
 #### Upgrade npm
