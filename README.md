@@ -316,9 +316,11 @@ Designed for Fish, this tool helps you manage multiple active versions of Node o
 fisher install jorgebucaran/nvm.fish
 ```
 
+- [x] As of 2022-02-01
+
 ```shell
 nvm -v
-nvm, version 2.0.1
+nvm, version 2.2.6
 ```
 
 #### Install Node
