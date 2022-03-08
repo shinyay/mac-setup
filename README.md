@@ -1057,11 +1057,17 @@ npx zenn init
   早速コンテンツを作成しましょう
 
   👇  新しい記事を作成する
-  $ zenn new:article
+  $ npx zenn new:article
 
   👇  新しい本を作成する
-  $ zenn new:book
+  $ npx zenn new:book
 
   👇  投稿をプレビューする
-  $ zenn preview
+  $ npx zenn preview
 ```
+
+## Pure Paste
+
+Paste as plain text by default
+
+- [Site](https://sindresorhus.com/)
