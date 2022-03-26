@@ -1077,3 +1077,9 @@ Paste as plain text by default
 ```shell
 brew install hyperkit
 ```
+
+## Minikube
+
+```shell
+brew install minikube
+```
