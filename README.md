@@ -1071,3 +1071,9 @@ npx zenn init
 Paste as plain text by default
 
 - [Site](https://sindresorhus.com/)
+
+## Hyperkit
+
+```shell
+brew install hyperkit
+```
