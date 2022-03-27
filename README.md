@@ -1076,6 +1076,8 @@ Paste as plain text by default
 
 ```shell
 brew install hyperkit
+sudo chown root:wheel /Users/$USER/.minikube/bin/docker-machine-driver-hyperkit
+sudo chmod u+s /Users/$USER/.minikube/bin/docker-machine-driver-hyperkit
 ```
 
 ## Minikube
