@@ -1072,6 +1072,12 @@ Paste as plain text by default
 
 - [Site](https://sindresorhus.com/)
 
+## GIFlash
+
+GIFlash is a tool that enables you to create an animated GIF from images or a video
+
+- [site](https://kyome.io/?lang=en)
+
 ## Hyperkit
 
 ```shell
@@ -1085,3 +1091,7 @@ sudo chmod u+s /Users/$USER/.minikube/bin/docker-machine-driver-hyperkit
 ```shell
 brew install minikube
 ```
+
+## Streamlabs (OBS)
+
+- [Streamlabs](https://streamlabs.com/)
