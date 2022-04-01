@@ -1078,6 +1078,10 @@ GIFlash is a tool that enables you to create an animated GIF from images or a vi
 
 - [site](https://kyome.io/?lang=en)
 
+## OBSBOT TinyCam
+
+- [site](https://www.obsbot.com/jp/download)
+
 ## Hyperkit
 
 ```shell
