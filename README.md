@@ -1099,3 +1099,14 @@ brew install minikube
 ## Streamlabs (OBS)
 
 - [Streamlabs](https://streamlabs.com/)
+
+## Knew
+
+Plugin Manager for kubectl command-line tool
+
+- [Knew](https://krew.sigs.k8s.io/)
+  - Install <https://krew.sigs.k8s.io/docs/user-guide/setup/install/>
+
+```shell
+brew install knew
+```
