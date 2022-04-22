@@ -1110,3 +1110,104 @@ Plugin Manager for kubectl command-line tool
 ```shell
 brew install knew
 ```
+
+<details>
+<summary>Knew plugin list</summary>
+
+```
+オススメ度：大（これらのプラグインで日々の運用を楽に）
+
+・kubectl ctx（コンテキストを簡単に切り替え、定番プラグイン）
+
+$ kubectl krew install ctx
+
+・kubectl ns（Namespace を簡単に切り替え、定番プラグイン）
+
+$ kubectl krew install ns
+
+・kubectl iexec（インタラクティブな kubectl exec、Pod 名や Pod 内のコンテナ名を把握する必要がなくなる）
+
+$ kubectl krew install iexec
+
+・kubectl status（リソースのステータスをわかりやすく表示）
+
+$ kubectl krew install status
+
+・kubectl neat（マニフェストから冗長な情報を削除して表示、マニフェストが読みやすくなる）
+
+$ kubectl krew install neat
+
+・kubectl view-secret（SecretをBase64デコードして表示）
+
+kubectl krew install view-secret
+
+・kubectl images（Podが使用しているコンテナイメージの一覧表示）
+
+$ kubectl krew install images
+
+・kubectl rolesum（指定したSubjectのRBACロールをサマリー表示）
+
+$ kubectl krew install rolesum
+
+・kubectl open-svc（ClusterIPなServiceにクラスタ外から簡単にアクセス）
+
+$ kubectl krew install open-svc
+
+オススメ度：中（万人向けではないかもしれませんが、意外と役立つ場面が多いかも）
+
+・kubectl tree（ownerReferenceベースでリソースをツリー表示、Operatorの開発や検証で役立つ）
+
+$ kubectl krew install tree
+
+・kubectl exec-as（ユーザーを指定して kubectl exec）
+
+$ kubectl krew install exec-as
+
+・kubectl modify-secret（Base64エンコード/デコードを気にせずにSecretの直接編集）
+
+$ kubectl krew install modify-secret
+
+・kubectl view-serviceaccount-kubeconfig（指定されたSAベースのKubeconfig生成、CI/CD用のKubeconfig生成で役立つ）
+
+$ kubectl krew install view-serviceaccount-kubeconfig
+
+・kubectl get-all（kubectl get allで表示できないものも含んだリソース一覧を表示）
+
+$ kubectl krew install get-all
+
+・kubectl node-shell（KubernetesクラスタのNodeにログイン）
+
+$ kubectl krew install node-shell
+
+・kubectl ca-cert（KubernetesクラスタのCA証明書を表示）
+
+$ kubectl krew install ca-cert
+
+・kubectl who-can（指定したVerbとResourceを実行可能なSubjectを表示）
+
+$ kubectl krew install who-can
+
+オススメ度：小（出番は少ないかもしれませんが、インストールしておくといざというときに役に立つかと）
+
+・kubectl outdated（Kubernetesクラスタ内の古いイメージを表示）
+
+$ kubectl krew install outdated
+
+・kubectl df-pv（Persistent Volumeの空き容量を表示）
+
+$ kubectl krew install df-pv
+
+・kubectl resource-capacity（NodeやPodごとにResource Request/Limitを一覧表示）
+
+$ kubectl krew install resource-capacity
+
+・kubectl fleet（Kubeconfig内のクラスタに関する情報を一覧表示、マルチクラウド環境で役立ちそう）
+
+$ kubectl krew install fleet
+
+・kubectl prompt（特定のクラスタやNamespaceに対する操作で警告を促してくれる、事故防止に良い）
+
+$ kubectl krew install prompt
+```
+
+</details>
