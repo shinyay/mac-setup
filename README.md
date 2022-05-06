@@ -1211,3 +1211,11 @@ $ kubectl krew install prompt
 ```
 
 </details>
+
+## Obisidian
+
+- <https://obsidian.md/>
+
+```shell
+brew install obsidian
+```
