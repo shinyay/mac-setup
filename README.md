@@ -1219,3 +1219,25 @@ $ kubectl krew install prompt
 ```shell
 brew install obsidian
 ```
+
+### Configuration
+
+#### Daily Notes
+
+Enable Daily notes on settings
+
+- `settings` -> `Core plugins` -> `Daily notes`
+
+Configure Daily notes
+
+- `settings` -> `PLUGIN OPTIONS` -> `Daily notes` -> `Template file location`
+
+The following file should be placed to the specific directory, such as `daily-notes/template/daily-note-template`
+
+```markdown
+# {{date:YYYY-MM-DD}}
+
+## ToDo
+
+## Notes
+```
