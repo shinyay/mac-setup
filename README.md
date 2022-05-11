@@ -931,28 +931,47 @@ https://www.jetbrains.com/toolbox-app/
 - IntelliJ IDEA Ultimate
 
 ### IntelliJ IDEA Ultimate
+
 #### Appearance & Behavior
+
 ##### Editor - General
+
 - Mouse Control > Change font size with Command+Mouse Wheel: On
+
 - On Save > Ensure every saved file ends with a line break: On
 
 ##### Editor - Appearance
+
 - Show method separators: On
+
 - Show whitespaces: On
 
 ##### Editor - Code Style
+
 - line separator: `Unix and macOS (\n)`
 
 ##### Editor - File Encodings
+
 - Default encoding for properties files: `UTF-8`
+
 - Transparent native-to-ascii conversion: On
 
 #### Plugin
+
 - GitHub Copilot
-https://plugins.jetbrains.com/plugin/17718-github-copilot
+  - <https://plugins.jetbrains.com/plugin/17718-github-copilot>
 
 ![login](https://user-images.githubusercontent.com/3072734/139187783-5917f666-4df4-4275-a1a3-a35ccfd886f1.png)
 
+#### Tools
+
+##### Shaerd Indexes
+
+- Wait for shared index: On
+
+- Public Shaerd Indexes
+  - JDKs: Download automatically
+  - Maven Libraries: Download automatically
 
 ## App Store
 ### Magnet
