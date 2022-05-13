@@ -526,6 +526,7 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 </div></details>
 
 ### Extensions
+
 - Material Icon Theme
 - Auto Rename Tag
 - Auto Close Tag
@@ -534,39 +535,42 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
-
-
 ## SDKMAN!
+
 ### Enable Beta Channel
-```
+
+```shell
 sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc/config
 ```
 
 ### Java
+
 - [x] Installation
 
 - Liberica
   - 17.0.0.fx-librca
 
-```
+```shell
 sdk install java
 ```
 
 ### Gradle
+
 - [x] Installation
 
 - 7.2
 
-```
+```shell
 sdk install gradle
 ```
 
 ### Maven
+
 - [x] Installation
 
 - 3.8.3
 
-```
+```shell
 sdk install maven
 ```
 
@@ -591,8 +595,25 @@ sdk install springboot
 sdk install mvnd
 ```
 
-### Flush
+### Kotlin
+
+- [x] Installation
+
+- 1.6.21
+
+```shell
+sdk install kotlin
 ```
+
+### Ki
+
+```shell
+sdk install ki
+```
+
+### Flush
+
+```shell
 sdk flush broadcast
 sdk flush archives
 sdk flush temp
