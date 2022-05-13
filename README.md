@@ -607,6 +607,10 @@ sdk install kotlin
 
 ### Ki
 
+- [x] Installation
+
+- 0.4.5
+
 ```shell
 sdk install ki
 ```
