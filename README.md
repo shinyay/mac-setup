@@ -1287,3 +1287,11 @@ The following file should be placed to the specific directory, such as `daily-no
 
 ## Notes
 ```
+
+## exa
+
+`exa` is a modern replacement for ls
+
+```shell
+brew install exa
+```
