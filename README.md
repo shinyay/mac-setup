@@ -1295,3 +1295,11 @@ The following file should be placed to the specific directory, such as `daily-no
 ```shell
 brew install exa
 ```
+
+## bat
+
+`bat` is a cat clone with syntax highlighting and Git integration
+
+```shell
+brew install bat
+```
