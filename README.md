@@ -1319,3 +1319,12 @@ https://rustup.rs/
 curl --proto '=https' --tlsv1.2 -sSf sh.rustup.rs | sh
 set -U fish_user_paths $fish_user_paths $HOME/.cargo/bin
 ```
+
+- `cargo`: Rust's package manager
+- `cargo-fmt`: This utility formats all bin and lib files of the current crate using rustfmt
+- `clippy-driver`: Checks a package to catch common mistakes and improve your Rust code
+- `rustc`: Compiler
+- `rust-gdb`: Debugger
+- `rustfmt`: Format Rust code
+- `cargo-clippy`: Checks a package to catch common mistakes and improve your Rust code
+- `rustdoc`: Documentation tool
