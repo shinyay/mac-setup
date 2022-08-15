@@ -1314,3 +1314,8 @@ https://rustup.rs/
 
 - [The rustup book](https://rust-lang.github.io/rustup/)
 - [rust-lang/rustup](https://github.com/rust-lang/rustup)
+
+```shell
+curl --proto '=https' --tlsv1.2 -sSf sh.rustup.rs | sh
+set -U fish_user_paths $fish_user_paths $HOME/.cargo/bin
+```
