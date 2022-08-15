@@ -1310,5 +1310,7 @@ brew install bat
 
 `rustup` is an installer for the systems programming language Rust
 
+https://rustup.rs/
+
 - [The rustup book](https://rust-lang.github.io/rustup/)
 - [rust-lang/rustup](https://github.com/rust-lang/rustup)
