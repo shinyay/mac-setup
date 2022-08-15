@@ -1303,3 +1303,11 @@ brew install exa
 ```shell
 brew install bat
 ```
+
+## Rust
+
+### Rusup
+
+`rustup` is an installer for the systems programming language Rust
+
+- [rust-lang/rustup](https://github.com/rust-lang/rustup)
