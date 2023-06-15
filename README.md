@@ -1328,3 +1328,13 @@ set -U fish_user_paths $fish_user_paths $HOME/.cargo/bin
 - `rustfmt`: Format Rust code
 - `cargo-clippy`: Checks a package to catch common mistakes and improve your Rust code
 - `rustdoc`: Documentation tool
+
+## Zed
+
+Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
+
+- [zed.dev](https://zed.dev/)
+
+```shell
+brew install --cask zed
+```
