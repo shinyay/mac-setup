@@ -1334,6 +1334,7 @@ set -U fish_user_paths $fish_user_paths $HOME/.cargo/bin
 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 
 - [zed.dev](https://zed.dev/)
+- [Docs](https://docs.zed.dev/general/readme)
 
 ```shell
 brew install --cask zed
