@@ -340,6 +340,16 @@ v17.4.0
 npm install -g npm@7.5.4
 ```
 
+### Bass
+
+Bass makes it easy to use utilities written for Bash in fish shell.
+
+- [edc/bass](https://github.com/edc/bass)
+
+```shell
+fisner install edc/bass
+```
+
 ## Fish Completion
 
 - [completion list](https://github.com/fish-shell/fish-shell/tree/master/share/completions)
