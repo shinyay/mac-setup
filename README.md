@@ -119,7 +119,7 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 
 ```
 fisher -v
-fisher, version 4.3.0
+fisher, version 4.4.3
 ```
 
 ### Fish Theme - bobthefish
