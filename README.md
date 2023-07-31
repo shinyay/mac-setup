@@ -113,11 +113,8 @@ A plugin manager for Fish (https://nicedoc.io/jorgebucaran/fisher)
 
 - [x] Installation
 
-```
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
-
-Installing jorgebucaran/fisher
-           ~/.config/fish/functions/fisher.fish
+```shell
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 ```
 
 ```
