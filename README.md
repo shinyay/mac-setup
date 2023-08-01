@@ -1346,3 +1346,13 @@ Zed is a high-performance, multiplayer code editor from the creators of Atom and
 ```shell
 brew install --cask zed
 ```
+
+## Canonical Multipass
+
+Get an instant Ubuntu VM with a single command. Multipass can launch and run virtual machines and configure them with cloud-init like a public cloud.
+
+- [multipass.run](https://multipass.run/)
+
+```shell
+brew install --cask multipass
+```
