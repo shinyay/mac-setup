@@ -1352,7 +1352,16 @@ brew install --cask zed
 Get an instant Ubuntu VM with a single command. Multipass can launch and run virtual machines and configure them with cloud-init like a public cloud.
 
 - [multipass.run](https://multipass.run/)
+- [canonical/multipass](https://github.com/canonical/multipass)
 
 ```shell
 brew install --cask multipass
+```
+
+## Arc
+
+Chromium based browser
+
+```shell
+brew install --cask arc
 ```
