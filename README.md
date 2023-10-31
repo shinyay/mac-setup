@@ -1365,3 +1365,11 @@ Chromium based browser
 ```shell
 brew install --cask arc
 ```
+
+## Calibre
+
+E-books management software
+
+```shell
+brew install --cask calibre
+```
