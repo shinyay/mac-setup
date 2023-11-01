@@ -1373,3 +1373,13 @@ E-books management software
 ```shell
 brew install --cask calibre
 ```
+
+## Wasmer
+
+<https://github.com/wasmerio/wasmer>
+
+Universal WebAssembly Runtime
+
+```shell
+brew install wasmer
+```
