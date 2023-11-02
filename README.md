@@ -1395,3 +1395,13 @@ Kubernetes and container management on the desktop
 ```shell
 brew install --cask rancher
 ```
+
+## k3d
+
+<https://k3d.io/>
+
+Little helper to run CNCF's k3s in Docker
+
+```shell
+brew install k3d
+```
