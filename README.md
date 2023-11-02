@@ -1383,3 +1383,9 @@ Universal WebAssembly Runtime
 ```shell
 brew install wasmer
 ```
+
+## Rancher Desktop
+
+```shell
+brew install --cask rancher
+```
