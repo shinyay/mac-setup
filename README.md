@@ -1386,6 +1386,10 @@ brew install wasmer
 
 ## Rancher Desktop
 
+<https://rancherdesktop.io/>
+
+Kubernetes and container management on the desktop
+
 ```shell
 brew install --cask rancher
 ```
