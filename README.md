@@ -1390,6 +1390,8 @@ brew install wasmer
 
 Kubernetes and container management on the desktop
 
+![image](https://github.com/shinyay/mac-setup/assets/3072734/8ef547eb-4c7e-4eaf-b25a-5de83c143720)
+
 ```shell
 brew install --cask rancher
 ```
