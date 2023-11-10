@@ -1439,7 +1439,11 @@ vim ~/.config/fish/config.fish
 
 ```shell
 ### Python
-+set -Ux PYENV_ROOT $HOME/.pyenv
-+fish_add_path $PYENV_ROOT/bin
-+pyenv init - | source
+set -Ux PYENV_ROOT $HOME/.pyenv
+fish_add_path $PYENV_ROOT/bin
+pyenv init - | source
+```
+
+```shell
+~/.config/fish/config.fish
 ```
