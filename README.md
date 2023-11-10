@@ -1417,6 +1417,10 @@ Simple Python Version Management: pyenv
 - pyenv
   - <https://github.com/pyenv/pyenv>
 
+```shell
+brew install pyenv
+```
+
 ### Python
 
 ```shell
