@@ -1426,3 +1426,7 @@ brew install pyenv
 ```shell
 pyenv install -list
 ```
+
+```shell
+pyenv install 3.12.0
+```
