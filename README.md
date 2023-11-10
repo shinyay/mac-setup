@@ -1410,5 +1410,9 @@ brew install k3d
 
 ### pyenv
 
+Simple Python Version Management: pyenv
+
+> pyenv lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
+
 - pyenv
   - <https://github.com/pyenv/pyenv>
