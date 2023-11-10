@@ -1430,3 +1430,16 @@ pyenv install -list
 ```shell
 pyenv install 3.12.0
 ```
+
+Set up the fish shell for Python 
+
+```shell
+vim ~/.config/fish/config.fish
+```
+
+```shell
+### Python
++set -Ux PYENV_ROOT $HOME/.pyenv
++fish_add_path $PYENV_ROOT/bin
++pyenv init - | source
+```
