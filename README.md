@@ -1416,3 +1416,9 @@ Simple Python Version Management: pyenv
 
 - pyenv
   - <https://github.com/pyenv/pyenv>
+
+### Python
+
+```shell
+pyenv install -list
+```
