@@ -1447,3 +1447,9 @@ pyenv init - | source
 ```shell
 ~/.config/fish/config.fish
 ```
+
+### pipx
+
+> Install and Run Python Applications in Isolated Environments
+
+- [pipx](https://pypa.github.io/pipx/)
