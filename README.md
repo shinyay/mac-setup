@@ -1479,3 +1479,8 @@ Poertry installation:
 pipx install poetry
 ```
 
+Poetry completion cinfiguration:
+
+```shell
+poetry completions fish > ~/.config/fish/completions/poetry.fish
+```
