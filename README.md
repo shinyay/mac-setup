@@ -1454,7 +1454,15 @@ pyenv init - | source
 
 - [pipx](https://pypa.github.io/pipx/)
 
+pipx installation:
+
 ```shell
 brew install pipx
 pipx ensurepath
+```
+
+pipx completion configuration:
+
+```shell
+register-python-argcomplete --shell fish pipx >~/.config/fish/completions/pipx.fish
 ```
