@@ -1453,3 +1453,8 @@ pyenv init - | source
 > Install and Run Python Applications in Isolated Environments
 
 - [pipx](https://pypa.github.io/pipx/)
+
+```shell
+brew install pipx
+pipx ensurepath
+```
