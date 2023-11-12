@@ -1466,3 +1466,9 @@ pipx completion configuration:
 ```shell
 register-python-argcomplete --shell fish pipx >~/.config/fish/completions/pipx.fish
 ```
+
+### Poetry
+
+> Python packaging and dependency management made easy
+
+- [Poetry](https://python-poetry.org/)
