@@ -1472,3 +1472,10 @@ register-python-argcomplete --shell fish pipx >~/.config/fish/completions/pipx.f
 > Python packaging and dependency management made easy
 
 - [Poetry](https://python-poetry.org/)
+
+Poertry installation:
+
+```shell
+pipx install poetry
+```
+
