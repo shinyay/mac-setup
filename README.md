@@ -1484,3 +1484,9 @@ Poetry completion cinfiguration:
 ```shell
 poetry completions fish > ~/.config/fish/completions/poetry.fish
 ```
+
+#### Poetry Environment
+
+```shell
+poetry config virtualenvs.in-project true --local
+```
