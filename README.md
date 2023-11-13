@@ -1490,3 +1490,7 @@ poetry completions fish > ~/.config/fish/completions/poetry.fish
 ```shell
 poetry config virtualenvs.in-project true --local
 ```
+
+```shell
+poetry init
+```
