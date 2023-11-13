@@ -1488,9 +1488,27 @@ poetry completions fish > ~/.config/fish/completions/poetry.fish
 #### Poetry Environment
 
 ```shell
+poetry init
+```
+
+or
+
+```shell
+poetry new <project>
+```
+
+Place Poetry virtual environment in the same folder as the project
+
+```shell
 poetry config virtualenvs.in-project true --local
 ```
 
+Get information about the selected poetry virtual environment
+
 ```shell
-poetry init
+poetry env info
+```
+
+```shell
+poetry add --group dev pysen black isort flake8 flake8-bugbear mypy pytest
 ```
