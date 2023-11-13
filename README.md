@@ -1509,6 +1509,9 @@ Get information about the selected poetry virtual environment
 poetry env info
 ```
 
+Installation of development support packages
+
 ```shell
 poetry add --group dev pysen black isort flake8 flake8-bugbear mypy pytest
 ```
+
