@@ -1,4 +1,4 @@
-# MacBook Pro (16-inch 2019)
+# MacBook (12-inch)
 
 ---
 # 1. Initial Setup
@@ -40,7 +40,7 @@ git config pull.ff only
 ```
 
 ### ssh-keygen
-- [x] Generate SSH Key pair
+- [ ] Generate SSH Key pair
 
 ```
 ssh-keygen -t ed25519 -C 'mail address for github'
