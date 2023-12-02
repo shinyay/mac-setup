@@ -1,4 +1,4 @@
-# MacBook Pro (16-inch 2019)
+# MacBook (12-inch 2017)
 
 ---
 # 1. Initial Setup
