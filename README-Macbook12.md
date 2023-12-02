@@ -39,15 +39,21 @@ git config --global color.branch auto && \
 git config pull.ff only
 ```
 
+### Fine-grained personal access tokens
+
+- [x] [Generate new token](https://github.com/settings/tokens?type=beta)
+  - Repository access: `All repositories`
+  - Permissions - Repository permissions - Contents: `Read and write`
+
 ### ssh-keygen
-- [x] Generate SSH Key pair
+- [ ] Generate SSH Key pair
 
 ```
 ssh-keygen -t ed25519 -C 'mail address for github'
 ```
 
 ### SSH Keys on GitHub
-- [x] Add a public key on the following site:
+- [ ] Add a public key on the following site:
 
 - [https://github.com/settings/keys](https://github.com/settings/keys)
 
