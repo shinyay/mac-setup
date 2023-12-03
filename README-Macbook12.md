@@ -28,7 +28,7 @@ sudo chmod -R g+w /usr/local/*
 
 ```shell
 git config --global user.name "shinyay" && \
-git config --global user.email "" && \
+git config --global user.email "YOUR_MAILADDRESS" && \
 git config --global core.quotepath false && \
 git config --global core.safecrlf true && \
 git config --global core.autocrlf false && \
