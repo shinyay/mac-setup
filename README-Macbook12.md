@@ -66,14 +66,14 @@ brew install iterm2 --cask
 ```
 
 ### Google IME
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install google-japanese-ime --cask
 ```
 
 ### VS Code
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install visual-studio-code --cask
@@ -98,7 +98,7 @@ sudo scutil --set ComputerName  shinyay # Finder, friendly name
 
 ## Fish
 ### Fish Install
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install fish
