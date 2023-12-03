@@ -24,7 +24,7 @@ sudo chmod -R g+w /usr/local/*
 
 ### Git Global Configuration
 
-- [ ] Configuration
+- [x] Configuration
 
 ```shell
 git config --global user.name "shinyay" && \
