@@ -41,7 +41,7 @@ git config pull.ff only
 
 ### Fine-grained personal access tokens
 
-- [ ] [Generate new token](https://github.com/settings/tokens?type=beta)
+- [x] [Generate new token](https://github.com/settings/tokens?type=beta)
   - Repository access: `All repositories`
   - Permissions - Repository permissions - Contents: `Read and write`
 
