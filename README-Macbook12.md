@@ -5,7 +5,7 @@
 
 ## Homebrew
 
-- [x] Installation
+- [ ] Installation
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -24,7 +24,7 @@ sudo chmod -R g+w /usr/local/*
 
 ### Git Global Configuration
 
-- [x] Configuration
+- [ ] Configuration
 
 ```shell
 git config --global user.name "shinyay" && \
@@ -41,7 +41,7 @@ git config pull.ff only
 
 ### Fine-grained personal access tokens
 
-- [x] [Generate new token](https://github.com/settings/tokens?type=beta)
+- [ ] [Generate new token](https://github.com/settings/tokens?type=beta)
   - Repository access: `All repositories`
   - Permissions - Repository permissions - Contents: `Read and write`
 
@@ -59,21 +59,21 @@ ssh-keygen -t ed25519 -C 'mail address for github'
 
 ## Initial App by Homebrew
 ### iTerm2
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install iterm2 --cask
 ```
 
 ### Google IME
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install google-japanese-ime --cask
 ```
 
 ### VS Code
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install visual-studio-code --cask
@@ -98,7 +98,7 @@ sudo scutil --set ComputerName  shinyay # Finder, friendly name
 
 ## Fish
 ### Fish Install
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install fish
@@ -117,7 +117,7 @@ Confirm Shell
 ### Fisher
 A plugin manager for Fish (https://nicedoc.io/jorgebucaran/fisher)
 
-- [x] Installation
+- [ ] Installation
 
 ```shell
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
@@ -129,7 +129,7 @@ fisher, version 4.4.3
 ```
 
 ### Fish Theme - bobthefish
-- [x] Installation
+- [ ] Installation
 
 - [oh-my-fish/theme-bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
 
@@ -142,7 +142,7 @@ rm -rf ./fonts
 ```
 
 #### bobthefish Configuration
-- [x] Configuration
+- [ ] Configuration
 
 ```
 vim ~/.config/fish/config.fish
@@ -192,14 +192,14 @@ set -g theme_newline_prompt ''
 ```
 
 #### ITerm 2 Font configuration
-- [x] Configuration
+- [ ] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
   - Meslo LG L DZ for Powerline
 
 ## Fish Plugin
 ### Peco
-- [x] Installation
+- [ ] Installation
 
 By pushing ctrl + r, you can search shell history
 
@@ -225,14 +225,14 @@ Interactice command search
 
 - [fzf.fish](https://github.com/PatrickF1/fzf.fish)
 
-- [x] Installation fzf
+- [ ] Installation fzf
 
 ```
 brew install fzf
 ```
 
 
-- [x] Installation bat
+- [ ] Installation bat
 - [bat](https://github.com/sharkdp/bat)
 cat clone with syntax highlight and Git integration
 
@@ -240,7 +240,7 @@ cat clone with syntax highlight and Git integration
 brew install bat
 ```
 
-- [x] Installation fd
+- [ ] Installation fd
 - [fd](https://github.com/sharkdp/fd)
 find entries in your filesystem
 
@@ -248,7 +248,7 @@ find entries in your filesystem
 brew install fd
 ```
 
-- [x] Installation fzf
+- [ ] Installation fzf
 - [fzf](https://github.com/PatrickF1/fzf.fish)
 interactive find 
 
@@ -270,7 +270,7 @@ echo "" | tee -a ~/.config/fish/config.fish
 
 ### z
 
-- [x] Installation
+- [ ] Installation
 
 By z, it tracks the directory you have visited
 
@@ -282,7 +282,7 @@ fisher install jethrokuan/z
 
 ### fish-bd
 
-- [x] Installation
+- [ ] Installation
 
 By bd, you can quickly go back to a parent directory in your current working directory tree
 
@@ -294,7 +294,7 @@ fisher install 0rax/fish-bd
 
 ### SDKMAN! for fish
 
-- [x] Installation
+- [ ] Installation
 
 Makes command sdk from SDKMAN! usable from fish, including auto-completion. Also adds binaries from installed SDKs to the PATH.
 
@@ -309,7 +309,7 @@ You don't seem to have SDKMAN! installed. Install now? [y/N] y
 
 ### nvm.fish
 
-- [x] Installation
+- [ ] Installation
 
 Designed for Fish, this tool helps you manage multiple active versions of Node on a single local environment.
 
@@ -319,7 +319,7 @@ Designed for Fish, this tool helps you manage multiple active versions of Node o
 fisher install jorgebucaran/nvm.fish
 ```
 
-- [x] As of 2022-02-01
+- [ ] As of 2022-02-01
 
 ```shell
 nvm -v
@@ -328,7 +328,7 @@ nvm, version 2.2.6
 
 #### Install Node
 
-- [x] Installation
+- [ ] Installation
 
 ```shell
 nvm install latest
@@ -370,7 +370,7 @@ curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/master
 
 ## Git
 
-- [x] Installation
+- [ ] Installation
 
 Install Git via Homebrew instead of Apple Git
 
@@ -387,7 +387,7 @@ git config --global init.defaultBranch main
 
 #### git status
 
-- [x] Configuration
+- [ ] Configuration
 
 ```shell
 git config --global alias.st status
@@ -395,7 +395,7 @@ git config --global alias.st status
 
 #### git log
 
-- [x] Configuration
+- [ ] Configuration
 
 ```shell
 git config --global alias.plog "log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso"
@@ -404,7 +404,7 @@ git config --global alias.glog "log --pretty='format:%C(yellow)%h %C(green)%cd %
 
 #### commit count
 
-- [x] Configuration
+- [ ] Configuration
 
 ```shell
 git config --global alias.count 'shortlog -e -s -n'
@@ -412,7 +412,7 @@ git config --global alias.count 'shortlog -e -s -n'
 
 ### Fetch
 
-- [x] Configuration
+- [ ] Configuration
 
 Before fetching, remove any remote-tracking references that no longer exist on the remote.
 
@@ -423,7 +423,7 @@ git config --global fetch.prune true
 
 ## ITerm2
 ### Iterm2 Preferences
-- [x] Configuration
+- [ ] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
   - Meslo LG L DZ for Powerline / Regurlar / 12
@@ -432,7 +432,7 @@ git config --global fetch.prune true
 
   - Source Code Pro for Powerline
 
-- [x] Configuration
+- [ ] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Window
   - Columns: 150
@@ -440,12 +440,12 @@ git config --global fetch.prune true
   - Screen: Screen with Cursor
   - Space: All spaces
 
-- [x] Configuration
+- [ ] Configuration
 
 - iTerm2 > Preferences > General > Window
   - Native full screen windows: OFF
 
-- [x] Configuration
+- [ ] Configuration
 
 - iTerm2 > Preferences > General > Appearance
   - Tab bar location: Bottom
@@ -459,7 +459,7 @@ git config --global fetch.prune true
     - [iterm2-material-design](https://www.martinseeler.com/iterm2-material-design)
       - `curl -O https://cdn.jsdelivr.net/gh/MartinSeeler/iterm2-material-design/material-design-colors.itermcolors`
 ### Shell Integration
-- [x] Configuration
+- [ ] Configuration
 
 - [Shell Integration](https://iterm2.com/documentation-shell-integration.html)
 ```
@@ -472,19 +472,19 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ## MacOS System Preferences
 ### General
-- [x] Configuration
+- [ ] Configuration
 
 - Sidebar icon size: `Small`
 
 ### Trackpad
 #### Point & Click
-- [x] Configuration
+- [ ] Configuration
 
 - Tap to click: `ON`
 - Tracking speed: `Fast`
 
 #### More Gestuers
-- [x] Configuration
+- [ ] Configuration
 
 - Swipe between full-screen apps: `4 fingers`
 - Mission Control: `4 fingers`
@@ -492,30 +492,30 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ### Mouse
 #### Point & Click
-- [x] Configuration
+- [ ] Configuration
 
 - Secondary Click: `Click in right`
 - Smart zoom: `ON`
 
 #### More Gestuers
-- [x] Configuration
+- [ ] Configuration
 
 - Swipe between pages: `1 finger`
 
 ### Dock
-- [x] Configuration
+- [ ] Configuration
 
 - Size: `Small`
 - Magnification: `ON`
 - Show recent application in Dock
 
 #### Battery
-- [x] Configuration
+- [ ] Configuration
 
 - Show Percentage
 
 ### Accessibility - Speech
-- [x] Configuration
+- [ ] Configuration
 
 - System Preferences > Speech
   - System Voice: Samantha
@@ -523,7 +523,7 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ## Finder
 ### View
-- [x] Configuration
+- [ ] Configuration
 
 - Show Path Bar
 - Show Status Bar
@@ -558,7 +558,7 @@ sed -ie "s/sdkman_beta_channel=false/sdkman_beta_channel=true/g" ~/.sdkman/etc/c
 
 ### Java
 
-- [x] Installation
+- [ ] Installation
 
 - Liberica
   - 17.0.0.fx-librca
@@ -569,7 +569,7 @@ sdk install java
 
 ### Gradle
 
-- [x] Installation
+- [ ] Installation
 
 - 7.2
 
@@ -579,7 +579,7 @@ sdk install gradle
 
 ### Maven
 
-- [x] Installation
+- [ ] Installation
 
 - 3.8.3
 
@@ -589,7 +589,7 @@ sdk install maven
 
 ### Spring Boot CLI
 
-- [x] Installation
+- [ ] Installation
 
 - 2.6.0
 
@@ -599,7 +599,7 @@ sdk install springboot
 
 ### Maven Daemon
 
-- [x] Installation
+- [ ] Installation
 
 - https://github.com/apache/maven-mvnd
 - 0.7.1
@@ -610,7 +610,7 @@ sdk install mvnd
 
 ### Kotlin
 
-- [x] Installation
+- [ ] Installation
 
 - 1.6.21
 
@@ -620,7 +620,7 @@ sdk install kotlin
 
 ### Ki
 
-- [x] Installation
+- [ ] Installation
 
 - 0.4.5
 
@@ -662,9 +662,9 @@ npm install -g @vue/cli
 
 ## Docker
 
-- [x] Installation
+- [ ] Installation
 
-- [x] Download Docker installation image
+- [ ] Download Docker installation image
   - [Docker Desktop](https://www.docker.com/get-started)
 
 or
@@ -677,7 +677,7 @@ brew install --cask --appdir=$HOME/Applications docker
 
 ### Resources configuration
 
-- [x] Configuration
+- [ ] Configuration
 
 - Memmory
   - Default: 2GB to 16 GB (at least 6 GB)
@@ -689,7 +689,7 @@ brew install --cask --appdir=$HOME/Applications docker
 
 ## Kubectl
 
-- [x] Installation
+- [ ] Installation
 
 ```shell
 brew install kubernetes-cli
@@ -700,7 +700,7 @@ Client Version: version.Info{Major:"1", Minor:"23", GitVersion:"v1.23.1", GitCom
 
 ## kind
 
-- [x] Installation
+- [ ] Installation
 
 ```shell
 brew install kind
@@ -711,7 +711,7 @@ kind v0.11.1 go1.16.4 darwin/amd64
 
 ## kustomize
 
-- [x] Installation
+- [ ] Installation
 
 ```shell
 brew install kustomize
@@ -722,7 +722,7 @@ kustomize version
 
 ## helm
 
-- [x] Installation
+- [ ] Installation
 
 ```shell
 brew install helm
@@ -733,7 +733,7 @@ version.BuildInfo{Version:"v3.7.2", GitCommit:"663a896f4a815053445eec4153677ddc2
 
 ## skaffold
 
-- [x] Installation
+- [ ] Installation
 
 ```shell
 brew install skaffold
@@ -808,7 +808,7 @@ brew install kpt
 
 ## jq command
 
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install jq
@@ -816,7 +816,7 @@ brew install jq
 
 ## watch command
 
-- [x] Installation
+- [ ] Installation
 
 ```shell script
 brew install watch
@@ -838,7 +838,7 @@ which envsubst
 ```
 
 ## asciinema
-- [x] Installation
+- [ ] Installation
 ### Installation
 ```
 brew install asciinema
@@ -855,7 +855,7 @@ asciinema play demo.cast
 ```
 
 ### asciinema-edit
-- [x] Installation
+- [ ] Installation
 
 It can edit a asciinema cast.
 
@@ -929,24 +929,24 @@ brew install zoom
 - [ ] 
 
 #### Share Screen
-- [x] Windoww size when screen sharing: Maintain current size
+- [ ] Windoww size when screen sharing: Maintain current size
 
 ## Spotify
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install spotify
 ```
 
 ## Alfred
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install --cask alfred
 ```
 
 ## Notion
-- [x] Installation
+- [ ] Installation
 
 ```
 brew install --cask notion
@@ -954,17 +954,17 @@ brew install --cask notion
 
 ## Chrome
 ### Extension
-- [x] Installation
+- [ ] Installation
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc)
 
 
 ## JetBrains
 ### Toolbox App
-- [x] Installation
+- [ ] Installation
 
 https://www.jetbrains.com/toolbox-app/
 
-- [x] Installation
+- [ ] Installation
 
 - IntelliJ IDEA Ultimate
 
@@ -1013,10 +1013,10 @@ https://www.jetbrains.com/toolbox-app/
 
 ## App Store
 ### Magnet
-- [x] Installation
+- [ ] Installation
 
 ### Monosnap
-- [x] Installation
+- [ ] Installation
 
 ## Atem Mini Pro ISO
 ### Atem Switcher Update
