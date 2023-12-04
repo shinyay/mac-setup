@@ -46,10 +46,10 @@ git config pull.ff only
   - Permissions - Repository permissions - Contents: `Read and write`
 
 ### ssh-keygen
-- [ ] Generate SSH Key pair
+- [x] Generate SSH Key pair
 
 ```
-ssh-keygen -t ed25519 -C 'mail address for github'
+ssh-keygen -t ed25519 -C 'YOUR_MAILADDRESS_FOR_GITHUB'
 ```
 
 ### SSH Keys on GitHub
