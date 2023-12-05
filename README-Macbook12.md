@@ -56,6 +56,10 @@ ssh-keygen -t ed25519 -C 'YOUR_MAILADDRESS_FOR_GITHUB'
 pbcopy < $HOME/.ssh/id_ed25519.pub
 ```
 
+```shell
+ssh-keyscan github.com >> ~/.ssh/known_hosts
+```
+
 ### SSH Keys on GitHub
 - [x] Add a public key on the following site:
 
