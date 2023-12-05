@@ -52,6 +52,10 @@ git config pull.ff only
 ssh-keygen -t ed25519 -C 'YOUR_MAILADDRESS_FOR_GITHUB'
 ```
 
+```shell
+pbcopy < $HOME/.ssh/id_ed25519.pub
+```
+
 ### SSH Keys on GitHub
 - [ ] Add a public key on the following site:
 
