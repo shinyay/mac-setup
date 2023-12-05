@@ -67,16 +67,16 @@ ssh-keyscan github.com >> ~/.ssh/known_hosts
 
 ## Initial App by Homebrew
 ### iTerm2
-- [ ] Installation
+- [x] Installation
 
-```
+```shell
 brew install iterm2 --cask
 ```
 
 ### Google IME
-- [ ] Installation
+- [x] Installation
 
-```
+```shell
 brew install google-japanese-ime --cask
 ```
 
