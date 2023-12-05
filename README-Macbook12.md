@@ -108,9 +108,9 @@ sudo scutil --set ComputerName  shinyay # Finder, friendly name
 
 ## Fish
 ### Fish Install
-- [ ] Installation
+- [x] Installation
 
-```
+```shell
 brew install fish
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
@@ -119,7 +119,8 @@ chsh -s /usr/local/bin/fish
 Restart terminal
 
 Confirm Shell
-```
+
+```shell
 > echo $SHELL
 /usr/local/bin/fish
 ```
