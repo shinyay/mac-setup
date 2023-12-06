@@ -508,7 +508,7 @@ git config --global fetch.prune true
       - `curl -O https://cdn.jsdelivr.net/gh/MartinSeeler/iterm2-material-design/material-design-colors.itermcolors`
 
 ### Shell Integration
-- [ ] Configuration
+- [x] Configuration
 
 - [Shell Integration](https://iterm2.com/documentation-shell-integration.html)
 ```
