@@ -1060,7 +1060,9 @@ https://www.jetbrains.com/toolbox-app/
 
 ## App Store
 ### Magnet
-- [ ] Installation
+- [x] Installation
+
+System Settings > Privacy & Security > Accessibility > Magnet
 
 ### Monosnap
 - [ ] Installation
