@@ -328,16 +328,20 @@ echo "" | tee -a ~/.config/fish/config.fish
 |`Ctrl`+`Alt`+`l`|`git log`|
 
 ### SDKMAN! for fish
-
-- [ ] Installation
+- [x] Installation
 
 Makes command sdk from SDKMAN! usable from fish, including auto-completion. Also adds binaries from installed SDKs to the PATH.
 
 - [reitzig/sdkman-for-fish](https://github.com/reitzig/sdkman-for-fish)
 
 ```shell
-fisher install reitzig/sdkman-for-fish@v1.4.0
+fisher install reitzig/sdkman-for-fish@v2.0.0
 
+# Restart terminal
+```
+
+
+```shell
 sdk
 You don't seem to have SDKMAN! installed. Install now? [y/N] y
 ```
