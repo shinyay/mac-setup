@@ -566,17 +566,19 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Show in Control Center: `ON`
 - Show Percentage: `ON`
 
-### Accessibility - Speech
-- [ ] Configuration
+### Accessibility - Spoken Content
+- [x] Configuration
 
-- System Preferences > Speech
-  - System Voice: Samantha
+- System Preferences > Accessibility > Vision > Spoken Content
+  - System speech language: `English`
+  - System Voice: Siri (Voice 2)
   - Speak selected text when the key is pressed: `ON`
 
 ## Finder
 ### View
-- [ ] Configuration
+- [x] Configuration
 
+- Show Tab Bar
 - Show Path Bar
 - Show Status Bar
 
