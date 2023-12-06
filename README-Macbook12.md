@@ -541,13 +541,13 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ### Mouse
 #### Point & Click
-- [ ] Configuration
+- [x] Configuration
 
 - Secondary Click: `Click in right`
 - Smart zoom: `ON`
 
 #### More Gestuers
-- [ ] Configuration
+- [x] Configuration
 
 - Swipe between pages: `1 finger`
 
