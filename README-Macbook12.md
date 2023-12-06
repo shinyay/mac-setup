@@ -419,9 +419,7 @@ brew install git
 
 ```shell
 /usr/local/bin/git --version
-git version 2.33.1
-
-git config --global init.defaultBranch main
+git version 2.43.0
 ```
 
 ### Alias
