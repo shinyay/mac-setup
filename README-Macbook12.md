@@ -234,6 +234,18 @@ set -g theme_newline_prompt ''
   - Meslo LG L DZ for Powerline
 
 ## Fish Plugins
+
+### z
+- [x] Installation
+
+> By z, it tracks the directory you have visited
+
+- [jethrokuan/z](https://github.com/jethrokuan/z)
+
+```shell
+fisher install jethrokuan/z
+```
+
 ### Peco
 - [ ] Installation
 
@@ -303,18 +315,6 @@ echo "" | tee -a ~/.config/fish/config.fish
 |`Ctrl`+`Alt`+`f`|Recursive listing|
 |`Ctrl`+`Alt`+`s`|`git status`|
 |`Ctrl`+`Alt`+`l`|`git log`|
-
-### z
-
-- [ ] Installation
-
-By z, it tracks the directory you have visited
-
-- [jethrokuan/z](https://github.com/jethrokuan/z)
-
-```shell
-fisher install jethrokuan/z
-```
 
 ### fish-bd
 
