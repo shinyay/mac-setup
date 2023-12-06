@@ -113,6 +113,22 @@ sudo scutil --set ComputerName  shinyay # Finder, friendly name
 
 - [mas-cli](https://github.com/mas-cli/mas)
 
+## Fonts - JetBrains Mono
+- [x] Installation
+
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
+Select all fonts and open with **Font Book**. And **Install**.
+
+### ITerm 2 Font configuration
+- [x] Configuration
+
+- `iTerm2` -> `Preferences` -> `Profiles` -> `Text` -> `Font`
+  - JetBrains Mono
+  - Regular
+  - 16px
+
+
 ## Fish
 ### Fish Install
 - [x] Installation
@@ -134,6 +150,8 @@ Confirm Shell
 
 ### Fisher
 A plugin manager for Fish (https://nicedoc.io/jorgebucaran/fisher)
+
+> A free and open source typeface for developers
 
 - [x] Installation
 
@@ -210,7 +228,7 @@ set -g theme_newline_prompt ''
 ```
 
 #### ITerm 2 Font configuration
-- [x] Configuration
+- [ ] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
   - Meslo LG L DZ for Powerline
