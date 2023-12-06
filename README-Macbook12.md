@@ -1578,3 +1578,9 @@ poetry add --group dev pysen black isort flake8 flake8-bugbear mypy pytest
 ```shell
 poetry install
 ```
+
+## JDownloader
+
+```shell
+brew install --cask jdownloader
+```
