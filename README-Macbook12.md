@@ -36,6 +36,7 @@ git config --global core.editor 'vim -c "set fenc=utf-8"' && \
 git config --global color.diff auto && \
 git config --global color.status auto && \
 git config --global color.branch auto && \
+git config --global init.defaultbranch main && \
 git config pull.ff only
 ```
 
@@ -408,14 +409,15 @@ curl https://raw.githubusercontent.com/evanlucas/fish-kubectl-completions/master
 ```
 
 ## Git
-
-- [ ] Installation
+- [x] Installation
 
 Install Git via Homebrew instead of Apple Git
 
 ```shell
 brew install git
+```
 
+```shell
 /usr/local/bin/git --version
 git version 2.33.1
 
