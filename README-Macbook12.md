@@ -461,7 +461,12 @@ git config --global fetch.prune true
 - [ ] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
-  - Meslo LG L DZ for Powerline / Regurlar / 12
+
+  - JetBrains Mono / Regular / 16px
+
+  or
+
+  - Meslo LG L DZ for Powerline / Regurlar / 12px
 
   or
 
