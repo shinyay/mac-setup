@@ -496,6 +496,8 @@ git config --global fetch.prune true
 - iTerm2 > Preferences > General > Appearance
   - Tab bar location: Bottom
 
+#### Tab bar location
+- [x] Configuration
 - iTerm2 -> Preferences -> Profiles -> Colors
   - Color Presets -> Import
     - [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy)
@@ -504,6 +506,7 @@ git config --global fetch.prune true
       - Dracula
     - [iterm2-material-design](https://www.martinseeler.com/iterm2-material-design)
       - `curl -O https://cdn.jsdelivr.net/gh/MartinSeeler/iterm2-material-design/material-design-colors.itermcolors`
+
 ### Shell Integration
 - [ ] Configuration
 
