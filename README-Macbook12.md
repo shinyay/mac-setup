@@ -458,7 +458,7 @@ git config --global fetch.prune true
 
 ## ITerm2
 ### Iterm2 Preferences
-- [ ] Configuration
+- [x] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
 
