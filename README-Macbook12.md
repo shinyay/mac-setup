@@ -210,7 +210,7 @@ set -g theme_newline_prompt ''
 ```
 
 #### ITerm 2 Font configuration
-- [ ] Configuration
+- [x] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
   - Meslo LG L DZ for Powerline
