@@ -992,15 +992,6 @@ brew install zoom
 brew install spotify
 ```
 
-## Alfred
-- [x] Installation
-
-> Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion.
-
-```
-brew install --cask alfred
-```
-
 ## Notion
 - [ ] Installation
 
@@ -1581,7 +1572,19 @@ poetry add --group dev pysen black isort flake8 flake8-bugbear mypy pytest
 poetry install
 ```
 
+## Alfred
+- [x] Installation
+
+> Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion.
+
+```
+brew install --cask alfred
+```
+
 ## JDownloader
+- [ ] Installation
+
+> JDownloader is a free, open-source download management tool
 
 ```shell
 brew install --cask jdownloader
