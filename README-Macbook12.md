@@ -257,6 +257,17 @@ fisher install jethrokuan/z
 fisher install 0rax/fish-bd
 ```
 
+### Bass
+- [x] Installation
+
+> Bass makes it easy to use utilities written for Bash in fish shell.
+
+- [edc/bass](https://github.com/edc/bass)
+
+```shell
+fisner install edc/bass
+```
+
 ### Peco
 - [ ] Installation
 
@@ -330,7 +341,7 @@ echo "" | tee -a ~/.config/fish/config.fish
 ### SDKMAN! for fish
 - [x] Installation
 
-Makes command sdk from SDKMAN! usable from fish, including auto-completion. Also adds binaries from installed SDKs to the PATH.
+> Makes command sdk from SDKMAN! usable from fish, including auto-completion. Also adds binaries from installed SDKs to the PATH.
 
 - [reitzig/sdkman-for-fish](https://github.com/reitzig/sdkman-for-fish)
 
@@ -339,7 +350,6 @@ fisher install reitzig/sdkman-for-fish@v2.0.0
 
 # Restart terminal
 ```
-
 
 ```shell
 sdk
@@ -380,16 +390,6 @@ v17.4.0
 
 ```shell
 npm install -g npm@7.5.4
-```
-
-### Bass
-
-Bass makes it easy to use utilities written for Bash in fish shell.
-
-- [edc/bass](https://github.com/edc/bass)
-
-```shell
-fisner install edc/bass
 ```
 
 ## Fish Completion
