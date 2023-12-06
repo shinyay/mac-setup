@@ -552,11 +552,13 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Swipe between pages: `1 finger`
 
 ### Dock
-- [ ] Configuration
+- [x] Configuration
 
 - Size: `Small`
-- Magnification: `ON`
-- Show recent application in Dock
+- Magnification: `Large`
+- Minimize windows into application icon: `ON`
+- Automatically hide and show the Dock: `ON`
+- Show recent application in Dock: `ON`
 
 #### Battery
 - [ ] Configuration
