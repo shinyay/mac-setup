@@ -215,7 +215,7 @@ set -g theme_newline_prompt ''
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
   - Meslo LG L DZ for Powerline
 
-## Fish Plugin
+## Fish Plugins
 ### Peco
 - [ ] Installation
 
