@@ -477,7 +477,7 @@ git config --global fetch.prune true
 - [x] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Window
-  - Columns: 150
+  - Columns: 110
   - Rows 25
   - Screen: Screen with Cursor
   - Space: All spaces
