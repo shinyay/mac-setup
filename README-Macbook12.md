@@ -520,8 +520,8 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
   - vim like copy : `v` select `y` yank
 
 ## MacOS System Preferences
-### General
-- [ ] Configuration
+### Appearance
+- [x] Configuration
 
 - Sidebar icon size: `Small`
 
