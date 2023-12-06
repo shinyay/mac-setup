@@ -993,7 +993,9 @@ brew install spotify
 ```
 
 ## Alfred
-- [ ] Installation
+- [x] Installation
+
+> Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion.
 
 ```
 brew install --cask alfred
