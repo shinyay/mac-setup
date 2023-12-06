@@ -447,7 +447,7 @@ git config --global alias.count 'shortlog -e -s -n'
 
 ### Fetch
 
-- [ ] Configuration
+- [x] Configuration
 
 Before fetching, remove any remote-tracking references that no longer exist on the remote.
 
