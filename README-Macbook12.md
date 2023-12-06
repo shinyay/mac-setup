@@ -490,7 +490,8 @@ git config --global fetch.prune true
   - Adjustment window when changing font size: OFF
   - Native full screen windows: OFF
 
-- [ ] Configuration
+#### Tab bar location
+- [x] Configuration
 
 - iTerm2 > Preferences > General > Appearance
   - Tab bar location: Bottom
