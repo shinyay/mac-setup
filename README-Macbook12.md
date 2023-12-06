@@ -560,10 +560,11 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 - Automatically hide and show the Dock: `ON`
 - Show recent application in Dock: `ON`
 
-#### Battery
-- [ ] Configuration
+### Control Center - Battery
+- [x] Configuration
 
-- Show Percentage
+- Show in Control Center: `ON`
+- Show Percentage: `ON`
 
 ### Accessibility - Speech
 - [ ] Configuration
