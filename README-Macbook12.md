@@ -527,13 +527,13 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
 
 ### Trackpad
 #### Point & Click
-- [ ] Configuration
+- [x] Configuration
 
 - Tap to click: `ON`
 - Tracking speed: `Fast`
 
 #### More Gestuers
-- [ ] Configuration
+- [x] Configuration
 
 - Swipe between full-screen apps: `4 fingers`
 - Mission Control: `4 fingers`
