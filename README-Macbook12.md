@@ -107,6 +107,7 @@ sudo scutil --set ComputerName  shinyay # Finder, friendly name
 ```
 
 ## mas-cli
+- [x] Installation
 
 > A simple command line interface for the Mac App Store. Designed for scripting and automation
 
@@ -120,9 +121,9 @@ sudo scutil --set ComputerName  shinyay # Finder, friendly name
 brew install fish
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
-```
 
-Restart terminal
+# Restart terminal
+```
 
 Confirm Shell
 
@@ -134,7 +135,7 @@ Confirm Shell
 ### Fisher
 A plugin manager for Fish (https://nicedoc.io/jorgebucaran/fisher)
 
-- [ ] Installation
+- [x] Installation
 
 ```shell
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
@@ -142,7 +143,7 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 
 ```
 fisher -v
-fisher, version 4.4.3
+fisher, version 4.4.4
 ```
 
 ### Fish Theme - bobthefish
