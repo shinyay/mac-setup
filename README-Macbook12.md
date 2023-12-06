@@ -1577,7 +1577,7 @@ poetry install
 
 > Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion.
 
-```
+```shell
 brew install --cask alfred
 ```
 
