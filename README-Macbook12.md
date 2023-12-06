@@ -422,11 +422,9 @@ brew install git
 git version 2.43.0
 ```
 
-### Alias
-
+### Git Alias
 #### git status
-
-- [ ] Configuration
+- [x] Configuration
 
 ```shell
 git config --global alias.st status
