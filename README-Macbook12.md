@@ -141,17 +141,17 @@ A plugin manager for Fish (https://nicedoc.io/jorgebucaran/fisher)
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 ```
 
-```
+```shell
 fisher -v
 fisher, version 4.4.4
 ```
 
 ### Fish Theme - bobthefish
-- [ ] Installation
+- [x] Installation
 
 - [oh-my-fish/theme-bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
 
-```
+```shell
 fisher install oh-my-fish/theme-bobthefish
 
 git clone https://github.com/powerline/fonts.git
