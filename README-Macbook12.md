@@ -246,6 +246,17 @@ set -g theme_newline_prompt ''
 fisher install jethrokuan/z
 ```
 
+### fish-bd
+- [x] Installation
+
+> By bd, you can quickly go back to a parent directory in your current working directory tree
+
+- [0rax/fish-bd](https://github.com/0rax/fish-bd)
+
+```shell
+fisher install 0rax/fish-bd
+```
+
 ### Peco
 - [ ] Installation
 
@@ -315,18 +326,6 @@ echo "" | tee -a ~/.config/fish/config.fish
 |`Ctrl`+`Alt`+`f`|Recursive listing|
 |`Ctrl`+`Alt`+`s`|`git status`|
 |`Ctrl`+`Alt`+`l`|`git log`|
-
-### fish-bd
-
-- [ ] Installation
-
-By bd, you can quickly go back to a parent directory in your current working directory tree
-
-- [0rax/fish-bd](https://github.com/0rax/fish-bd)
-
-```shell
-fisher install 0rax/fish-bd
-```
 
 ### SDKMAN! for fish
 
