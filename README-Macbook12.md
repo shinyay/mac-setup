@@ -458,6 +458,7 @@ git config --global fetch.prune true
 
 ## ITerm2
 ### Iterm2 Preferences
+#### Font
 - [x] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Text -> Font
@@ -472,7 +473,8 @@ git config --global fetch.prune true
 
   - Source Code Pro for Powerline
 
-- [ ] Configuration
+#### Window - Profiles
+- [x] Configuration
 
 - iTerm2 -> Preferences -> Profiles -> Window
   - Columns: 150
@@ -480,9 +482,12 @@ git config --global fetch.prune true
   - Screen: Screen with Cursor
   - Space: All spaces
 
-- [ ] Configuration
+#### Window - General
+- [x] Configuration
 
 - iTerm2 > Preferences > General > Window
+  - Smart window placement: ON
+  - Adjustment window when changing font size: OFF
   - Native full screen windows: OFF
 
 - [ ] Configuration
