@@ -106,6 +106,12 @@ sudo scutil --set LocalHostName shinyay # Bonjour
 sudo scutil --set ComputerName  shinyay # Finder, friendly name
 ```
 
+## mas-cli
+
+> A simple command line interface for the Mac App Store. Designed for scripting and automation
+
+- [mas-cli](https://github.com/mas-cli/mas)
+
 ## Fish
 ### Fish Install
 - [x] Installation
