@@ -1600,3 +1600,12 @@ brew install --cask jdownloader
 ```shell
 brew install --cask adguard
 ```
+
+## Microsoft Teams
+- [ ] Installation
+
+> Meet, chat, call, and collaborate in just one place
+
+```shell
+brew install --cask microsoft-teams
+```
