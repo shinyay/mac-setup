@@ -1584,10 +1584,11 @@ brew install --cask alfred
 ```
 
 ## JDownloader
-- [ ] Installation
+- [x] Installation
 
 > JDownloader is a free, open-source download management tool
 
 ```shell
 brew install --cask jdownloader
 ```
+
