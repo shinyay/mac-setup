@@ -1602,7 +1602,7 @@ brew install --cask adguard
 ```
 
 ## Microsoft Teams
-- [ ] Installation
+- [x] Installation
 
 > Meet, chat, call, and collaborate in just one place
 
