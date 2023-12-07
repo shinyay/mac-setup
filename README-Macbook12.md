@@ -1592,3 +1592,11 @@ brew install --cask alfred
 brew install --cask jdownloader
 ```
 
+## AdGuard for Safari
+- [x] Installation
+
+> Stand alone ad blocker
+
+```shell
+brew install --cask adguard
+```
