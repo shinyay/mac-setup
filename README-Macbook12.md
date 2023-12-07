@@ -1174,12 +1174,6 @@ npx zenn init
   $ npx zenn preview
 ```
 
-## Pure Paste
-
-Paste as plain text by default
-
-- [Site](https://sindresorhus.com/)
-
 ## GIFlash
 
 GIFlash is a tool that enables you to create an animated GIF from images or a video
@@ -1609,3 +1603,10 @@ brew install --cask adguard
 ```shell
 brew install --cask microsoft-teams
 ```
+
+## Pure Paste
+- [x] Installation
+
+Paste as plain text by default
+
+- [Site](https://sindresorhus.com/)
