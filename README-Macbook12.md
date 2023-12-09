@@ -313,17 +313,18 @@ Interactice command search
 
 Before installing fzf for fish, the following cli is needed:
 
-- [fzf - command-line fuzzy finder](https://github.com/junegunn/fzf)
 - [x] Installation fzf
+- [fzf](https://github.com/junegunn/fzf)
+> fzf is a general-purpose command-line fuzzy finder.
 
 ```
 brew install fzf
 ```
 
 
-- [ ] Installation bat
+- [x] Installation bat
 - [bat](https://github.com/sharkdp/bat)
-cat clone with syntax highlight and Git integration
+> cat clone with syntax highlight and Git integration
 
 ```
 brew install bat
