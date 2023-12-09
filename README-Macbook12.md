@@ -279,7 +279,7 @@ fisher install laughedelic/fish_logo
 
 Add the following statements to `function fish_greeting` at `$HOME/.config/fish/functions/fish_greeting.fish`.
 
-```fish
+```shell
     fish -v
     fish_logo blue cyan green
 ```
@@ -317,7 +317,7 @@ Before installing fzf for fish, the following cli is needed:
 - [fzf](https://github.com/junegunn/fzf)
 > fzf is a general-purpose command-line fuzzy finder.
 
-```
+```shell
 brew install fzf
 ```
 
@@ -326,7 +326,7 @@ brew install fzf
 - [bat](https://github.com/sharkdp/bat)
 > cat clone with syntax highlight and Git integration.
 
-```
+```shell
 brew install bat
 ```
 
@@ -334,7 +334,7 @@ brew install bat
 - [fd](https://github.com/sharkdp/fd)
 > fd is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find. 
 
-```
+```shell
 brew install fd
 ```
 
@@ -342,9 +342,11 @@ brew install fd
 - [fzf.fish](https://github.com/PatrickF1/fzf.fish)
 > Augment your Fish command line with mnemonic key bindings to efficiently find what you need using fzf.
 
-```
+```shell
 fisher install PatrickF1/fzf.fish
+```
 
+```
 echo "### fzf.fish" | tee -a ~/.config/fish/config.fish
 echo "fzf_configure_bindings --directory=\cf --git_log=\cl --git_status=\cs" | tee -a ~/.config/fish/config.fish
 echo "" | tee -a ~/.config/fish/config.fish
