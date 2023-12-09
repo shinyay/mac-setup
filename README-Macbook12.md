@@ -346,6 +346,8 @@ brew install fd
 fisher install PatrickF1/fzf.fish
 ```
 
+- [ ] Configuration fzf.fish
+
 ```
 echo "### fzf.fish" | tee -a ~/.config/fish/config.fish
 echo "fzf_configure_bindings --directory=\cf --git_log=\cl --git_status=\cs" | tee -a ~/.config/fish/config.fish
