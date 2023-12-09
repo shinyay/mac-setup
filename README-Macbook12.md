@@ -311,6 +311,9 @@ Interactice command search
 
 - [fzf.fish](https://github.com/PatrickF1/fzf.fish)
 
+Before installing fzf for fish, the following cli is needed:
+
+- [fzf - command-line fuzzy finder](https://github.com/junegunn/fzf)
 - [x] Installation fzf
 
 ```
