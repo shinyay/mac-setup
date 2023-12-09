@@ -324,15 +324,15 @@ brew install fzf
 
 - [x] Installation bat
 - [bat](https://github.com/sharkdp/bat)
-> cat clone with syntax highlight and Git integration
+> cat clone with syntax highlight and Git integration.
 
 ```
 brew install bat
 ```
 
-- [ ] Installation fd
+- [x] Installation fd
 - [fd](https://github.com/sharkdp/fd)
-find entries in your filesystem
+> fd is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to find. 
 
 ```
 brew install fd
