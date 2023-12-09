@@ -311,7 +311,7 @@ Interactice command search
 
 - [fzf.fish](https://github.com/PatrickF1/fzf.fish)
 
-- [ ] Installation fzf
+- [x] Installation fzf
 
 ```
 brew install fzf
