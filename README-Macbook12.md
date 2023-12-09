@@ -338,9 +338,9 @@ brew install bat
 brew install fd
 ```
 
-- [ ] Installation fzf
-- [fzf](https://github.com/PatrickF1/fzf.fish)
-interactive find 
+- [x] Installation fzf
+- [fzf.fish](https://github.com/PatrickF1/fzf.fish)
+> Augment your Fish command line with mnemonic key bindings to efficiently find what you need using fzf.
 
 ```
 fisher install PatrickF1/fzf.fish
