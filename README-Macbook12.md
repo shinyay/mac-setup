@@ -269,6 +269,21 @@ fisher install 0rax/fish-bd
 fisner install edc/bass
 ```
 
+### fish_logo
+
+- [x] Installation
+
+```shell
+fisher install laughedelic/fish_logo
+```
+
+Add the following statements to `function fish_greeting` at `$HOME/.config/fish/functions/fish_greeting.fish`.
+
+```fish
+    fish -v
+    fish_logo blue cyan green
+```
+
 ### Peco
 - [ ] Installation
 
