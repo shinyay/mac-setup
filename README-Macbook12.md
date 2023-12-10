@@ -1553,13 +1553,14 @@ brew install xz
 ```
 
 ### Python
+- [x] Installation
 
 ```shell
 pyenv install -list
 ```
 
 ```shell
-pyenv install 3.12.0
+pyenv install 3.12.1
 ```
 
 Set up the fish shell for Python 
@@ -1576,7 +1577,7 @@ pyenv init - | source
 ```
 
 ```shell
-~/.config/fish/config.fish
+source ~/.config/fish/config.fish
 ```
 
 ### pipx
