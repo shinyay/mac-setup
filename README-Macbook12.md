@@ -1667,7 +1667,7 @@ poetry add --group dev pysen black isort flake8 flake8-bugbear mypy pytest
 poetry install
 ```
 
-### IPythob
+### IPython
 - [x] Installation
 > IPython provides a rich architecture for interactive computing
 
@@ -1677,3 +1677,10 @@ poetry install
 pip install --upgrade pip
 pip install ipython
 ```
+
+```shell
+ipython --version
+8.18.1
+```
+
+### 
