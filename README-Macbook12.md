@@ -1527,8 +1527,8 @@ Paste as plain text by default
 ## Python
 
 ### pyenv
-
-Simple Python Version Management: pyenv
+- [x] Installation
+> Simple Python Version Management: pyenv
 
 > pyenv lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
 
@@ -1537,6 +1537,11 @@ Simple Python Version Management: pyenv
 
 ```shell
 brew install pyenv
+```
+
+```shell
+pyenv -v
+pyenv 2.3.35
 ```
 
 ### Python
