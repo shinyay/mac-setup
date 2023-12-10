@@ -92,21 +92,6 @@ brew install visual-studio-code --cask
 <img width="640" alt="input-source" src="https://user-images.githubusercontent.com/3072734/91958684-a203bd80-ed42-11ea-9b19-1137e496e298.png">
 </div></details>
 
-## Computer Name (Hostname)
-- [x] Configuration
-
-System Preference - Sharing
-
-<details><summary>Computer Name</summary><div>
-<img width="" alt="input-source" src="https://user-images.githubusercontent.com/3072734/91960809-50a8fd80-ed45-11ea-9838-cdbc78137565.png">
-</div></details>
-
-```shell
-sudo scutil --set HostName      shinyay # Common usage
-sudo scutil --set LocalHostName shinyay # Bonjour
-sudo scutil --set ComputerName  shinyay # Finder, friendly name
-```
-
 ## mas-cli
 - [x] Installation
 
@@ -543,6 +528,22 @@ source ~/.iterm2_shell_integration.(basename $SHELL)
   - vim like copy : `v` select `y` yank
 
 ## MacOS System Preferences
+
+### Computer Name (Hostname)
+- [x] Configuration
+
+System Preference - Sharing
+
+<details><summary>Computer Name</summary><div>
+<img width="" alt="input-source" src="https://user-images.githubusercontent.com/3072734/91960809-50a8fd80-ed45-11ea-9838-cdbc78137565.png">
+</div></details>
+
+```shell
+sudo scutil --set HostName      shinyay # Common usage
+sudo scutil --set LocalHostName shinyay # Bonjour
+sudo scutil --set ComputerName  shinyay # Finder, friendly name
+```
+
 ### Appearance
 - [x] Configuration
 
