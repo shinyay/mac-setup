@@ -1581,7 +1581,7 @@ source ~/.config/fish/config.fish
 ```
 
 ### pipx
-
+- [ ] Installation
 > Install and Run Python Applications in Isolated Environments
 
 - [pipx](https://pypa.github.io/pipx/)
@@ -1600,7 +1600,7 @@ register-python-argcomplete --shell fish pipx >~/.config/fish/completions/pipx.f
 ```
 
 ### Poetry
-
+- [ ] Installation
 > Python packaging and dependency management made easy
 
 - [Poetry](https://python-poetry.org/)
