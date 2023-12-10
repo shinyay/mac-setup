@@ -1544,6 +1544,14 @@ pyenv -v
 pyenv 2.3.35
 ```
 
+### Prerequisite for Python by pyenv
+- [x] Installation
+> General-purpose data compression with high compression ratio
+
+```shell
+brew install xz
+```
+
 ### Python
 
 ```shell
