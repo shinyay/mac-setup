@@ -1692,3 +1692,21 @@ ipython --version
 ```shell
 pip install jupyterlab
 ```
+
+```shell
+jupyter --version
+Selected Jupyter core packages...
+IPython          : 8.18.1
+ipykernel        : 6.27.1
+ipywidgets       : not installed
+jupyter_client   : 8.6.0
+jupyter_core     : 5.5.0
+jupyter_server   : 2.12.1
+jupyterlab       : 4.0.9
+nbclient         : 0.9.0
+nbconvert        : 7.12.0
+nbformat         : 5.9.2
+notebook         : not installed
+qtconsole        : not installed
+traitlets        : 5.14.0
+```
