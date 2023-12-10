@@ -1683,4 +1683,12 @@ ipython --version
 8.18.1
 ```
 
-### 
+### JupyterLab
+- [x] Installation
+> JupyterLab: A Next-Generation Notebook Interface
+
+- [JupyterLab](https://jupyter.org)
+
+```shell
+pip install jupyterlab
+```
