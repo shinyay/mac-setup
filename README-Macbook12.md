@@ -1710,3 +1710,9 @@ notebook         : not installed
 qtconsole        : not installed
 traitlets        : 5.14.0
 ```
+
+Run `JupyterLab`:
+
+```shell
+jupyter lab
+```
