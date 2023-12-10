@@ -1586,6 +1586,10 @@ Prpare for venv for each workspace
 python -m venv .venv
 ```
 
+```shell
+source .venv/bin/activate.fish
+```
+
 ### pipx
 - [ ] Installation
 > Install and Run Python Applications in Isolated Environments
