@@ -1479,6 +1479,51 @@ Little helper to run CNCF's k3s in Docker
 brew install k3d
 ```
 
+## Alfred
+- [x] Installation
+
+> Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion.
+
+```shell
+brew install --cask alfred
+```
+
+## JDownloader
+- [x] Installation
+
+> JDownloader is a free, open-source download management tool
+
+```shell
+brew install --cask jdownloader
+```
+
+## AdGuard for Safari
+- [x] Installation
+
+> Stand alone ad blocker
+
+```shell
+brew install --cask adguard
+```
+
+## Microsoft Teams
+- [x] Installation
+
+> Meet, chat, call, and collaborate in just one place
+
+```shell
+brew install --cask microsoft-teams
+```
+
+## Pure Paste
+- [x] Installation
+
+Paste as plain text by default
+
+- [Site](https://sindresorhus.com/)
+
+# 3. Developerment Environment
+
 ## Python
 
 ### pyenv
@@ -1591,46 +1636,3 @@ poetry add --group dev pysen black isort flake8 flake8-bugbear mypy pytest
 ```shell
 poetry install
 ```
-
-## Alfred
-- [x] Installation
-
-> Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion.
-
-```shell
-brew install --cask alfred
-```
-
-## JDownloader
-- [x] Installation
-
-> JDownloader is a free, open-source download management tool
-
-```shell
-brew install --cask jdownloader
-```
-
-## AdGuard for Safari
-- [x] Installation
-
-> Stand alone ad blocker
-
-```shell
-brew install --cask adguard
-```
-
-## Microsoft Teams
-- [x] Installation
-
-> Meet, chat, call, and collaborate in just one place
-
-```shell
-brew install --cask microsoft-teams
-```
-
-## Pure Paste
-- [x] Installation
-
-Paste as plain text by default
-
-- [Site](https://sindresorhus.com/)
