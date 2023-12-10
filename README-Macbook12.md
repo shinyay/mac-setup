@@ -1580,6 +1580,12 @@ pyenv init - | source
 source ~/.config/fish/config.fish
 ```
 
+Prpare for venv for each workspace
+
+```shell
+python -m venv .venv
+```
+
 ### pipx
 - [ ] Installation
 > Install and Run Python Applications in Isolated Environments
