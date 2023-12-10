@@ -1522,6 +1522,12 @@ Paste as plain text by default
 
 - [Site](https://sindresorhus.com/)
 
+## Keepa - Amazon Price Tracker
+- [x] Installation
+> Keepa tracks over 3 billion Amazon products. We provide Amazon price history charts and price drop alerts.
+
+- [Keepa](https://keepa.com/#)
+
 # 3. Developerment Environment
 
 ## Python
