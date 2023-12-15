@@ -1530,6 +1530,18 @@ Paste as plain text by default
 
 # 3. Developerment Environment
 
+## AppStore
+
+### Monosnap
+
+```shell
+540348655  Monosnap - screenshot editor   (6.1.0)
+```
+
+```shell
+mas install 540348655
+```
+
 ## Python
 
 ### pyenv
