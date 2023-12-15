@@ -1533,6 +1533,7 @@ Paste as plain text by default
 ## AppStore
 
 ### Monosnap
+- [x] Installation
 
 ```shell
 540348655  Monosnap - screenshot editor   (6.1.0)
